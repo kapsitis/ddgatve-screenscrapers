@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profiles>
+	<patterns>
+		<pattern id="regexTable"><![CDATA[(?s)(<TABLE BORDER=1>(.*)</TABLE>)]]></pattern>
+		<pattern id="uniqueFieldRegex1"><![CDATA[\(Derīgās zīmes - <b>([0-9]+)</b>, grozītas - ([0-9]+), negrozītas - ([0-9]+)\)]]></pattern>
+		<pattern id="uniqueFieldRegex2"><![CDATA[>([^<>]+)s apgabals<]]></pattern>
+		<pattern id="clean1"><![CDATA[( BORDER=1| align=(center|left)| bgcolor=("white"|"#f4f4e6")| color=("#003333"|"#003333")|&nbsp;|</a>|<CENTER>)]]></pattern>
+		<pattern id="clean2"><![CDATA[(?s)<Tr .*?</TR>]]></pattern>
+		<pattern id="clean3"><![CDATA[(<font >|</font>)]]></pattern>
+		<pattern id="clean4"><![CDATA[<tr>]]></pattern>
+	</patterns>
+
+	<profile id="saeima11">
+		<urlPrefix>http://www.cvk.lv/cgi-bin/wdbcgiw/base/Saeima11.galrez11.kandid?NR1=
+		</urlPrefix>
+		<individualExtractors>
+			<item name="Derigas" patternId="uniqueFieldRegex1" group="1" />
+			<item name="Grozitas" patternId="uniqueFieldRegex1" group="2" />
+			<item name="Negrozitas" patternId="uniqueFieldRegex1" group="3" />
+			<item name="Apgabals" patternId="uniqueFieldRegex2" group="1" />
+		</individualExtractors>
+
+		<tidyPatterns>
+			<item patternId="clean1" num="-1"><![CDATA[]]>
+			</item>
+			<item patternId="clean2" num="1"><![CDATA[]]>
+			</item>
+			<item patternId="clean3" num="-1"><![CDATA[]]>
+			</item>
+			<item patternId="clean4" num="-1"><![CDATA[<TR>]]></item>
+		</tidyPatterns>
+
+		<tableExtractor patternId="regexTable" />
+		<tableColumns>
+			<item name="PreNum" />
+			<item name="Kandidats" />
+			<item name="Points" />
+			<item name="Plusi" />
+			<item name="Svitrojumi" />
+			<item name="NavAtzimju" />
+			<item name="Rezultats" />
+		</tableColumns>
+	</profile>
+
+</profiles>
