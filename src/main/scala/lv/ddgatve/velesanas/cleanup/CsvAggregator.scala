@@ -45,9 +45,13 @@ class CsvAggregator(configurationFile: String, profile: String) {
         tableColumns map {
           colName =>
             {
-              if (projection._2.keySet contains (colName))
+              if (projection._2.keySet contains (colName)) {
+                println("colName(projection) is " + colName)
                 projection._2.get(colName).get
-              else mm.get(colName).get
+              } else {
+                println("colName(table) is " + colName)
+                mm.get(colName).get
+              }
             }
         }
       }

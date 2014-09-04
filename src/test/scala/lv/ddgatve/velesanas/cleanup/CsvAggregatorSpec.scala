@@ -21,8 +21,8 @@ class CsvAggregatorSpec extends Specification {
         "Partija", "Apgabals",
         "Balsis")
 
-      val aggregate = new SaeimaAggregateReader(11, 2)
-      val urlAndProjections = aggregate.projectionsForParty(urlPrefix)
+      val aggregate = new SaeimaAggregateReader(11)
+      val urlAndProjections = aggregate.projectionsForParty(2, urlPrefix)
       writer.makeCSV(workingDir, f1, individualsNames, f2, tableColumns, urlAndProjections)
 
       0 mustEqual 0

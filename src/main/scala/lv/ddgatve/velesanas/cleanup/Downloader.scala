@@ -5,8 +5,7 @@ import scala.xml.XML
 import scala.util.matching.Regex
 
 /**
- * uniqueExtractors - regexes and group numbers that represent single fields in the document
- * uniqueFields - names of the single fields
+ * uniqueExtractors - names, their regexes and group numbers that represent single fields in the document
  * tableExtractor - regex to extract the main data table - it matches the whole expression
  * tableFields - all the column names (i.e. names for TDs in their natural order)
  * tidyTable - regexes, how many times to replace and replacement strings.

@@ -10,7 +10,7 @@ class ConfigurationReader(f: String, profile: String) {
 
   var patternMap: Map[String, Regex] = Map()
   for (p <- conf \\ "profiles" \\ "patterns" \\ "pattern") {
-    patternMap += (p.attribute("id").head.text -> p.text.r)
+    patternMap += (p.attribute("id").head.text -> p.text.trim.r)
   }
 
   val theProfile = ((conf \\ "profiles" \\ "profile") filter
@@ -40,8 +40,8 @@ class ConfigurationReader(f: String, profile: String) {
 
   def getTidyPatterns(): Seq[(Regex, Int, String)] = (theProfile \\ "tidyPatterns" \\ "item") map
     (x =>
-      (patternMap.get(x.attribute("patternId").head.text).get,
-        x.attribute("num").head.text.toInt,
-        x.head.text))
+      (patternMap.get(x.attribute("patternId").head.text.trim).get,
+        x.attribute("num").head.text.trim.toInt,
+        x.head.text.trim))
 
 }

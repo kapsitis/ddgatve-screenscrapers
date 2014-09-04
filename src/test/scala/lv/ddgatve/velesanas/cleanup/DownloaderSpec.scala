@@ -22,12 +22,15 @@ class DownloaderSpec extends Specification {
   val r4 = """<tr>""".r
   val tidyTable = List((r1, -1, ""), (r2, 1, ""), (r3, -1, ""), (r4, -1, "<TR>"))
 
+  val configFile = "/home/kalvis/workspace/ddgatve-screenscrapers/src/main/resources/saeima-config.xml"
+  val cr = new ConfigurationReader(configFile, "saeima11")
+
   "Saeima11.Vienotiba.Riga" should {
     "Find 494779 Total Valid Ballots" in {
-      val downloader = new Downloader(uniqueFieldExtractors,
-        regexTable,
-        fields,
-        tidyTable)
+      val downloader = new Downloader(cr.getIndividualExtractors().toList,
+        cr.getTableExtractor,
+        cr.getTableColumns.toList,
+        cr.getTidyPatterns.toList)
       val result = downloader.extract(Saeima11VienotibaRigaUrl)
       result._1.get("Derigas").get mustEqual "49479"
       result._1.get("Grozitas").get mustEqual "32295"

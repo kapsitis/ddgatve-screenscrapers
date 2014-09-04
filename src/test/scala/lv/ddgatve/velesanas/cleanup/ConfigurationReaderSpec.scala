@@ -3,7 +3,7 @@ package lv.ddgatve.velesanas.cleanup
 import org.specs2.mutable._
 
 class ConfigurationReaderSpec extends Specification {
-  val configFile = "/home/kalvis/workspace/ddgatve-screenscrapers/src/main/resources/saeima-config.xml"
+  val configFile = "/home/kalvis/workspace/ddgatve-screenscrapers/src/test/resources/saeima-config.xml"
 
   val regexTable = """(?s)(<TABLE BORDER=1>(.*)</TABLE>)""".r
   val fields = List("PreNum", "Kandidats", "Points", "Plusi", "Svitrojumi", "NavAtzimju", "Rezultats")
@@ -57,5 +57,24 @@ class ConfigurationReaderSpec extends Specification {
       individualExtractors(3).toString mustEqual myIndividualExtractors(3)._2.toString
     }
 
+  }
+
+  "ConfigurationReader.getTidyPatterns" in {
+    val cr = new ConfigurationReader(configFile, "saeima11")
+    val tidyPatterns = cr.getTidyPatterns.toList
+    tidyPatterns(0)._1.toString mustEqual r1.toString
+    tidyPatterns(1)._1.toString mustEqual r2.toString
+    tidyPatterns(2)._1.toString mustEqual r3.toString
+    tidyPatterns(3)._1.toString mustEqual r4.toString
+
+    tidyPatterns(0)._2 mustEqual -1
+    tidyPatterns(1)._2 mustEqual 1
+    tidyPatterns(2)._2 mustEqual -1
+    tidyPatterns(3)._2 mustEqual -1
+
+    tidyPatterns(0)._3 mustEqual ""
+    tidyPatterns(1)._3 mustEqual ""
+    tidyPatterns(2)._3 mustEqual ""
+    tidyPatterns(3)._3 mustEqual "<TR>"
   }
 }
