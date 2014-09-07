@@ -8,12 +8,12 @@ import lv.ddgatve.screenscrapers.csv.CSVReader
  */
 case class SaeimaAggregateReader(saeima: Int) {
 
-  val saeimaCsvFiles = Map(6 -> "src/main/resources/saeima06.csv",
-    7 -> "src/main/resources/saeima07.csv",
-    8 -> "src/main/resources/saeima08.csv",
-    9 -> "src/main/resources/saeima09.csv",
-    10 -> "src/main/resources/saeima10.csv",
-    11 -> "src/main/resources/saeima11.csv")
+  //  val saeimaCsvFiles = Map(6 -> "src/main/resources/saeima06.csv",
+  //    7 -> "src/main/resources/saeima07.csv",
+  //    8 -> "src/main/resources/saeima08.csv",
+  //    9 -> "src/main/resources/saeima09.csv",
+  //    10 -> "src/main/resources/saeima10.csv",
+  //    11 -> "src/main/resources/saeima11.csv")
 
   //  val saeimaFields = Map("Saraksts" -> 1, "Rīga" -> 2, "Vidzeme" -> 3,
   //    "Latgale" -> 4, "Kurzeme" -> 5, "Zemgale" -> 6,
@@ -25,7 +25,7 @@ case class SaeimaAggregateReader(saeima: Int) {
     "11" -> "8", "12" -> "17", "13" -> "18", "14" -> "10", "15" -> "3",
     "16" -> "16", "17" -> "1", "18" -> "7", "19" -> "21", "20" -> "4", "21" -> "11")
 
-  val fname = saeimaCsvFiles.get(saeima).get
+  val fname = f"src/main/resources/data-parties/saeima$saeima%02d.csv"
 
   val csvRecords = CSVReader.readRecords(fname)
 
@@ -33,11 +33,6 @@ case class SaeimaAggregateReader(saeima: Int) {
   def getLine(party: Int) = {
     if (party > 0) csvRecords(party - 1) else csvRecords(csvRecords.size - 2)
   }
-
-  //  def getPartyField(party: Int, field: String): String = {
-  //    val line = getLine(party)
-  //    line(saeimaFields.get(field).get)
-  //  }
 
   def getPartyField(party: Int, field: String): String = {
     val csvRecord = getLine(party)

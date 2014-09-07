@@ -4,7 +4,7 @@ import org.specs2.mutable.Specification
 
 class CSVReaderSpec extends Specification {
 
-  val path = "/home/kalvis/workspace/ddgatve-screenscrapers/src/main/resources/saeima11.csv"
+  val path = "/home/kalvis/workspace/ddgatve-screenscrapers/src/main/resources/data-parties/saeima11.csv"
   val testFields = List("Nr", "Saraksts",
     "Rīga", "Vidzeme", "Latgale", "Kurzeme", "Zemgale",
     "Kopā", "Procenti", "Vietas", "Aploksnes")
