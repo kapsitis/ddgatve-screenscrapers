@@ -24,24 +24,31 @@ class ConfigurationReader(f: String, profile: String) {
 
   def getProfile = theProfile
 
-  def getIndividualExtractors(): Seq[(String, Regex, Int)] = {
-    theProfile \\ "individualExtractors" \\ "item" map
+  def getIndividualExtractors(): List[(String, Regex, Int)] = {
+    val result = theProfile \\ "individualExtractors" \\ "item" map
       (x =>
         (x.attribute("name").head.text,
           patternMap.get(x.attribute("patternId").head.text).get,
           x.attribute("group").head.text.toInt))
+    result.toList
   }
 
   def getTableExtractor(): Regex = patternMap.get(
     (theProfile \\ "tableExtractor").head.attribute("patternId").head.text).get
 
-  def getTableColumns(): Seq[String] = (theProfile \\ "tableColumns" \\ "item") map
-    (_.attribute("name").head.text)
+  def getTableColumns(): List[String] = {
+    val result = (theProfile \\ "tableColumns" \\ "item") map
+      (_.attribute("name").head.text)
+    result.toList
+  }
 
-  def getTidyPatterns(): Seq[(Regex, Int, String)] = (theProfile \\ "tidyPatterns" \\ "item") map
-    (x =>
-      (patternMap.get(x.attribute("patternId").head.text.trim).get,
-        x.attribute("num").head.text.trim.toInt,
-        x.head.text.trim))
+  def getTidyPatterns(): List[(Regex, Int, String)] = {
+    val result = theProfile \\ "tidyPatterns" \\ "item" map
+      (x =>
+        (patternMap.get(x.attribute("patternId").head.text.trim).get,
+          x.attribute("num").head.text.trim.toInt,
+          x.head.text.trim))
+    result.toList
+  }
 
 }

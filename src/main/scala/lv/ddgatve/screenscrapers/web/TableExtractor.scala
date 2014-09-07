@@ -1,30 +1,23 @@
-package lv.ddgatve.velesanas.cleanup
+package lv.ddgatve.screenscrapers.web
 
 import scala.io.Source
 import scala.xml.XML
 import scala.util.matching.Regex
+import lv.ddgatve.velesanas.cleanup.ConfigurationReader
 
-/**
- * uniqueExtractors - names, their regexes and group numbers that represent single fields in the document
- * tableExtractor - regex to extract the main data table - it matches the whole expression
- * tableFields - all the column names (i.e. names for TDs in their natural order)
- * tidyTable - regexes, how many times to replace and replacement strings.
- *
- */
-case class Downloader(individualExtractors: List[(String, Regex, Int)],
-    tableExtractor: Regex,
-    tableFields: List[String],
-    tidyTable: List[(Regex, Int, String)]) {
+case class TableExtractor(confFile: String, profile: String) {
+  val cr = new ConfigurationReader(confFile, profile)
+  val individualExtractors = cr.getIndividualExtractors
+  val tableExtractor = cr.getTableExtractor
+  val tidyTable = cr.getTidyPatterns
+  val tableFields = cr.getTableColumns
 
-  /**
-   * url - which url to download
-   * return value has the unique fields and the table fields
-   */
-  def extract(url: String): (Map[String, String], List[Map[String, String]]) = {
+  val downloader = new Downloader("/home/kalvis/workspace/cache")
 
-    val html = Source.fromURL(url)
-    val s = html.mkString
+  def extract(url: String): Map[String, List[Map[String, String]]] = {
+    //    println("TableExtractor url=" + url)
 
+    val s = downloader.download(url)
     var resultMap: Map[String, String] = Map()
     for (i <- 0 until individualExtractors.size) {
       val re = individualExtractors(i)._2
@@ -50,16 +43,14 @@ case class Downloader(individualExtractors: List[(String, Regex, Int)],
         table = re._1.replaceFirstIn(table, re._3)
       }
     }
-
-    //    println(table)
+    //    println("TABLE IS " + table)
 
     val myXML = XML.loadString(table)
+
     val resultTable = for (tableRow <- myXML \\ "TABLE" \\ "TR") yield {
       val fieldValues = (tableRow \\ "TD") map { _.text.trim() }
       (tableFields zip fieldValues).toMap
     }
-
-    (resultMap, resultTable.toList)
+    Map("singleCols" -> List(resultMap), "candidates" -> resultTable.toList)
   }
-
 }

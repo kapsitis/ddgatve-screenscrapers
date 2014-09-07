@@ -20,9 +20,16 @@ scalariformSettings
 // Testing
 
 // libraryDependencies += "org.specs2" %% "specs2" % "2.3.10" % "test"
-libraryDependencies += "org.specs2" % "specs2_2.11" % "2.3.13"
 
-libraryDependencies += "org.apache.commons" % "commons-csv" % "1.0"
+// libraryDependencies += "org.specs2" % "specs2_2.11" % "2.3.13"
+
+// libraryDependencies += "org.apache.commons" % "commons-csv" % "1.0"
+
+libraryDependencies ++= Seq(
+  "org.specs2" % "specs2_2.11" % "2.3.13",
+  "org.apache.commons" % "commons-csv" % "1.0",
+  "commons-io" % "commons-io" % "2.4"
+)
 
 // Publishing
 

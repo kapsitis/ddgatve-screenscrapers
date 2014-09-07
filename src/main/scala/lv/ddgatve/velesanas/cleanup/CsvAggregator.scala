@@ -2,64 +2,59 @@ package lv.ddgatve.velesanas.cleanup
 
 import scala.xml.XML
 import scala.util.matching.Regex
+import lv.ddgatve.screenscrapers.web.Downloader
+import lv.ddgatve.screenscrapers.web.TableExtractor
+import lv.ddgatve.screenscrapers.csv.CSVWriter
 
 /**
- * This class is responsible for creating large CSV files - candidate lists with points, etc.
+ * This class is responsible for creating large CSV files from the files it visits.
  * It first creates "projections" - sets of URLs with additional fields specified in a map.
  * After that it aggregates everything that is in the projection and outputs to a CSV file.
+ *
+ * This class returns a data table similar to the one produced by an SQL or SPARQL query.
+ * This class should NOT be specific to Saeima-related or any other data set.
  */
 class CsvAggregator(configurationFile: String, profile: String) {
+  val individualsNames = CSVWriter.individualsNames
+  val tableColumns = CSVWriter.tableColumns
 
-  val cReader = new ConfigurationReader(configurationFile, profile)
-  val getPatternMap = cReader.getPatternMap
-  val individualExtractors = cReader.getIndividualExtractors
-  val tableExtractor = cReader.getTableExtractor
-  val tableColumns = cReader.getTableColumns
-  val tidyPatterns = cReader.getTidyPatterns
-  val urlPrefix = cReader.getUrlPrefix
+  private def safeGet(x: Map[String, String], y: String): String = {
+    if (x.keySet contains y) {
+      x.get(y).get
+    } else {
+      println("WARNING! Could not get key '" + y + "' from map '" + x)
+      ""
+    }
+  }
 
   /**
    * Visit various urls with their respective preset values (projections).
    * Write the result into two separate CSV files - the "individuals" and the "table".
    */
-  def makeCSV(workingDirectory: String,
-    individualsFileName: String,
-    individualsNames: List[String],
-    tableFileName: String,
-    tableColumns: List[String],
-    urlAndProjections: List[(String, Map[String, String])]): Unit = {
-    val downloader = new lv.ddgatve.velesanas.cleanup.Downloader(
-      individualExtractors.toList,
-      tableExtractor,
-      tableColumns.toList,
-      tidyPatterns.toList)
-    var individualLines: List[List[String]] = List()
-    var tableLines: List[List[String]] = List()
-    for (projection <- urlAndProjections) {
-      Thread.sleep(1000)
-      println("Downloading URL " + projection._1)
-      val downloadResult = downloader.extract(projection._1)
-      val aa = individualsNames map { (downloadResult._1).get(_).get }
-      individualLines = individualLines :+ aa
-      val bb = downloadResult._2 map { mm =>
-        tableColumns map {
-          colName =>
-            {
-              if (projection._2.keySet contains (colName)) {
-                println("colName(projection) is " + colName)
-                projection._2.get(colName).get
-              } else {
-                println("colName(table) is " + colName)
-                mm.get(colName).get
-              }
-            }
-        }
-      }
-      tableLines = tableLines ++: bb
+  def standardizeTable(urlAndProjections: List[(String, Map[String, String])]): Map[String, List[List[String]]] = {
+    val extractor = new TableExtractor(configurationFile, profile)
+    var singleCols: List[List[String]] = List()
+    var candidates: List[List[String]] = List()
+    for (urlAndProjection <- urlAndProjections) {
+      val downloadResult = extractor.extract(urlAndProjection._1)
+      val projection = new Projection(List("singleCols", "candidates"), Map(
+        "singleCols" -> individualsNames,
+        "candidates" -> tableColumns))
+
+      val theParty = urlAndProjection._2.get("Party").get
+      val theSaeima = urlAndProjection._2.get("Saeima").get
+      val temp = projection.standardize(downloadResult, Map(
+        "singleCols" -> Map("Party" -> theParty, "Saeima" -> theSaeima),
+        "candidates" -> urlAndProjection._2))
+      val aa = temp.get("singleCols").get map (x => {
+        individualsNames map (safeGet(x, _))
+      })
+      val bb = temp.get("candidates").get map (x => {
+        tableColumns map (safeGet(x, _))
+      })
+      singleCols = singleCols ++: aa
+      candidates = candidates ++: bb
     }
-
-    CsvWriter.write(workingDirectory + individualsFileName, individualsNames, individualLines)
-    CsvWriter.write(workingDirectory + tableFileName, tableColumns, tableLines)
-
+    Map("singleCols" -> singleCols, "candidates" -> candidates)
   }
 }

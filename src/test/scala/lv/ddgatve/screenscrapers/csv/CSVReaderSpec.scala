@@ -1,6 +1,6 @@
-package lv.ddgatve.velesanas.csv
+package lv.ddgatve.screenscrapers.csv
 
-import org.specs2.mutable._
+import org.specs2.mutable.Specification
 
 class CSVReaderSpec extends Specification {
 
@@ -15,7 +15,7 @@ class CSVReaderSpec extends Specification {
     }
     "read saeima11.csv" in {
       val lines = CSVReader.read(path)
-      lines(12)(1) mustEqual "Brīvība. Brīvs no bailēm, naida un dusmām"
+      lines(12)(1) mustEqual "Partija „Brīvība. Brīvs no bailēm, naida un dusmām”"
     }
   }
 }

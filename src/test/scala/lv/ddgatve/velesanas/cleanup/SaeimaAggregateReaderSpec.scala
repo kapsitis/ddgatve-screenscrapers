@@ -32,7 +32,7 @@ class SaeimaAggregateReaderSpec extends Specification {
     val csvReader = SaeimaAggregateReader(10)
     val line = csvReader.getLine(2)
     "Find saeima10.vienotiba.vidzeme in a line" in {
-      line(3) mustEqual 110194.toString
+      line.get("Vidzeme") mustEqual 110194.toString
     }
     "Find saeima10.vienotiba.vidzeme from a field" in {
       csvReader.getPartyField(2, "Vidzeme") mustEqual 110194.toString
@@ -49,7 +49,7 @@ class SaeimaAggregateReaderSpec extends Specification {
       csvReader.getPartyField(0, "Aploksnes") mustEqual 965538.toString
     }
     "Find saeima10.deputati.riga" in {
-      csvReader.getCsvRecords.last(2) mustEqual 29.toString
+      csvReader.getCsvRecords.last.get("Rīga") mustEqual 29.toString
     }
   }
 
@@ -68,8 +68,8 @@ class SaeimaAggregateReaderSpec extends Specification {
       result(2)._1 mustEqual """http://www.cvk.lv/cgi-bin/wdbcgiw/base/Saeima11.galrez11.kandid?NR1=23"""
     }
     "find saeima10.vienotiba.Latgale Projection" in {
-      result(2)._2 mustEqual Map("Saeima" -> "10", "Partija" -> "2",
-        "Balsis" -> "19231", "Apgabals" -> "3")
+      result(2)._2 mustEqual Map("Saeima" -> "10", "Party" -> "2",
+        "BallotsForParty" -> "19231", "District" -> "3")
     }
 
   }

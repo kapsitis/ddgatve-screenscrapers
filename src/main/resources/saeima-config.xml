@@ -2,22 +2,31 @@
 <profiles>
 	<patterns>
 		<pattern id="regexTable"><![CDATA[(?s)(<TABLE BORDER=1>(.*)</TABLE>)]]></pattern>
-		<pattern id="uniqueFieldRegex1"><![CDATA[\(Derīgās zīmes - <b>([0-9]+)</b>, grozītas - ([0-9]+), negrozītas - ([0-9]+)\)]]></pattern>
-		<pattern id="uniqueFieldRegex2"><![CDATA[>([^<>]+)s apgabals<]]></pattern>
+		<pattern id="saeima11indFields"><![CDATA[\(Derīgās zīmes - <b>([0-9]+)</b>, grozītas - ([0-9]+), negrozītas - ([0-9]+)\)]]></pattern>
+		<pattern id="saeima11district"><![CDATA[>([^<>]+)s apgabals<]]></pattern>
+		<pattern id="saeima07district"><![CDATA[>([^<>]+)s apgabals,]]></pattern>
 		<pattern id="clean1"><![CDATA[( BORDER=1| align=(center|left)| bgcolor=("white"|"#f4f4e6")| color=("#003333"|"#003333")|&nbsp;|</a>|<CENTER>)]]></pattern>
 		<pattern id="clean2"><![CDATA[(?s)<Tr .*?</TR>]]></pattern>
-		<pattern id="clean3"><![CDATA[(<font >|</font>)]]></pattern>
-		<pattern id="clean4"><![CDATA[<tr>]]></pattern>
+		<pattern id="clean3"><![CDATA[(<font[^<>]*>|</font>)]]></pattern>
+		<pattern id="clean4"><![CDATA[<tr ?>]]></pattern>
+		<pattern id="clean5"><![CDATA[<a [^<>]+>]]></pattern>
+		<pattern id="clean6"><![CDATA[<[bB]>|</[bB]>]]></pattern>
+		<pattern id="clean7"><![CDATA[(?s)<TD>([\p{L}\s-]+)<TD>]]></pattern>
+		<pattern id="clean8"><![CDATA[(?s)<TR>.*?</TR>]]></pattern>
+		<pattern id="clean9"><![CDATA[ bgcolor="#F1FFE8"| bgcolor="#cccc99"]]></pattern>
+		<pattern id="saeima09indFields"><![CDATA[\(par sarakstu-<b>([0-9]+)</b> zīmes?,\s?([0-9]+)-grozītas?,\s?([0-9]+)-negrozītas?\)]]></pattern>
+
+
 	</patterns>
 
 	<profile id="saeima11">
-		<urlPrefix>http://www.cvk.lv/cgi-bin/wdbcgiw/base/Saeima11.galrez11.kandid?NR1=
+		<urlPrefix>http://www.cvk.lv/cgi-bin/wdbcgiw/base/Saeima11.GalRez11.kandid?sec=2&amp;NR1=
 		</urlPrefix>
 		<individualExtractors>
-			<item name="Derigas" patternId="uniqueFieldRegex1" group="1" />
-			<item name="Grozitas" patternId="uniqueFieldRegex1" group="2" />
-			<item name="Negrozitas" patternId="uniqueFieldRegex1" group="3" />
-			<item name="Apgabals" patternId="uniqueFieldRegex2" group="1" />
+			<item name="Valid" patternId="saeima11indFields" group="1" />
+			<item name="Modified" patternId="saeima11indFields" group="2" />
+			<item name="Unmodified" patternId="saeima11indFields" group="3" />
+			<item name="District" patternId="saeima11district" group="1" />
 		</individualExtractors>
 
 		<tidyPatterns>
@@ -27,19 +36,185 @@
 			</item>
 			<item patternId="clean3" num="-1"><![CDATA[]]>
 			</item>
+			<item patternId="clean6" num="-1"><![CDATA[]]>
+			</item>
+			<item patternId="clean7" num="-1"><![CDATA[<TD>$1</TD><TD>]]>
+			</item>
 			<item patternId="clean4" num="-1"><![CDATA[<TR>]]></item>
 		</tidyPatterns>
 
 		<tableExtractor patternId="regexTable" />
 		<tableColumns>
+			<item name="PostNum" />
 			<item name="PreNum" />
-			<item name="Kandidats" />
+			<item name="Candidate" />
 			<item name="Points" />
-			<item name="Plusi" />
-			<item name="Svitrojumi" />
-			<item name="NavAtzimju" />
-			<item name="Rezultats" />
+			<item name="Pluses" />
+			<item name="Minuses" />
+			<item name="NoMarks" />
+			<item name="Result" />
 		</tableColumns>
 	</profile>
+
+
+	<profile id="saeima10">
+		<urlPrefix>http://www.cvk.lv/cgi-bin/wdbcgiw/base/komisijas2010.GalRez10.kandid?NR1=
+		</urlPrefix>
+		<individualExtractors>
+			<item name="Valid" patternId="saeima11indFields" group="1" />
+			<item name="Modified" patternId="saeima11indFields" group="2" />
+			<item name="Unmodified" patternId="saeima11indFields" group="3" />
+			<item name="District" patternId="saeima11district" group="1" />
+		</individualExtractors>
+
+		<tidyPatterns>
+			<item patternId="clean1" num="-1"><![CDATA[]]>
+			</item>
+			<item patternId="clean2" num="1"><![CDATA[]]>
+			</item>
+			<item patternId="clean3" num="-1"><![CDATA[]]>
+			</item>
+			<item patternId="clean5" num="-1"><![CDATA[]]>
+			</item>
+			<item patternId="clean6" num="-1"><![CDATA[]]>
+			</item>
+			<item patternId="clean7" num="-1"><![CDATA[<TD>$1</TD><TD>]]>
+			</item>
+			<item patternId="clean4" num="-1"><![CDATA[<TR>]]></item>
+		</tidyPatterns>
+
+		<tableExtractor patternId="regexTable" />
+		<tableColumns>
+			<item name="PostNum" />
+			<item name="PreNum" />
+			<item name="Candidate" />
+			<item name="Points" />
+			<item name="Pluses" />
+			<item name="Minuses" />
+			<item name="NoMarks" />
+			<item name="Result" />
+		</tableColumns>
+	</profile>
+
+	<profile id="saeima09">
+		<urlPrefix>http://www.cvk.lv/cgi-bin/wdbcgiw/base/saeima9.GalRez9.kandid?NR1=
+		</urlPrefix>
+		<individualExtractors>
+			<item name="Valid" patternId="saeima09indFields" group="1" />
+			<item name="Modified" patternId="saeima09indFields" group="2" />
+			<item name="Unmodified" patternId="saeima09indFields" group="3" />
+			<item name="District" patternId="saeima11district" group="1" />
+		</individualExtractors>
+
+		<tidyPatterns>
+			<item patternId="clean1" num="-1"><![CDATA[]]>
+			</item>
+			<item patternId="clean3" num="-1"><![CDATA[]]>
+			</item>
+			<item patternId="clean5" num="-1"><![CDATA[]]>
+			</item>
+			<item patternId="clean6" num="-1"><![CDATA[]]>
+			</item>
+			<item patternId="clean7" num="-1"><![CDATA[<TD>$1</TD><TD>]]>
+			</item>
+			<item patternId="clean8" num="-1"><![CDATA[]]>
+			</item>
+			<item patternId="clean9" num="-1"><![CDATA[]]>
+			</item>
+			<item patternId="clean4" num="-1"><![CDATA[<TR>]]></item>
+		</tidyPatterns>
+
+		<tableExtractor patternId="regexTable" />
+		<tableColumns>
+			<item name="PostNum" />
+			<item name="Points" />
+			<item name="Pluses" />
+			<item name="Minuses" />
+			<item name="PreNum" />
+			<item name="Candidate" />
+			<item name="Year" />
+			<item name="Result" />
+			<item name="WhereCompeted" />
+		</tableColumns>
+	</profile>
+
+
+	<profile id="saeima08">
+		<urlPrefix>http://www.cvk.lv/cgi-bin/wdbcgiw/base/sae8dev.Vel8rmeg.kandid?NR1=
+		</urlPrefix>
+		<individualExtractors>
+			<item name="District" patternId="saeima07district" group="1" />
+		</individualExtractors>
+
+		<tidyPatterns>
+			<item patternId="clean1" num="-1"><![CDATA[]]>
+			</item>
+			<item patternId="clean3" num="-1"><![CDATA[]]>
+			</item>
+			<item patternId="clean5" num="-1"><![CDATA[]]>
+			</item>
+			<item patternId="clean6" num="-1"><![CDATA[]]>
+			</item>
+			<item patternId="clean7" num="-1"><![CDATA[<TD>$1</TD><TD>]]>
+			</item>
+			<item patternId="clean8" num="-1"><![CDATA[]]>
+			</item>
+			<item patternId="clean9" num="-1"><![CDATA[]]>
+			</item>
+			<item patternId="clean4" num="-1"><![CDATA[<TR>]]></item>
+		</tidyPatterns>
+
+		<tableExtractor patternId="regexTable" />
+		<tableColumns>
+			<item name="PostNum" />
+			<item name="Points" />
+			<item name="Pluses" />
+			<item name="Minuses" />
+			<item name="PreNum" />
+			<item name="Candidate" />
+			<item name="Year" />
+			<item name="Result" />
+			<item name="WhereCompeted" />
+		</tableColumns>
+	</profile>
+
+
+	<profile id="saeima07">
+		<urlPrefix>http://www.cvk.lv/cgi-bin/wdbcgiw/base/base.vel7r.kandid?NR1=
+		</urlPrefix>
+		<individualExtractors>
+			<item name="District" patternId="saeima07district" group="1" />
+		</individualExtractors>
+
+		<tidyPatterns>
+			<item patternId="clean1" num="-1"><![CDATA[]]>
+			</item>
+			<item patternId="clean3" num="-1"><![CDATA[]]>
+			</item>
+			<item patternId="clean5" num="-1"><![CDATA[]]>
+			</item>
+			<item patternId="clean6" num="-1"><![CDATA[]]>
+			</item>
+			<item patternId="clean7" num="-1"><![CDATA[<TD>$1</TD><TD>]]>
+			</item>
+			<item patternId="clean8" num="-1"><![CDATA[]]>
+			</item>
+			<item patternId="clean9" num="-1"><![CDATA[]]>
+			</item>
+			<item patternId="clean4" num="-1"><![CDATA[<TR>]]></item>
+		</tidyPatterns>
+
+		<tableExtractor patternId="regexTable" />
+		<tableColumns>
+			<item name="PostNum" />
+			<item name="Points" />
+			<item name="Pluses" />
+			<item name="Minuses" />
+			<item name="PreNum" />
+			<item name="Candidate" />
+			<item name="Result" />
+		</tableColumns>
+	</profile>
+
 
 </profiles>

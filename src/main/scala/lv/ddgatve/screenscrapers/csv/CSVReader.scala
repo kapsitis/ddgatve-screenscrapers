@@ -1,4 +1,4 @@
-package lv.ddgatve.velesanas.csv
+package lv.ddgatve.screenscrapers.csv
 
 import java.io.StringReader
 import org.apache.commons.csv.CSVFormat
@@ -20,5 +20,12 @@ object CSVReader {
       new FileReader(path),
       CSVFormat.DEFAULT.withHeader()).asScala
     records.toList map makeLine
+  }
+
+  def readRecords(path: String): List[CSVRecord] = {
+    val records = new CSVParser(
+      new FileReader(path),
+      CSVFormat.DEFAULT.withHeader()).asScala
+    records.toList
   }
 }
