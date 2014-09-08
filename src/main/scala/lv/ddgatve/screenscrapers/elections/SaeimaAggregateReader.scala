@@ -1,6 +1,5 @@
-package lv.ddgatve.velesanas.cleanup
+package lv.ddgatve.screenscrapers.elections
 
-import scala.io.Source
 import lv.ddgatve.screenscrapers.csv.CSVReader
 
 /**

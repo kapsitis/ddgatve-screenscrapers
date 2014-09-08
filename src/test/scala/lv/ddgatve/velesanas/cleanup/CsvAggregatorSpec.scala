@@ -2,6 +2,7 @@ package lv.ddgatve.velesanas.cleanup
 
 import org.specs2.mutable._
 import lv.ddgatve.screenscrapers.csv.CSVWriter
+import lv.ddgatve.screenscrapers.elections.SaeimaAggregateReader
 
 class CsvAggregatorSpec extends Specification {
   val configFile = "/home/kalvis/workspace/ddgatve-screenscrapers/src/main/resources/saeima-config.xml"

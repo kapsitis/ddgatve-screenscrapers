@@ -1,6 +1,6 @@
-package lv.ddgatve.velesanas.cleanup
+package lv.ddgatve.screenscrapers.elections
 
-import org.specs2.mutable._
+import org.specs2.mutable.Specification
 
 class SaeimaAggregateReaderSpec extends Specification {
   val urlPrefix = "http://www.cvk.lv/cgi-bin/wdbcgiw/base/Saeima11.galrez11.kandid?NR1="

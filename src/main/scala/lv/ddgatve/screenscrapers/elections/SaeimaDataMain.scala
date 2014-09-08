@@ -1,4 +1,6 @@
-package lv.ddgatve.velesanas.cleanup
+package lv.ddgatve.screenscrapers.elections
+
+import lv.ddgatve.velesanas.cleanup.ConfigurationReader
 
 object SaeimaDataMain {
 

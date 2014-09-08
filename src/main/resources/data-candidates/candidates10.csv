@@ -1,0 +1,1153 @@
+PostNum,PreNum,CandidateName,CandidateSurname,Sex,Saeima,PartyNum,PartyAbbr,DistrNum,DistrName,BallotsForParty,Pluses,Minuses,Points,Result
+1,1,Juris,Sokolovskis,Male,10,1,PCTVL,1,Rīga,5521,1828,115,7234,N/A
+2,2,Jakovs,Pliners,Male,10,1,PCTVL,1,Rīga,5521,1638,153,7006,N/A
+3,3,Vladimirs,Buzajevs,Male,10,1,PCTVL,1,Rīga,5521,1173,122,6572,N/A
+4,8,Vladislavs,Rafaļskis,Male,10,1,PCTVL,1,Rīga,5521,628,128,6021,N/A
+5,4,Natālija,Jolkina,Female,10,1,PCTVL,1,Rīga,5521,581,139,5963,N/A
+6,7,Deniss,Gorba,Male,10,1,PCTVL,1,Rīga,5521,482,114,5889,N/A
+7,9,Aleksandrs,Kuzmins,Male,10,1,PCTVL,1,Rīga,5521,472,116,5877,N/A
+8,10,Viktors,Dergunovs,Male,10,1,PCTVL,1,Rīga,5521,354,107,5768,N/A
+9,6,Žanna,Kareļina,Female,10,1,PCTVL,1,Rīga,5521,360,121,5760,N/A
+10,11,Tatjana,Jemeļjanova,Female,10,1,PCTVL,1,Rīga,5521,361,131,5751,N/A
+11,27,Tatjana,Favorska,Female,10,1,PCTVL,1,Rīga,5521,285,110,5696,N/A
+12,30,Vadims,Gailišs,Male,10,1,PCTVL,1,Rīga,5521,278,113,5686,N/A
+13,14,Vjačeslavs,Altuhovs,Male,10,1,PCTVL,1,Rīga,5521,280,117,5684,N/A
+14,5,Aina,Žuravļova,Female,10,1,PCTVL,1,Rīga,5521,385,228,5678,N/A
+15,12,Aleksandrs,Malnačs,Male,10,1,PCTVL,1,Rīga,5521,258,108,5671,N/A
+16,13,Aleksandra,Turčaņinova,Female,10,1,PCTVL,1,Rīga,5521,247,120,5648,N/A
+17,16,Aleksandrs,Gamaļejevs,Male,10,1,PCTVL,1,Rīga,5521,228,104,5645,N/A
+18,28,Anna,Proņina,Female,10,1,PCTVL,1,Rīga,5521,234,110,5645,N/A
+19,26,Pavels,Fjodorovs,Male,10,1,PCTVL,1,Rīga,5521,233,111,5643,N/A
+20,20,Irina,Ivanova,Female,10,1,PCTVL,1,Rīga,5521,229,108,5642,N/A
+21,17,Ivans,Jengaševs,Male,10,1,PCTVL,1,Rīga,5521,226,107,5640,N/A
+22,15,Valentīna,Goldinova,Female,10,1,PCTVL,1,Rīga,5521,242,124,5639,N/A
+23,29,Filips,Dudins,Male,10,1,PCTVL,1,Rīga,5521,238,124,5635,N/A
+24,19,Viktorija,Murina,Female,10,1,PCTVL,1,Rīga,5521,209,113,5617,N/A
+25,24,Aleksejs,Gribkovs,Male,10,1,PCTVL,1,Rīga,5521,201,114,5608,N/A
+26,18,Jurijs,Mašošins,Male,10,1,PCTVL,1,Rīga,5521,191,113,5599,N/A
+27,23,Neļa,Maliha,Female,10,1,PCTVL,1,Rīga,5521,193,117,5597,N/A
+28,25,Taisja,Bite,Female,10,1,PCTVL,1,Rīga,5521,195,120,5596,N/A
+29,21,Gagiks,Sarkisjans,Male,10,1,PCTVL,1,Rīga,5521,222,150,5593,N/A
+30,22,Nazira,Iso,Female,10,1,PCTVL,1,Rīga,5521,193,156,5558,N/A
+1,1,Andris,Tolmačovs,Male,10,1,PCTVL,2,Vidzeme,2347,385,166,2566,N/A
+2,2,Jānis,Kuzins,Male,10,1,PCTVL,2,Vidzeme,2347,260,195,2412,N/A
+3,17,Tahirs,Sīmanis,Male,10,1,PCTVL,2,Vidzeme,2347,199,145,2401,N/A
+4,3,Aleksandrs,Prutkovs,Male,10,1,PCTVL,2,Vidzeme,2347,185,167,2365,N/A
+5,13,Gints,Lazdiņš,Male,10,1,PCTVL,2,Vidzeme,2347,170,171,2346,N/A
+6,5,Ludmila,Rodionova,Female,10,1,PCTVL,2,Vidzeme,2347,169,175,2341,N/A
+7,4,Tatjana,Strautmane,Female,10,1,PCTVL,2,Vidzeme,2347,139,166,2320,N/A
+8,21,Aleksandrs,Maļins,Male,10,1,PCTVL,2,Vidzeme,2347,116,150,2313,N/A
+9,7,Alise,Djomina,Female,10,1,PCTVL,2,Vidzeme,2347,127,166,2308,N/A
+10,9,Dmitrijs,Kirejevs,Male,10,1,PCTVL,2,Vidzeme,2347,131,170,2308,N/A
+11,16,Gaļina,Bezdeņežniha,Female,10,1,PCTVL,2,Vidzeme,2347,115,160,2302,N/A
+12,8,Anna,Vinogradova,Female,10,1,PCTVL,2,Vidzeme,2347,125,173,2299,N/A
+13,19,Peresvets,Bezdeņežnihs,Male,10,1,PCTVL,2,Vidzeme,2347,107,158,2296,N/A
+14,15,Vilnis,Antonišķis,Male,10,1,PCTVL,2,Vidzeme,2347,109,160,2296,N/A
+15,26,Viktors,Jolkins,Male,10,1,PCTVL,2,Vidzeme,2347,109,161,2295,N/A
+16,6,Jeļena,Učaikina,Female,10,1,PCTVL,2,Vidzeme,2347,109,165,2291,N/A
+17,24,Igors,Kotkovskis,Male,10,1,PCTVL,2,Vidzeme,2347,96,157,2286,N/A
+18,25,Aleksandrs,Giļmans,Male,10,1,PCTVL,2,Vidzeme,2347,114,176,2285,N/A
+19,10,Irina,Novohatjko,Female,10,1,PCTVL,2,Vidzeme,2347,104,166,2285,N/A
+20,18,Andrejs,Koļesņiks,Male,10,1,PCTVL,2,Vidzeme,2347,96,159,2284,N/A
+21,23,Leticija,Pone,Female,10,1,PCTVL,2,Vidzeme,2347,94,158,2283,N/A
+22,11,Kristina,Galihanova,Female,10,1,PCTVL,2,Vidzeme,2347,105,170,2282,N/A
+23,12,Andrejs,Bessoļcevs,Male,10,1,PCTVL,2,Vidzeme,2347,98,167,2278,N/A
+24,22,Leonīds,Šakovecs,Male,10,1,PCTVL,2,Vidzeme,2347,86,159,2274,N/A
+25,20,Vilmārs,Vaiba,Male,10,1,PCTVL,2,Vidzeme,2347,77,161,2263,N/A
+26,14,Ernesto,Škirmants,Male,10,1,PCTVL,2,Vidzeme,2347,78,181,2244,N/A
+1,1,Miroslavs,Mitrofanovs,Male,10,1,PCTVL,3,Latgale,3661,1070,259,4472,N/A
+2,5,Anatolijs,Pušņakovs,Male,10,1,PCTVL,3,Latgale,3661,523,159,4025,N/A
+3,2,Aleksejs,Vasiļjevs,Male,10,1,PCTVL,3,Latgale,3661,431,220,3872,N/A
+4,3,Aleksandrs,Jukšinskis,Male,10,1,PCTVL,3,Latgale,3661,314,232,3743,N/A
+5,6,Valērijs,Petrovs,Male,10,1,PCTVL,3,Latgale,3661,304,232,3733,N/A
+6,7,Ivans,Popovs,Male,10,1,PCTVL,3,Latgale,3661,283,218,3726,N/A
+7,12,Sergejs,Solovjovs,Male,10,1,PCTVL,3,Latgale,3661,258,201,3718,N/A
+8,13,Andrejs,Golubevs,Male,10,1,PCTVL,3,Latgale,3661,251,215,3697,N/A
+9,8,Igors,Sorokins,Male,10,1,PCTVL,3,Latgale,3661,253,221,3693,N/A
+10,14,Jevgeņijs,Golubevs,Male,10,1,PCTVL,3,Latgale,3661,228,206,3683,N/A
+11,9,Vladimirs,Pedāns,Male,10,1,PCTVL,3,Latgale,3661,241,224,3678,N/A
+12,15,Pāvels,Prozors,Male,10,1,PCTVL,3,Latgale,3661,218,218,3661,N/A
+13,11,Sergejs,Lazovskis,Male,10,1,PCTVL,3,Latgale,3661,221,224,3658,N/A
+14,16,Jurijs,Zaicevs,Male,10,1,PCTVL,3,Latgale,3661,218,224,3655,N/A
+15,10,Grigorijs,Gontmahers,Male,10,1,PCTVL,3,Latgale,3661,234,248,3647,N/A
+16,17,Aleksandrs,Blins,Male,10,1,PCTVL,3,Latgale,3661,202,219,3644,N/A
+17,18,Vladimirs,Čuprovs,Male,10,1,PCTVL,3,Latgale,3661,190,212,3639,N/A
+18,19,Jūlija,Rimvida-Mickeviča,Female,10,1,PCTVL,3,Latgale,3661,182,207,3636,N/A
+19,4,Ašots,Mamikonjans,Male,10,1,PCTVL,3,Latgale,3661,237,287,3611,N/A
+1,1,Andrējs,Boboško,Male,10,1,PCTVL,4,Kurzeme,551,127,32,646,N/A
+2,3,Andris,Tauriņš,Male,10,1,PCTVL,4,Kurzeme,551,84,30,605,N/A
+3,6,Tatjana,Zdubņikova,Female,10,1,PCTVL,4,Kurzeme,551,72,33,590,N/A
+4,2,Ilona,Haņina,Female,10,1,PCTVL,4,Kurzeme,551,75,37,589,N/A
+5,5,Deniss,Čerņikovs,Male,10,1,PCTVL,4,Kurzeme,551,66,34,583,N/A
+6,9,Oļegs,Šavrovs,Male,10,1,PCTVL,4,Kurzeme,551,61,32,580,N/A
+7,4,Sergejs,Špaks,Male,10,1,PCTVL,4,Kurzeme,551,52,34,569,N/A
+8,7,Ļevs,Berezins,Male,10,1,PCTVL,4,Kurzeme,551,51,34,568,N/A
+9,8,Aleksandra,Cebaka,Female,10,1,PCTVL,4,Kurzeme,551,50,34,567,N/A
+1,1,Valērijs,Buhvalovs,Male,10,1,PCTVL,5,Zemgale,1767,430,105,2092,N/A
+2,3,Ludmila,Ušakova,Female,10,1,PCTVL,5,Zemgale,1767,356,108,2015,N/A
+3,4,Maksims,Galkins,Male,10,1,PCTVL,5,Zemgale,1767,334,117,1984,N/A
+4,2,Nataļja,Čehova,Female,10,1,PCTVL,5,Zemgale,1767,259,114,1912,N/A
+5,5,Jurijs,Zamarajevs,Male,10,1,PCTVL,5,Zemgale,1767,162,116,1813,N/A
+6,6,Valentīna,Kudrjavceva,Female,10,1,PCTVL,5,Zemgale,1767,156,123,1800,N/A
+7,7,Nikolajs,Anuškevičs,Male,10,1,PCTVL,5,Zemgale,1767,136,117,1786,N/A
+8,9,Ludmila,Kitova,Female,10,1,PCTVL,5,Zemgale,1767,130,119,1778,N/A
+9,11,Agris,Kalniņš,Male,10,1,PCTVL,5,Zemgale,1767,109,120,1756,N/A
+10,10,Marija,Dešovaja,Female,10,1,PCTVL,5,Zemgale,1767,111,123,1755,N/A
+11,8,Oļegs,Pētersons,Male,10,1,PCTVL,5,Zemgale,1767,102,123,1746,N/A
+12,12,Kristīne,Irgensone,Female,10,1,PCTVL,5,Zemgale,1767,95,124,1738,N/A
+1,1,"Ģirts Valdis",Kristovskis,Male,10,2,Vienotība,1,Rīga,85832,26006,12408,99430,ievēlēts
+2,8,Lolita,Čigāne,Female,10,2,Vienotība,1,Rīga,85832,15092,4720,96204,ievēlēts
+3,13,Andris,Buiķis,Male,10,2,Vienotība,1,Rīga,85832,11515,4069,93278,ievēlēts
+4,16,"Ojārs Ēriks",Kalniņš,Male,10,2,Vienotība,1,Rīga,85832,10694,3821,92705,ievēlēts
+5,10,"Imants Viesturs",Lieģis,Male,10,2,Vienotība,1,Rīga,85832,8363,4285,89910,ievēlēts
+6,20,Rasma,Kārkliņa,Female,10,2,Vienotība,1,Rīga,85832,7541,3503,89870,ievēlēts
+7,4,Inguna,Rībena,Female,10,2,Vienotība,1,Rīga,85832,11477,7675,89634,ievēlēts
+8,6,Ints,Dālderis,Male,10,2,Vienotība,1,Rīga,85832,9680,5984,89528,ievēlēts
+9,11,Ilze,Viņķele,Female,10,2,Vienotība,1,Rīga,85832,7339,4524,88647,ievēlēts
+10,25,Vaira,Paegle,Female,10,2,Vienotība,1,Rīga,85832,10173,8250,87755,""
+11,2,Linda,Mūrniece,Female,10,2,Vienotība,1,Rīga,85832,14517,13027,87322,""
+12,12,Uģis,Rotbergs,Male,10,2,Vienotība,1,Rīga,85832,3530,4056,85306,""
+13,3,Sarmīte,Veide,Female,10,2,Vienotība,1,Rīga,85832,5153,5844,85141,""
+14,29,Inese,Kalniņa,Female,10,2,Vienotība,1,Rīga,85832,2954,3755,85031,""
+15,7,Sanita,Stelpe,Female,10,2,Vienotība,1,Rīga,85832,3628,4455,85005,""
+16,28,Rolands,Irklis,Male,10,2,Vienotība,1,Rīga,85832,2684,3865,84651,""
+17,22,Kristīne,Drēviņa,Female,10,2,Vienotība,1,Rīga,85832,2529,3793,84568,""
+18,17,Iluta,Lāce,Female,10,2,Vienotība,1,Rīga,85832,3075,4364,84543,""
+19,19,Antra,Sakne,Female,10,2,Vienotība,1,Rīga,85832,2908,4344,84396,""
+20,18,Kārlis,Strēlis,Male,10,2,Vienotība,1,Rīga,85832,3580,5045,84367,""
+21,9,"Hosams Abu",Meri,Male,10,2,Vienotība,1,Rīga,85832,8059,9674,84217,""
+22,27,Valdis,Krastiņš,Male,10,2,Vienotība,1,Rīga,85832,2879,4494,84217,""
+23,14,Normunds,Orleāns,Male,10,2,Vienotība,1,Rīga,85832,2641,4738,83735,""
+24,21,Guntis,Stirna,Male,10,2,Vienotība,1,Rīga,85832,2080,4224,83688,""
+25,32,Uģis,Resnis,Male,10,2,Vienotība,1,Rīga,85832,2472,4767,83537,""
+26,15,Rimants,Ziedonis,Male,10,2,Vienotība,1,Rīga,85832,5411,7796,83447,""
+27,23,Juris,Zvirbulis,Male,10,2,Vienotība,1,Rīga,85832,2010,4539,83303,""
+28,31,Dainis,Rītiņš,Male,10,2,Vienotība,1,Rīga,85832,1818,4415,83235,""
+29,5,Olafs,Pulks,Male,10,2,Vienotība,1,Rīga,85832,9210,11821,83221,""
+30,24,Marija,Balcere,Female,10,2,Vienotība,1,Rīga,85832,1984,4801,83015,""
+31,30,Raimonds,Rublovskis,Male,10,2,Vienotība,1,Rīga,85832,1857,4712,82977,""
+32,26,Modris,Jaunups,Male,10,2,Vienotība,1,Rīga,85832,3679,12399,77112,""
+1,1,Valdis,Dombrovskis,Male,10,2,Vienotība,2,Vidzeme,110194,77168,1327,186035,ievēlēts
+2,2,Artis,Pabriks,Male,10,2,Vienotība,2,Vidzeme,110194,30182,7245,133131,ievēlēts
+3,3,Ilma,Čepāne,Female,10,2,Vienotība,2,Vidzeme,110194,25764,6821,129137,ievēlēts
+4,7,Ainars,Latkovskis,Male,10,2,Vienotība,2,Vidzeme,110194,11764,6904,115054,ievēlēts
+5,6,Ina,Druviete,Female,10,2,Vienotība,2,Vidzeme,110194,14419,10495,114118,ievēlēts
+6,12,Andris,Vilks,Male,10,2,Vienotība,2,Vidzeme,110194,7054,6579,110669,ievēlēts
+7,5,Edvards,Smiltēns,Male,10,2,Vienotība,2,Vidzeme,110194,6000,6805,109389,ievēlēts
+8,17,Dzintars,Ābiķis,Male,10,2,Vienotība,2,Vidzeme,110194,11016,11969,109241,ievēlēts
+9,4,Arvils,Ašeradens,Male,10,2,Vienotība,2,Vidzeme,110194,6394,8487,108101,ievēlēts
+10,19,Guntars,Galvanovskis,Male,10,2,Vienotība,2,Vidzeme,110194,4883,7499,107578,ievēlēts
+11,18,Dzintra,Hirša,Female,10,2,Vienotība,2,Vidzeme,110194,4868,7769,107293,ievēlēts
+12,24,Ingmārs,Čaklais,Male,10,2,Vienotība,2,Vidzeme,110194,6070,9365,106899,ievēlēts
+13,9,Ilze,Vergina,Female,10,2,Vienotība,2,Vidzeme,110194,4353,8026,106521,""
+14,8,Liene,Liepiņa,Female,10,2,Vienotība,2,Vidzeme,110194,4233,8257,106170,""
+15,26,Andis,Caunītis,Male,10,2,Vienotība,2,Vidzeme,110194,2844,7235,105803,""
+16,10,Ainārs,Šteins,Male,10,2,Vienotība,2,Vidzeme,110194,2939,7525,105608,""
+17,15,Juris,Žūriņš,Male,10,2,Vienotība,2,Vidzeme,110194,3229,8062,105361,""
+18,13,Alberts,Krūmiņš,Male,10,2,Vienotība,2,Vidzeme,110194,2870,7863,105201,""
+19,20,Andris,Ceļmalnieks,Male,10,2,Vienotība,2,Vidzeme,110194,2092,7124,105162,""
+20,25,Artūrs,Hercogs,Male,10,2,Vienotība,2,Vidzeme,110194,2498,7590,105102,""
+21,22,Pēteris,Ontužāns,Male,10,2,Vienotība,2,Vidzeme,110194,2925,8046,105073,""
+22,23,Ilgonis,Leišavnieks,Male,10,2,Vienotība,2,Vidzeme,110194,2404,7535,105063,""
+23,21,Kārlis,Kamradzis,Male,10,2,Vienotība,2,Vidzeme,110194,2184,7337,105041,""
+24,14,Sandra,Vilsone,Female,10,2,Vienotība,2,Vidzeme,110194,1974,7252,104916,""
+25,27,Ilze,Bule,Female,10,2,Vienotība,2,Vidzeme,110194,2181,7470,104905,""
+26,11,Inese,Muhka,Female,10,2,Vienotība,2,Vidzeme,110194,2734,8118,104810,""
+27,28,Jānis,Siliņš,Male,10,2,Vienotība,2,Vidzeme,110194,2799,8295,104698,""
+28,29,Sanita,Megere-Klevinska,Female,10,2,Vienotība,2,Vidzeme,110194,1798,8113,103879,""
+29,16,Igors,Aleksandrovs,Male,10,2,Vienotība,2,Vidzeme,110194,3226,9931,103489,""
+30,30,Ieva,Akuratere,Female,10,2,Vienotība,2,Vidzeme,110194,8559,20110,98643,""
+1,1,Aleksejs,Loskutovs,Male,10,2,Vienotība,3,Latgale,19231,8643,1263,26611,ievēlēts
+2,19,Kārlis,Šadurskis,Male,10,2,Vienotība,3,Latgale,19231,3712,2391,20552,ievēlēts
+3,3,Sarmīte,Ķikuste,Female,10,2,Vienotība,3,Latgale,19231,3265,2066,20430,""
+4,2,Līvija,Plavinska,Female,10,2,Vienotība,3,Latgale,19231,2588,1861,19958,""
+5,8,Juris,Viļums,Male,10,2,Vienotība,3,Latgale,19231,1902,1798,19335,""
+6,10,Aldis,Cimoška,Male,10,2,Vienotība,3,Latgale,19231,2035,2063,19203,""
+7,5,Ināra,Dundure,Female,10,2,Vienotība,3,Latgale,19231,1970,2012,19189,""
+8,7,Gundega,Rancāne,Female,10,2,Vienotība,3,Latgale,19231,1796,2006,19021,""
+9,18,Maija,Spūle,Female,10,2,Vienotība,3,Latgale,19231,1555,2078,18708,""
+10,16,Pēteris,Rožinskis,Male,10,2,Vienotība,3,Latgale,19231,1426,2044,18613,""
+11,4,Jānis,Zaščirinskis,Male,10,2,Vienotība,3,Latgale,19231,1141,2130,18242,""
+12,11,Jānis,Bordāns,Male,10,2,Vienotība,3,Latgale,19231,876,2005,18102,""
+13,15,Juris,Jerums,Male,10,2,Vienotība,3,Latgale,19231,676,2011,17896,""
+14,6,Edijs,Ostrovskis,Male,10,2,Vienotība,3,Latgale,19231,738,2077,17892,""
+15,17,Ilona,Džigure,Female,10,2,Vienotība,3,Latgale,19231,802,2175,17858,""
+16,9,Ligita,Azovska,Female,10,2,Vienotība,3,Latgale,19231,712,2101,17842,""
+17,12,Mārtiņš,Ķeņģis,Male,10,2,Vienotība,3,Latgale,19231,566,2030,17767,""
+18,14,Tatjana,Verjē,Female,10,2,Vienotība,3,Latgale,19231,687,2257,17661,""
+19,13,Vjačeslavs,Novikovs,Male,10,2,Vienotība,3,Latgale,19231,798,2454,17575,""
+1,1,Solvita,Āboltiņa,Female,10,2,Vienotība,4,Kurzeme,38383,11758,4344,45797,ievēlēts
+2,4,Janīna,Kursīte-Pakule,Female,10,2,Vienotība,4,Kurzeme,38383,6661,2195,42849,ievēlēts
+3,7,Ingrīda,Circene,Female,10,2,Vienotība,4,Kurzeme,38383,6740,4774,40349,ievēlēts
+4,2,Silva,Bendrāte,Female,10,2,Vienotība,4,Kurzeme,38383,4241,3370,39254,ievēlēts
+5,6,Didzis,Konuševskis,Male,10,2,Vienotība,4,Kurzeme,38383,3300,2754,38929,""
+6,3,Karīna,Korna,Female,10,2,Vienotība,4,Kurzeme,38383,2859,2426,38816,""
+7,9,Gunārs,Laicāns,Male,10,2,Vienotība,4,Kurzeme,38383,2621,2681,38323,""
+8,11,Loreta,Skaburska,Female,10,2,Vienotība,4,Kurzeme,38383,1777,2373,37787,""
+9,12,Kristīne,Laure,Female,10,2,Vienotība,4,Kurzeme,38383,1901,2546,37738,""
+10,16,Ingmārs,Kuklis,Male,10,2,Vienotība,4,Kurzeme,38383,1945,2616,37712,""
+11,5,Edgars,Krūmiņš,Male,10,2,Vienotība,4,Kurzeme,38383,2285,3013,37655,""
+12,8,Andris,Grafs,Male,10,2,Vienotība,4,Kurzeme,38383,1547,2431,37499,""
+13,10,Andris,Dedzis,Male,10,2,Vienotība,4,Kurzeme,38383,1873,2792,37464,""
+14,13,Ivars,Bandonis,Male,10,2,Vienotība,4,Kurzeme,38383,1266,2399,37250,""
+15,14,Ivars,Ķervis,Male,10,2,Vienotība,4,Kurzeme,38383,2639,3805,37217,""
+16,15,Ilmārs,Geige,Male,10,2,Vienotība,4,Kurzeme,38383,1524,3228,36679,""
+1,4,Atis,Lejiņš,Male,10,2,Vienotība,5,Zemgale,47789,9407,2438,54758,ievēlēts
+2,2,Artis,Kampars,Male,10,2,Vienotība,5,Zemgale,47789,10505,4160,54134,ievēlēts
+3,6,Aigars,Štokenbergs,Male,10,2,Vienotība,5,Zemgale,47789,10335,4148,53976,ievēlēts
+4,1,Sarmīte,Ēlerte,Female,10,2,Vienotība,5,Zemgale,47789,12535,6717,53607,ievēlēts
+5,3,Dzintars,Zaķis,Male,10,2,Vienotība,5,Zemgale,47789,8517,3538,52768,ievēlēts
+6,12,Klāvs,Olšteins,Male,10,2,Vienotība,5,Zemgale,47789,4453,2830,49412,ievēlēts
+7,11,Jānis,Reirs,Male,10,2,Vienotība,5,Zemgale,47789,3661,3134,48316,""
+8,8,Aivars,Volfs,Male,10,2,Vienotība,5,Zemgale,47789,2693,2987,47495,""
+9,5,Ansis,Saliņš,Male,10,2,Vienotība,5,Zemgale,47789,2490,2955,47324,""
+10,14,Madars,Lasmanis,Male,10,2,Vienotība,5,Zemgale,47789,2411,3138,47062,""
+11,17,Dace,Lebeda,Female,10,2,Vienotība,5,Zemgale,47789,2671,3477,46983,""
+12,16,Jolanta,Knope,Female,10,2,Vienotība,5,Zemgale,47789,2382,3280,46891,""
+13,9,Inga,Priede,Female,10,2,Vienotība,5,Zemgale,47789,2059,3290,46558,""
+14,18,Krišjānis,Bušs,Male,10,2,Vienotība,5,Zemgale,47789,1764,3011,46542,""
+15,10,Guntis,Libeks,Male,10,2,Vienotība,5,Zemgale,47789,2043,3449,46383,""
+16,15,Viktors,Vilkaušs,Male,10,2,Vienotība,5,Zemgale,47789,1678,3090,46377,""
+17,7,Valdis,Veips,Male,10,2,Vienotība,5,Zemgale,47789,2457,3872,46374,""
+18,13,Astrīda,Vītola,Female,10,2,Vienotība,5,Zemgale,47789,1955,3409,46335,""
+1,1,Agris,Sūna,Male,10,3,"Ražots Latvijā",1,Rīga,2308,541,90,2759,N/A
+2,2,Ilze,Vīberga,Female,10,3,"Ražots Latvijā",1,Rīga,2308,183,88,2403,N/A
+3,10,Māris,Rudzītis,Male,10,3,"Ražots Latvijā",1,Rīga,2308,130,70,2368,N/A
+4,5,Guntis,Zēvalds,Male,10,3,"Ražots Latvijā",1,Rīga,2308,124,90,2342,N/A
+5,19,Sigurds,Graudiņš,Male,10,3,"Ražots Latvijā",1,Rīga,2308,107,83,2332,N/A
+6,4,Sandra,Kleine,Female,10,3,"Ražots Latvijā",1,Rīga,2308,117,94,2331,N/A
+7,6,Lotārs,Kulless,Male,10,3,"Ražots Latvijā",1,Rīga,2308,104,88,2324,N/A
+8,21,Inta,Eižvertiņa,Female,10,3,"Ražots Latvijā",1,Rīga,2308,106,95,2319,N/A
+9,18,Andris,Orols,Male,10,3,"Ražots Latvijā",1,Rīga,2308,92,87,2313,N/A
+10,8,Iveta,Reitere,Female,10,3,"Ražots Latvijā",1,Rīga,2308,87,86,2309,N/A
+11,17,Edvīns,Puķe,Male,10,3,"Ražots Latvijā",1,Rīga,2308,101,103,2306,N/A
+12,14,Mārtiņš,Mikšēns,Male,10,3,"Ražots Latvijā",1,Rīga,2308,78,87,2299,N/A
+13,16,Āris,Bočs,Male,10,3,"Ražots Latvijā",1,Rīga,2308,78,89,2297,N/A
+14,26,Uldis,Eldmanis,Male,10,3,"Ražots Latvijā",1,Rīga,2308,71,86,2293,N/A
+15,20,Kārlis,Tiltiņš,Male,10,3,"Ražots Latvijā",1,Rīga,2308,78,93,2293,N/A
+16,12,Antons,Vinovskis,Male,10,3,"Ražots Latvijā",1,Rīga,2308,95,117,2286,N/A
+17,22,Aleksandrs,Poika,Male,10,3,"Ražots Latvijā",1,Rīga,2308,82,110,2280,N/A
+18,3,Pjotrs,Palčejs,Male,10,3,"Ražots Latvijā",1,Rīga,2308,93,143,2258,N/A
+19,7,Aleksandrs,Obižajevs,Male,10,3,"Ražots Latvijā",1,Rīga,2308,88,142,2254,N/A
+20,9,Boriss,Sokolovs-Karijs,Male,10,3,"Ražots Latvijā",1,Rīga,2308,77,135,2250,N/A
+21,15,Jurijs,Maslijs,Male,10,3,"Ražots Latvijā",1,Rīga,2308,55,120,2243,N/A
+22,24,Svetlana,Latve,Female,10,3,"Ražots Latvijā",1,Rīga,2308,56,122,2242,N/A
+23,13,Aleksandrs,Karpovičs,Male,10,3,"Ražots Latvijā",1,Rīga,2308,72,144,2236,N/A
+24,11,Georgijs,Gorbunovs,Male,10,3,"Ražots Latvijā",1,Rīga,2308,60,138,2230,N/A
+25,23,Aleksandrs,Aņikins,Male,10,3,"Ražots Latvijā",1,Rīga,2308,56,137,2227,N/A
+26,25,Aleksandrs,Ņikitins,Male,10,3,"Ražots Latvijā",1,Rīga,2308,53,141,2220,N/A
+1,1,Pēteris,Līcis,Male,10,3,"Ražots Latvijā",2,Vidzeme,2609,398,101,2906,N/A
+2,13,Ivo,Meļķis,Male,10,3,"Ražots Latvijā",2,Vidzeme,2609,183,108,2684,N/A
+3,12,Aivars,Sjademe,Male,10,3,"Ražots Latvijā",2,Vidzeme,2609,176,104,2681,N/A
+4,3,Mārtiņš,Caunītis,Male,10,3,"Ražots Latvijā",2,Vidzeme,2609,199,141,2667,N/A
+5,10,Andrejs,Zeibots,Male,10,3,"Ražots Latvijā",2,Vidzeme,2609,186,131,2664,N/A
+6,2,Oskars,Pētersons,Male,10,3,"Ražots Latvijā",2,Vidzeme,2609,165,123,2651,N/A
+7,6,Gvido,Puķe,Male,10,3,"Ražots Latvijā",2,Vidzeme,2609,151,130,2630,N/A
+8,5,Elīna,Sūna-Rubulte,Female,10,3,"Ražots Latvijā",2,Vidzeme,2609,157,147,2619,N/A
+9,11,Marija,Kursiša,Female,10,3,"Ražots Latvijā",2,Vidzeme,2609,150,141,2618,N/A
+10,4,"Arnis Agris",Liepiņš,Male,10,3,"Ražots Latvijā",2,Vidzeme,2609,134,127,2616,N/A
+11,14,Dainis,Butāns,Male,10,3,"Ražots Latvijā",2,Vidzeme,2609,133,126,2616,N/A
+12,8,Ilmārs,Bundzis,Male,10,3,"Ražots Latvijā",2,Vidzeme,2609,114,125,2598,N/A
+13,9,Krists,Mickēvičs,Male,10,3,"Ražots Latvijā",2,Vidzeme,2609,115,133,2591,N/A
+14,7,Dmitrijs,Dēliņš,Male,10,3,"Ražots Latvijā",2,Vidzeme,2609,122,145,2586,N/A
+1,1,Vilnis,Sprudzāns,Male,10,3,"Ražots Latvijā",3,Latgale,931,165,50,1046,N/A
+2,5,Arvīds,Soldāns,Male,10,3,"Ražots Latvijā",3,Latgale,931,145,45,1031,N/A
+3,3,Ilze,Brokāne,Female,10,3,"Ražots Latvijā",3,Latgale,931,125,49,1007,N/A
+4,4,Vilmārs,Tereško,Male,10,3,"Ražots Latvijā",3,Latgale,931,94,50,975,N/A
+5,2,Viktors,Voino,Male,10,3,"Ražots Latvijā",3,Latgale,931,70,58,943,N/A
+6,9,Inga,Gutberga,Female,10,3,"Ražots Latvijā",3,Latgale,931,61,52,940,N/A
+7,7,Andžejs,Zdanovičs,Male,10,3,"Ražots Latvijā",3,Latgale,931,60,54,937,N/A
+8,15,Inga,Vasiļjeva,Female,10,3,"Ražots Latvijā",3,Latgale,931,57,55,933,N/A
+9,13,Sergejs,Rostovs,Male,10,3,"Ražots Latvijā",3,Latgale,931,50,56,925,N/A
+10,6,Tatjana,Gavriļina,Female,10,3,"Ražots Latvijā",3,Latgale,931,53,60,924,N/A
+11,8,Daiga,Berezova,Female,10,3,"Ražots Latvijā",3,Latgale,931,54,61,924,N/A
+12,11,Vasilijs,Milnis-Varnovickis,Male,10,3,"Ražots Latvijā",3,Latgale,931,45,56,920,N/A
+13,14,Georgijs,Gorbunovs,Male,10,3,"Ražots Latvijā",3,Latgale,931,51,63,919,N/A
+14,12,Irina,Barkova,Female,10,3,"Ražots Latvijā",3,Latgale,931,42,57,916,N/A
+15,10,Inga,Bojareviča,Female,10,3,"Ražots Latvijā",3,Latgale,931,47,64,914,N/A
+1,1,Atis,Apinis,Male,10,3,"Ražots Latvijā",4,Kurzeme,1789,407,47,2149,N/A
+2,2,Uldis,Atmats,Male,10,3,"Ražots Latvijā",4,Kurzeme,1789,182,55,1916,N/A
+3,3,Andris,Stepanovičs,Male,10,3,"Ražots Latvijā",4,Kurzeme,1789,169,59,1899,N/A
+4,4,Inta,Bergmane,Female,10,3,"Ražots Latvijā",4,Kurzeme,1789,143,55,1877,N/A
+5,5,Andris,Laugalis,Male,10,3,"Ražots Latvijā",4,Kurzeme,1789,133,55,1867,N/A
+6,8,Uldis,Dzērve,Male,10,3,"Ražots Latvijā",4,Kurzeme,1789,136,59,1866,N/A
+7,7,Artis,Ādmīdiņš,Male,10,3,"Ražots Latvijā",4,Kurzeme,1789,138,63,1864,N/A
+8,11,Aivars,Ašmanis,Male,10,3,"Ražots Latvijā",4,Kurzeme,1789,120,56,1853,N/A
+9,6,Zane,Krūmiņa,Female,10,3,"Ražots Latvijā",4,Kurzeme,1789,120,60,1849,N/A
+10,9,Āris,Kančs,Male,10,3,"Ražots Latvijā",4,Kurzeme,1789,113,56,1846,N/A
+11,10,Jānis,Skabarnieks,Male,10,3,"Ražots Latvijā",4,Kurzeme,1789,118,61,1846,N/A
+12,12,Jānis,Vīnbergs,Male,10,3,"Ražots Latvijā",4,Kurzeme,1789,116,59,1846,N/A
+13,13,Viktorija,Kučinska,Female,10,3,"Ražots Latvijā",4,Kurzeme,1789,107,68,1828,N/A
+1,1,Anita,Stankus,Female,10,3,"Ražots Latvijā",5,Zemgale,1743,265,40,1968,N/A
+2,2,Jānis,Leja,Male,10,3,"Ražots Latvijā",5,Zemgale,1743,164,39,1868,N/A
+3,4,Dainis,Upelnieks,Male,10,3,"Ražots Latvijā",5,Zemgale,1743,144,47,1840,N/A
+4,16,Artis,Cīrulis,Male,10,3,"Ražots Latvijā",5,Zemgale,1743,118,53,1808,N/A
+5,3,Vilnis,Klibiķis,Male,10,3,"Ražots Latvijā",5,Zemgale,1743,114,51,1806,N/A
+6,13,Inese,Oša,Female,10,3,"Ražots Latvijā",5,Zemgale,1743,102,43,1802,N/A
+7,9,Evisa,Stankus,Female,10,3,"Ražots Latvijā",5,Zemgale,1743,94,49,1788,N/A
+8,14,Alvis,Bērziņš,Male,10,3,"Ražots Latvijā",5,Zemgale,1743,84,49,1778,N/A
+9,7,Guntra,Vīksna,Female,10,3,"Ražots Latvijā",5,Zemgale,1743,82,51,1774,N/A
+10,6,Jānis,Mickēvičs,Male,10,3,"Ražots Latvijā",5,Zemgale,1743,79,50,1772,N/A
+11,5,Juris,Petrovs,Male,10,3,"Ražots Latvijā",5,Zemgale,1743,88,66,1765,N/A
+12,11,Dite,Venskus,Female,10,3,"Ražots Latvijā",5,Zemgale,1743,74,53,1764,N/A
+13,15,Dmitrijs,Feldmanis,Male,10,3,"Ražots Latvijā",5,Zemgale,1743,80,59,1764,N/A
+14,12,Genoveva,Celma,Female,10,3,"Ražots Latvijā",5,Zemgale,1743,77,58,1762,N/A
+15,8,Valfrīds,Puķe,Male,10,3,"Ražots Latvijā",5,Zemgale,1743,66,59,1750,N/A
+16,17,Anatolijs,Abramovs,Male,10,3,"Ražots Latvijā",5,Zemgale,1743,80,78,1745,N/A
+17,10,Konstantins,Berezovs,Male,10,3,"Ražots Latvijā",5,Zemgale,1743,56,82,1717,N/A
+1,1,Jānis,Urbanovičs,Male,10,4,SC,1,Rīga,117064,59118,2043,174139,ievēlēts
+2,2,Sergejs,Dolgopolovs,Male,10,4,SC,1,Rīga,117064,22588,3208,136444,ievēlēts
+3,3,Andrejs,Klementjevs,Male,10,4,SC,1,Rīga,117064,19251,1875,134440,ievēlēts
+4,5,Boriss,Cilevičs,Male,10,4,SC,1,Rīga,117064,17012,2461,131615,ievēlēts
+5,4,Artūrs,Rubiks,Male,10,4,SC,1,Rīga,117064,13128,3523,126669,ievēlēts
+6,9,Nikolajs,Kabanovs,Male,10,4,SC,1,Rīga,117064,12400,2805,126659,ievēlēts
+7,7,Sergejs,Mirskis,Male,10,4,SC,1,Rīga,117064,11869,3645,125288,ievēlēts
+8,16,Igors,Pimenovs,Male,10,4,SC,1,Rīga,117064,7327,2111,122280,ievēlēts
+9,13,Mihails,Zemļinskis,Male,10,4,SC,1,Rīga,117064,7314,2338,122040,ievēlēts
+10,30,Igors,Meļņikovs,Male,10,4,SC,1,Rīga,117064,6791,2113,121742,ievēlēts
+11,18,Igors,Zujevs,Male,10,4,SC,1,Rīga,117064,6042,1966,121140,ievēlēts
+12,21,Ņikita,Ņikiforovs,Male,10,4,SC,1,Rīga,117064,6129,2086,121107,ievēlēts
+13,14,Aleksejs,Holostovs,Male,10,4,SC,1,Rīga,117064,6207,2256,121015,ievēlēts
+14,15,Sergejs,Potapkins,Male,10,4,SC,1,Rīga,117064,5666,1879,120851,""
+15,32,Aleksandrs,Vasiļjevs,Male,10,4,SC,1,Rīga,117064,5471,1687,120848,""
+16,19,Mihails,Černousovs,Male,10,4,SC,1,Rīga,117064,5479,1783,120760,""
+17,11,Guntars,Jirgensons,Male,10,4,SC,1,Rīga,117064,5481,1894,120651,""
+18,8,Anita,Jākobsone,Female,10,4,SC,1,Rīga,117064,5440,2097,120407,""
+19,22,Irina,Cvetkova,Female,10,4,SC,1,Rīga,117064,5535,2249,120350,""
+20,20,Ludmila,Lūse,Female,10,4,SC,1,Rīga,117064,5231,2064,120231,""
+21,28,Viktors,Paškovs,Male,10,4,SC,1,Rīga,117064,4831,1746,120149,""
+22,17,Oļegs,Sisoļatins,Male,10,4,SC,1,Rīga,117064,5088,2005,120147,""
+23,25,Mitrofans,Slobodjans,Male,10,4,SC,1,Rīga,117064,4942,2008,119998,""
+24,26,Tatjana,Sergejeva-Zusko,Female,10,4,SC,1,Rīga,117064,5011,2080,119995,""
+25,6,Egils,Rutkovskis,Male,10,4,SC,1,Rīga,117064,4990,2089,119965,""
+26,31,Irina,Verdana,Female,10,4,SC,1,Rīga,117064,4885,2023,119926,""
+27,27,Irina,Morusa,Female,10,4,SC,1,Rīga,117064,4914,2068,119910,""
+28,12,Armands,Strazds,Male,10,4,SC,1,Rīga,117064,4802,1969,119897,""
+29,10,Ingars,Burlaks,Male,10,4,SC,1,Rīga,117064,4589,2024,119629,""
+30,23,Valerijs,Džuranovičs,Male,10,4,SC,1,Rīga,117064,4426,2005,119485,""
+31,29,Aleksandrs,Gafts,Male,10,4,SC,1,Rīga,117064,4698,2321,119441,""
+32,24,Jāzeps,Kozurs,Male,10,4,SC,1,Rīga,117064,4348,2045,119367,""
+1,1,Ivans,Klementjevs,Male,10,4,SC,2,Vidzeme,38873,8915,1239,46549,ievēlēts
+2,3,Jānis,Ādamsons,Male,10,4,SC,2,Vidzeme,38873,7689,1503,45059,ievēlēts
+3,2,Juris,Silovs,Male,10,4,SC,2,Vidzeme,38873,3275,1113,41035,ievēlēts
+4,7,Aleksandrs,Sakovskis,Male,10,4,SC,2,Vidzeme,38873,2975,1098,40750,ievēlēts
+5,25,Viktors,Jakovļevs,Male,10,4,SC,2,Vidzeme,38873,2396,1015,40254,""
+6,29,Aleksandrs,Kuļikovs,Male,10,4,SC,2,Vidzeme,38873,2331,1050,40154,""
+7,26,Igors,Kuzmuks,Male,10,4,SC,2,Vidzeme,38873,2402,1125,40150,""
+8,28,Igors,Solovjovs,Male,10,4,SC,2,Vidzeme,38873,2255,1153,39975,""
+9,17,Inna,Belokurova,Female,10,4,SC,2,Vidzeme,38873,2222,1171,39924,""
+10,8,Elizabete,Krivcova,Female,10,4,SC,2,Vidzeme,38873,2190,1200,39863,""
+11,15,Mihails,Rogals,Male,10,4,SC,2,Vidzeme,38873,2452,1462,39863,""
+12,9,Jānis,Garbovskis,Male,10,4,SC,2,Vidzeme,38873,2083,1208,39748,""
+13,24,Vadims,Savkovs,Male,10,4,SC,2,Vidzeme,38873,1964,1134,39703,""
+14,21,Juris,Bistrakovs,Male,10,4,SC,2,Vidzeme,38873,1873,1071,39675,""
+15,16,Ivans,Pihtovs,Male,10,4,SC,2,Vidzeme,38873,1947,1156,39664,""
+16,6,Roberts,Bogomols,Male,10,4,SC,2,Vidzeme,38873,1907,1148,39632,""
+17,5,Jānis,Nīkrencis,Male,10,4,SC,2,Vidzeme,38873,2031,1283,39621,""
+18,11,Normunds,Aizpurs,Male,10,4,SC,2,Vidzeme,38873,1866,1213,39526,""
+19,27,Andrejs,Burvis,Male,10,4,SC,2,Vidzeme,38873,1768,1120,39521,""
+20,12,Inita,Sokolova,Female,10,4,SC,2,Vidzeme,38873,1813,1168,39518,""
+21,18,Jurijs,Kovrigins,Male,10,4,SC,2,Vidzeme,38873,1842,1199,39516,""
+22,30,Vineta,Sprugaine,Female,10,4,SC,2,Vidzeme,38873,1781,1201,39453,""
+23,23,Jeļena,Toca,Female,10,4,SC,2,Vidzeme,38873,1762,1249,39386,""
+24,10,Astra,Ozola,Female,10,4,SC,2,Vidzeme,38873,1773,1272,39374,""
+25,19,Imants,Jurevičius,Male,10,4,SC,2,Vidzeme,38873,1550,1096,39327,""
+26,20,Gints,Ritums,Male,10,4,SC,2,Vidzeme,38873,1619,1194,39298,""
+27,4,Lauris,Valainis,Male,10,4,SC,2,Vidzeme,38873,1677,1252,39298,""
+28,14,Ivars,Gavars,Male,10,4,SC,2,Vidzeme,38873,1636,1225,39284,""
+29,13,Zigurds,Beņķis,Male,10,4,SC,2,Vidzeme,38873,1623,1243,39253,""
+30,22,Uldis,Zommers,Male,10,4,SC,2,Vidzeme,38873,1535,1205,39203,""
+1,7,Ivans,Ribakovs,Male,10,4,SC,3,Latgale,59281,13985,2084,71182,ievēlēts
+2,1,Jānis,Tutins,Male,10,4,SC,3,Latgale,59281,12784,2703,69362,ievēlēts
+3,2,Raimonds,Rubiks,Male,10,4,SC,3,Latgale,59281,8086,2828,64539,ievēlēts
+4,15,Vladimirs,Nikonovs,Male,10,4,SC,3,Latgale,59281,7224,2178,64327,ievēlēts
+5,4,Aleksandrs,Jakimovs,Male,10,4,SC,3,Latgale,59281,6107,2292,63096,ievēlēts
+6,3,Aleksejs,Burunovs,Male,10,4,SC,3,Latgale,59281,7602,3978,62905,ievēlēts
+7,9,Sergejs,Fjodorovs,Male,10,4,SC,3,Latgale,59281,5789,2420,62650,ievēlēts
+8,11,Dmitrijs,Rodionovs,Male,10,4,SC,3,Latgale,59281,5088,2316,62053,ievēlēts
+9,18,Jeļena,Lazareva,Female,10,4,SC,3,Latgale,59281,4986,2415,61852,""
+10,6,Jānis,Krišāns,Male,10,4,SC,3,Latgale,59281,4561,2668,61174,""
+11,13,Marks,Dubovskis,Male,10,4,SC,3,Latgale,59281,4346,2496,61131,""
+12,17,Tatjana,Mieriņa,Female,10,4,SC,3,Latgale,59281,4250,2534,60997,""
+13,14,Pāvels,Rjazancevs,Male,10,4,SC,3,Latgale,59281,4091,2623,60749,""
+14,10,Biruta,Višņevska,Female,10,4,SC,3,Latgale,59281,3943,2565,60659,""
+15,12,Voldemārs,Dibaņins,Male,10,4,SC,3,Latgale,59281,3958,2619,60620,""
+16,8,Staņislavs,Jankelāns,Male,10,4,SC,3,Latgale,59281,3915,2700,60496,""
+17,5,Ēriks,Didrihsons,Male,10,4,SC,3,Latgale,59281,3956,2881,60356,""
+18,16,Ivans,Ludāns,Male,10,4,SC,3,Latgale,59281,3513,2489,60305,""
+19,19,Modris,Auziņš,Male,10,4,SC,3,Latgale,59281,3345,2644,59982,""
+1,1,Valērijs,Agešins,Male,10,4,SC,4,Kurzeme,15534,7836,424,22946,ievēlēts
+2,5,Valērijs,Kravcovs,Male,10,4,SC,4,Kurzeme,15534,3003,1230,17307,ievēlēts
+3,10,Sergejs,Dikterjovs,Male,10,4,SC,4,Kurzeme,15534,1784,727,16591,""
+4,2,Mārtiņš,Lauva,Male,10,4,SC,4,Kurzeme,15534,1668,623,16579,""
+5,3,Jānis,Matulis,Male,10,4,SC,4,Kurzeme,15534,1534,642,16426,""
+6,12,Romans,Miloslavskis,Male,10,4,SC,4,Kurzeme,15534,1630,870,16294,""
+7,4,Alīna,Rugine,Female,10,4,SC,4,Kurzeme,15534,1519,766,16287,""
+8,9,Indulis,Jankovskis,Male,10,4,SC,4,Kurzeme,15534,1346,655,16225,""
+9,13,Tatjana,Seikstule,Female,10,4,SC,4,Kurzeme,15534,1332,685,16181,""
+10,14,Juris,Haberkorns,Male,10,4,SC,4,Kurzeme,15534,1150,619,16065,""
+11,11,Viesturs,Āboliņš,Male,10,4,SC,4,Kurzeme,15534,1146,618,16062,""
+12,7,Ilona,Voļvača,Female,10,4,SC,4,Kurzeme,15534,1267,747,16054,""
+13,6,Leonards,Čamanis,Male,10,4,SC,4,Kurzeme,15534,1437,919,16052,""
+14,8,Anna,Juhimuka,Female,10,4,SC,4,Kurzeme,15534,1110,667,15977,""
+15,15,Olavs,Karelsons,Male,10,4,SC,4,Kurzeme,15534,1082,644,15972,""
+16,16,Dmitrijs,Butramjevs,Male,10,4,SC,4,Kurzeme,15534,1286,1072,15748,""
+1,1,Vitālijs,Orlovs,Male,10,4,SC,5,Zemgale,20648,5424,785,25287,ievēlēts
+2,7,Valentīns,Grigorjevs,Male,10,4,SC,5,Zemgale,20648,2610,825,22433,ievēlēts
+3,11,Sergejs,Volkovs,Male,10,4,SC,5,Zemgale,20648,2229,811,22066,""
+4,12,Vladimirs,Reskājs,Male,10,4,SC,5,Zemgale,20648,2127,784,21991,""
+5,6,Anatolijs,Grigorjevs,Male,10,4,SC,5,Zemgale,20648,2154,867,21935,""
+6,9,Mihails,Simonovs,Male,10,4,SC,5,Zemgale,20648,1979,726,21901,""
+7,13,Nikolajs,Sokols,Male,10,4,SC,5,Zemgale,20648,2009,771,21886,""
+8,2,Aivars,Bergers,Male,10,4,SC,5,Zemgale,20648,1893,763,21778,""
+9,17,Andrejs,Eihvalds,Male,10,4,SC,5,Zemgale,20648,1763,813,21598,""
+10,16,Ivars,Jakovels,Male,10,4,SC,5,Zemgale,20648,1575,782,21441,""
+11,14,Viktors,Valainis,Male,10,4,SC,5,Zemgale,20648,1655,879,21424,""
+12,3,Āris,Ruža,Male,10,4,SC,5,Zemgale,20648,1532,867,21313,""
+13,5,Kārlis,Plūmiņš,Male,10,4,SC,5,Zemgale,20648,1459,834,21273,""
+14,18,Māris,Skudra,Male,10,4,SC,5,Zemgale,20648,1413,801,21260,""
+15,4,Ainārs,Galviņš,Male,10,4,SC,5,Zemgale,20648,1437,842,21243,""
+16,15,Mareks,Žizņevskis,Male,10,4,SC,5,Zemgale,20648,1439,922,21165,""
+17,8,Valdis,Blūzma,Male,10,4,SC,5,Zemgale,20648,1241,769,21120,""
+18,10,Guntars,Ķirķis,Male,10,4,SC,5,Zemgale,20648,1185,849,20984,""
+1,1,Anatolijs,Romaņuks,Male,10,5,"Tautas kontrole",1,Rīga,1048,257,33,1272,N/A
+2,5,Normunds,Grostiņš,Male,10,5,"Tautas kontrole",1,Rīga,1048,153,23,1178,N/A
+3,2,Aļona,Jakuba,Female,10,5,"Tautas kontrole",1,Rīga,1048,94,38,1104,N/A
+4,3,Dmitrijs,Širjajevs,Male,10,5,"Tautas kontrole",1,Rīga,1048,85,31,1102,N/A
+5,14,Viktors,Dinēvičs,Male,10,5,"Tautas kontrole",1,Rīga,1048,80,31,1097,N/A
+6,11,Andrejs,Ņikiforovs,Male,10,5,"Tautas kontrole",1,Rīga,1048,75,32,1091,N/A
+7,7,Andrejs,Andrianovs,Male,10,5,"Tautas kontrole",1,Rīga,1048,67,27,1088,N/A
+8,31,Juris,Lapinskis,Male,10,5,"Tautas kontrole",1,Rīga,1048,57,23,1082,N/A
+9,4,Roberts,Volfs,Male,10,5,"Tautas kontrole",1,Rīga,1048,67,33,1082,N/A
+10,6,Olga,Samkova,Female,10,5,"Tautas kontrole",1,Rīga,1048,63,29,1082,N/A
+11,13,Viktorija,Petrova,Female,10,5,"Tautas kontrole",1,Rīga,1048,61,29,1080,N/A
+12,15,Ēriks,Tīrums,Male,10,5,"Tautas kontrole",1,Rīga,1048,57,28,1077,N/A
+13,10,Irīna,Tračuma,Female,10,5,"Tautas kontrole",1,Rīga,1048,54,28,1074,N/A
+14,21,Diāna,Špāka,Female,10,5,"Tautas kontrole",1,Rīga,1048,51,26,1073,N/A
+15,8,Arturs,Lifšics,Male,10,5,"Tautas kontrole",1,Rīga,1048,53,29,1072,N/A
+16,23,Kaspars,Zariņš,Male,10,5,"Tautas kontrole",1,Rīga,1048,51,28,1071,N/A
+17,17,Ināra,Bertulāne,Female,10,5,"Tautas kontrole",1,Rīga,1048,46,25,1069,N/A
+18,20,Vitālijs,Ozerskis,Male,10,5,"Tautas kontrole",1,Rīga,1048,45,25,1068,N/A
+19,9,Mihails,Kļackins,Male,10,5,"Tautas kontrole",1,Rīga,1048,55,36,1067,N/A
+20,27,Egīls,Turks,Male,10,5,"Tautas kontrole",1,Rīga,1048,43,25,1066,N/A
+21,19,Olga,Zeļika,Female,10,5,"Tautas kontrole",1,Rīga,1048,44,27,1065,N/A
+22,16,Nikolajs,Šmidts,Male,10,5,"Tautas kontrole",1,Rīga,1048,43,26,1065,N/A
+23,26,Valentīna,Badaņina,Female,10,5,"Tautas kontrole",1,Rīga,1048,46,33,1061,N/A
+24,12,Aleksejs,Piļipeiko,Male,10,5,"Tautas kontrole",1,Rīga,1048,44,31,1061,N/A
+25,25,Māris,Majausks,Male,10,5,"Tautas kontrole",1,Rīga,1048,41,30,1059,N/A
+26,24,Indra,Lapšina,Female,10,5,"Tautas kontrole",1,Rīga,1048,42,32,1058,N/A
+27,18,Mihails,Petruņa,Male,10,5,"Tautas kontrole",1,Rīga,1048,39,31,1056,N/A
+28,28,Iļja,Sterņins,Male,10,5,"Tautas kontrole",1,Rīga,1048,41,35,1054,N/A
+29,22,Oļģerts,Močuļskis,Male,10,5,"Tautas kontrole",1,Rīga,1048,38,32,1054,N/A
+30,30,Ilmārs,Drullis,Male,10,5,"Tautas kontrole",1,Rīga,1048,40,35,1053,N/A
+31,29,Alla,Dzevaltovska,Female,10,5,"Tautas kontrole",1,Rīga,1048,36,39,1045,N/A
+1,1,Rihards,Jablokovs,Male,10,5,"Tautas kontrole",2,Vidzeme,1097,255,43,1309,N/A
+2,10,Aivars,Krūmiņš,Male,10,5,"Tautas kontrole",2,Vidzeme,1097,132,34,1195,N/A
+3,2,Igors,Tračums,Male,10,5,"Tautas kontrole",2,Vidzeme,1097,128,44,1181,N/A
+4,3,Artūrs,Andersons,Male,10,5,"Tautas kontrole",2,Vidzeme,1097,123,48,1172,N/A
+5,4,Mārtiņš,Eglītis,Male,10,5,"Tautas kontrole",2,Vidzeme,1097,103,34,1166,N/A
+6,11,Vineta,Kalniņa,Female,10,5,"Tautas kontrole",2,Vidzeme,1097,107,40,1164,N/A
+7,5,Iveta,Antona,Female,10,5,"Tautas kontrole",2,Vidzeme,1097,111,47,1161,N/A
+8,6,Elīna,Dubrovska,Female,10,5,"Tautas kontrole",2,Vidzeme,1097,103,44,1156,N/A
+9,9,Pēteris,Černis,Male,10,5,"Tautas kontrole",2,Vidzeme,1097,91,47,1141,N/A
+10,8,Gatis,Klūga,Male,10,5,"Tautas kontrole",2,Vidzeme,1097,87,46,1138,N/A
+11,7,Vladeks,Hains,Male,10,5,"Tautas kontrole",2,Vidzeme,1097,91,53,1135,N/A
+1,1,Maija,Zālīte,Female,10,5,"Tautas kontrole",3,Latgale,548,121,29,640,N/A
+2,5,Ilona,Aleksandrova,Female,10,5,"Tautas kontrole",3,Latgale,548,74,42,580,N/A
+3,7,Jānis,Žogla,Male,10,5,"Tautas kontrole",3,Latgale,548,73,43,578,N/A
+4,2,Arturs,Gaidels,Male,10,5,"Tautas kontrole",3,Latgale,548,65,38,575,N/A
+5,4,Jurijs,Kisļaks,Male,10,5,"Tautas kontrole",3,Latgale,548,68,42,574,N/A
+6,3,Dzidra,Kalniņa,Female,10,5,"Tautas kontrole",3,Latgale,548,68,43,573,N/A
+7,6,Vladislavs,Šendriks,Male,10,5,"Tautas kontrole",3,Latgale,548,62,42,568,N/A
+1,1,Elita,Kosaka,Female,10,5,"Tautas kontrole",4,Kurzeme,600,195,42,753,N/A
+2,3,Tālivaldis,Macpans,Male,10,5,"Tautas kontrole",4,Kurzeme,600,109,38,671,N/A
+3,2,Jeļena,Garbuzova,Female,10,5,"Tautas kontrole",4,Kurzeme,600,78,65,613,N/A
+4,4,Mārīte,Jansone,Female,10,5,"Tautas kontrole",4,Kurzeme,600,64,53,611,N/A
+5,6,Elīna,Petroženko,Female,10,5,"Tautas kontrole",4,Kurzeme,600,53,56,597,N/A
+6,5,Valērijs,Godunovs,Male,10,5,"Tautas kontrole",4,Kurzeme,600,54,69,585,N/A
+1,1,Māris,Vanags,Male,10,5,"Tautas kontrole",5,Zemgale,709,151,20,840,N/A
+2,2,Juris,Turkopolis,Male,10,5,"Tautas kontrole",5,Zemgale,709,79,24,764,N/A
+3,5,Inārs,Vaļums,Male,10,5,"Tautas kontrole",5,Zemgale,709,77,27,759,N/A
+4,10,Solvita,Bondarenoka,Female,10,5,"Tautas kontrole",5,Zemgale,709,75,29,755,N/A
+5,3,Ainārs,Komarovskis,Male,10,5,"Tautas kontrole",5,Zemgale,709,74,30,753,N/A
+6,7,Ligita,Nukse,Female,10,5,"Tautas kontrole",5,Zemgale,709,70,26,753,N/A
+7,9,Vilis,Nežberts,Male,10,5,"Tautas kontrole",5,Zemgale,709,63,29,743,N/A
+8,11,Osvalds,Bondarenoks,Male,10,5,"Tautas kontrole",5,Zemgale,709,61,29,741,N/A
+9,6,Inga,Sovas,Female,10,5,"Tautas kontrole",5,Zemgale,709,60,28,741,N/A
+10,8,Arnis,Narogs,Male,10,5,"Tautas kontrole",5,Zemgale,709,57,31,735,N/A
+11,4,Vjačeslavs,Rūķis,Male,10,5,"Tautas kontrole",5,Zemgale,709,59,34,734,N/A
+1,1,Raimonds,Vējonis,Male,10,6,ZZS,1,Rīga,31508,6376,1745,36139,ievēlēts
+2,2,Kārlis,Seržants,Male,10,6,ZZS,1,Rīga,31508,4811,2779,33540,ievēlēts
+3,3,Jānis,Strazdiņš,Male,10,6,ZZS,1,Rīga,31508,2507,1717,32298,ievēlēts
+4,15,Māris,Dzelzskalns,Male,10,6,ZZS,1,Rīga,31508,923,1395,31036,""
+5,10,Juris,Vectirāns,Male,10,6,ZZS,1,Rīga,31508,1212,1876,30844,""
+6,12,Kārlis,Krēsliņš,Male,10,6,ZZS,1,Rīga,31508,774,1472,30810,""
+7,13,Arvīds,Ulme,Male,10,6,ZZS,1,Rīga,31508,1415,2114,30809,""
+8,24,Jānis,Grasis,Male,10,6,ZZS,1,Rīga,31508,731,1461,30778,""
+9,32,Askolds,Kļaviņš,Male,10,6,ZZS,1,Rīga,31508,960,1720,30748,""
+10,31,Artis,Stucka,Male,10,6,ZZS,1,Rīga,31508,747,1527,30728,""
+11,7,Silva,Ozoliņa,Female,10,6,ZZS,1,Rīga,31508,882,1666,30724,""
+12,23,Jānis,Lubiņš,Male,10,6,ZZS,1,Rīga,31508,601,1436,30673,""
+13,11,Rolands,Broks,Male,10,6,ZZS,1,Rīga,31508,700,1584,30624,""
+14,22,Mārtiņš,Jirgens,Male,10,6,ZZS,1,Rīga,31508,566,1520,30554,""
+15,29,Gita,Rēvalde,Female,10,6,ZZS,1,Rīga,31508,592,1560,30540,""
+16,30,Uldis,Kanders,Male,10,6,ZZS,1,Rīga,31508,536,1514,30530,""
+17,9,Edgars,Tavars,Male,10,6,ZZS,1,Rīga,31508,628,1610,30526,""
+18,17,Anita,Biķerniece,Female,10,6,ZZS,1,Rīga,31508,552,1538,30522,""
+19,25,Solvita,Rudoviča,Female,10,6,ZZS,1,Rīga,31508,667,1684,30491,""
+20,6,Valdis,Kalnozols,Male,10,6,ZZS,1,Rīga,31508,1472,2495,30485,""
+21,26,Dita,Lūka,Female,10,6,ZZS,1,Rīga,31508,570,1606,30472,""
+22,18,Ilona,Līce,Female,10,6,ZZS,1,Rīga,31508,561,1600,30469,""
+23,28,Egīls,Īverts,Male,10,6,ZZS,1,Rīga,31508,456,1561,30403,""
+24,27,Vita,Mole,Female,10,6,ZZS,1,Rīga,31508,471,1643,30336,""
+25,16,Uģis,Rūķītis,Male,10,6,ZZS,1,Rīga,31508,941,2119,30330,""
+26,8,Andrejs,Staķis,Male,10,6,ZZS,1,Rīga,31508,730,1935,30303,""
+27,20,Aleksandrs,Zoltners,Male,10,6,ZZS,1,Rīga,31508,524,1799,30233,""
+28,21,Lelde,Lobodinska,Female,10,6,ZZS,1,Rīga,31508,457,1762,30203,""
+29,14,Iveta,Purne,Female,10,6,ZZS,1,Rīga,31508,898,2316,30090,""
+30,5,Dmitrijs,Smirnovs,Male,10,6,ZZS,1,Rīga,31508,1033,2656,29885,""
+31,19,Aivars,Visockis,Male,10,6,ZZS,1,Rīga,31508,1400,3416,29492,""
+32,4,Imants,Kalniņš,Male,10,6,ZZS,1,Rīga,31508,1924,4430,29002,""
+1,2,Ingmārs,Līdaka,Male,10,6,ZZS,2,Vidzeme,58909,17524,3575,72858,ievēlēts
+2,1,Jānis,Dūklavs,Male,10,6,ZZS,2,Vidzeme,58909,13730,2602,70037,ievēlēts
+3,9,Iveta,Grigule,Female,10,6,ZZS,2,Vidzeme,58909,4070,3340,59639,ievēlēts
+4,4,Andris,Bērziņš,Male,10,6,ZZS,2,Vidzeme,58909,3798,4368,58339,ievēlēts
+5,5,Armands,Krauze,Male,10,6,ZZS,2,Vidzeme,58909,2199,3205,57903,ievēlēts
+6,3,Vitauts,Staņa,Male,10,6,ZZS,2,Vidzeme,58909,2737,3801,57845,ievēlēts
+7,17,Didzis,Zemmers,Male,10,6,ZZS,2,Vidzeme,58909,1987,3103,57793,""
+8,20,Laimis,Šāvējs,Male,10,6,ZZS,2,Vidzeme,58909,1736,3124,57521,""
+9,10,Indulis,Jansons,Male,10,6,ZZS,2,Vidzeme,58909,1549,3010,57448,""
+10,6,Inese,Aizstrauta,Female,10,6,ZZS,2,Vidzeme,58909,2664,4191,57382,""
+11,24,"Guntis Jānis",Eniņš,Male,10,6,ZZS,2,Vidzeme,58909,2036,3592,57353,""
+12,14,Modris,Grantiņš,Male,10,6,ZZS,2,Vidzeme,58909,1449,3061,57297,""
+13,29,Aivars,Straume,Male,10,6,ZZS,2,Vidzeme,58909,1719,3364,57264,""
+14,26,Andis,Kāposts,Male,10,6,ZZS,2,Vidzeme,58909,3223,5029,57103,""
+15,13,"Mārtiņš Ritums",Treimanis,Male,10,6,ZZS,2,Vidzeme,58909,1370,3199,57080,""
+16,27,Gunārs,Ciglis,Male,10,6,ZZS,2,Vidzeme,58909,1271,3163,57017,""
+17,19,Aivars,Smagars,Male,10,6,ZZS,2,Vidzeme,58909,1213,3127,56995,""
+18,25,Guntis,Vilnītis,Male,10,6,ZZS,2,Vidzeme,58909,1329,3268,56970,""
+19,30,Indriķis,Putniņš,Male,10,6,ZZS,2,Vidzeme,58909,1447,3390,56966,""
+20,11,Regīna,Simsone,Female,10,6,ZZS,2,Vidzeme,58909,1328,3329,56908,""
+21,15,Biruta,Eglīte,Female,10,6,ZZS,2,Vidzeme,58909,1266,3300,56875,""
+22,12,Roberts,Ozols,Male,10,6,ZZS,2,Vidzeme,58909,1119,3167,56861,""
+23,23,Andis,Kļaviņš,Male,10,6,ZZS,2,Vidzeme,58909,986,3054,56841,""
+24,16,Guntis,Albergs,Male,10,6,ZZS,2,Vidzeme,58909,1085,3219,56775,""
+25,7,Saulcerīte,Indričeva,Female,10,6,ZZS,2,Vidzeme,58909,1568,3866,56611,""
+26,18,Vladislavs,Šlēgelmilhs,Male,10,6,ZZS,2,Vidzeme,58909,1710,4050,56569,""
+27,28,Ilona,Jurševska,Female,10,6,ZZS,2,Vidzeme,58909,910,3468,56351,""
+28,22,"Mārtiņš Gunārs",Bauze-Krastiņš,Male,10,6,ZZS,2,Vidzeme,58909,852,3433,56328,""
+29,21,Jānis,Golubevs,Male,10,6,ZZS,2,Vidzeme,58909,891,3490,56310,""
+30,8,Aleksandrs,Kiršteins,Male,10,6,ZZS,2,Vidzeme,58909,2297,5040,56166,""
+1,10,Jānis,Klaužs,Male,10,6,ZZS,3,Latgale,20844,3133,2142,21835,ievēlēts
+2,1,Staņislavs,Šķesters,Male,10,6,ZZS,3,Latgale,20844,3626,2737,21733,ievēlēts
+3,4,Rihards,Eigims,Male,10,6,ZZS,3,Latgale,20844,3465,4145,20164,ievēlēts
+4,2,Skaidrīte,Pilāte,Female,10,6,ZZS,3,Latgale,20844,1905,2735,20014,""
+5,16,Andris,Kazinovskis,Male,10,6,ZZS,3,Latgale,20844,1501,2678,19667,""
+6,18,Aldis,Ločmelis,Male,10,6,ZZS,3,Latgale,20844,1254,2527,19571,""
+7,14,Pēteris,Stanka,Male,10,6,ZZS,3,Latgale,20844,1197,2489,19552,""
+8,9,Maigurs,Krievāns,Male,10,6,ZZS,3,Latgale,20844,1249,2708,19385,""
+9,11,Terēza,Brazeviča,Female,10,6,ZZS,3,Latgale,20844,1134,2613,19365,""
+10,5,Juris,Atstupens,Male,10,6,ZZS,3,Latgale,20844,1244,2807,19281,""
+11,17,Juris,Ostrovskis,Male,10,6,ZZS,3,Latgale,20844,1089,2693,19240,""
+12,12,Vitālijs,Plivda,Male,10,6,ZZS,3,Latgale,20844,1086,2803,19127,""
+13,6,Silvija,Dreimane,Female,10,6,ZZS,3,Latgale,20844,931,2792,18983,""
+14,15,Aivars,Birulis,Male,10,6,ZZS,3,Latgale,20844,715,2700,18859,""
+15,13,Ināra,Ostrovska,Female,10,6,ZZS,3,Latgale,20844,1131,3187,18788,""
+16,7,Andrejs,Svilāns,Male,10,6,ZZS,3,Latgale,20844,635,2793,18686,""
+17,8,Arkādijs,Posevins,Male,10,6,ZZS,3,Latgale,20844,408,2989,18263,""
+18,19,Viktors,Ščerbatihs,Male,10,6,ZZS,3,Latgale,20844,1152,4408,17588,""
+19,3,Mārtiņš,Roze,Male,10,6,ZZS,3,Latgale,20844,1633,5201,17276,""
+1,1,Gundars,Daudze,Male,10,6,ZZS,4,Kurzeme,40648,9052,3530,46170,ievēlēts
+2,2,Aija,Barča,Female,10,6,ZZS,4,Kurzeme,40648,4969,2967,42650,ievēlēts
+3,15,Jānis,Vucāns,Male,10,6,ZZS,4,Kurzeme,40648,2936,2179,41405,ievēlēts
+4,7,Dana,Reizniece,Female,10,6,ZZS,4,Kurzeme,40648,2966,2228,41386,ievēlēts
+5,5,Oskars,Zīds,Male,10,6,ZZS,4,Kurzeme,40648,2781,2510,40919,ievēlēts
+6,6,Alfons,Spēks,Male,10,6,ZZS,4,Kurzeme,40648,2323,2351,40620,""
+7,10,Tālvaldis,Bergmanis,Male,10,6,ZZS,4,Kurzeme,40648,2138,2310,40476,""
+8,13,Dita,Role,Female,10,6,ZZS,4,Kurzeme,40648,1803,2373,40078,""
+9,8,Mārtiņš,Martinsons,Male,10,6,ZZS,4,Kurzeme,40648,1632,2259,40021,""
+10,14,Pēteris,Hanka,Male,10,6,ZZS,4,Kurzeme,40648,2138,2950,39836,""
+11,9,Vineta,Ķine,Female,10,6,ZZS,4,Kurzeme,40648,1741,2591,39798,""
+12,11,Jānis,Abakuks,Male,10,6,ZZS,4,Kurzeme,40648,1946,2946,39648,""
+13,3,Arnis,Luhse,Male,10,6,ZZS,4,Kurzeme,40648,1427,2564,39511,""
+14,12,Aivars,Tutins,Male,10,6,ZZS,4,Kurzeme,40648,1259,2607,39300,""
+15,16,Miervaldis,Krotovs,Male,10,6,ZZS,4,Kurzeme,40648,1953,3303,39298,""
+16,4,Dagnija,Staķe,Female,10,6,ZZS,4,Kurzeme,40648,3306,5456,38498,""
+1,1,Augusts,Brigmanis,Male,10,6,ZZS,5,Zemgale,38116,7607,3228,42495,ievēlēts
+2,2,Andris,Bērziņš,Male,10,6,ZZS,5,Zemgale,38116,4751,3158,39709,ievēlēts
+3,8,Uldis,Augulis,Male,10,6,ZZS,5,Zemgale,38116,3554,2313,39357,ievēlēts
+4,7,Dace,Reinika,Female,10,6,ZZS,5,Zemgale,38116,3159,2723,38552,ievēlēts
+5,11,Aivars,Dronka,Male,10,6,ZZS,5,Zemgale,38116,1720,2211,37625,ievēlēts
+6,6,Guntis,Rozītis,Male,10,6,ZZS,5,Zemgale,38116,1791,2334,37573,""
+7,14,Jānis,Kalniņš,Male,10,6,ZZS,5,Zemgale,38116,1610,2161,37565,""
+8,13,Juris,Cielavs,Male,10,6,ZZS,5,Zemgale,38116,1583,2296,37403,""
+9,16,Alfreds,Ķieģelis,Male,10,6,ZZS,5,Zemgale,38116,1735,2501,37350,""
+10,18,Daiga,Reča,Female,10,6,ZZS,5,Zemgale,38116,1814,2604,37326,""
+11,10,Ilze,Vītola,Female,10,6,ZZS,5,Zemgale,38116,1577,2378,37315,""
+12,9,Jānis,Kovals,Male,10,6,ZZS,5,Zemgale,38116,1461,2332,37245,""
+13,17,Kristaps,Budrēvics,Male,10,6,ZZS,5,Zemgale,38116,1132,2435,36813,""
+14,12,Rūta,Bendere,Female,10,6,ZZS,5,Zemgale,38116,1025,2384,36757,""
+15,15,Irēna,Romanovska,Female,10,6,ZZS,5,Zemgale,38116,1089,2489,36716,""
+16,5,Jevgenijs,Kisiels,Male,10,6,ZZS,5,Zemgale,38116,1517,3211,36422,""
+17,4,Baiba,Rivža,Female,10,6,ZZS,5,Zemgale,38116,2947,5557,35506,""
+18,3,Viola,Lāzo,Female,10,6,ZZS,5,Zemgale,38116,2381,6420,34077,""
+1,1,Guntis,Šēnhofs,Male,10,7,"Par prezidentālu republiku",1,Rīga,1524,203,73,1654,N/A
+2,5,Jānis,Grigalis,Male,10,7,"Par prezidentālu republiku",1,Rīga,1524,124,61,1587,N/A
+3,9,Voldemārs,Lūsis,Male,10,7,"Par prezidentālu republiku",1,Rīga,1524,100,57,1567,N/A
+4,2,Egils,Bisenieks,Male,10,7,"Par prezidentālu republiku",1,Rīga,1524,96,53,1567,N/A
+5,4,Andris,Rubins,Male,10,7,"Par prezidentālu republiku",1,Rīga,1524,108,77,1555,N/A
+6,3,Eduards,Mihaļevičs,Male,10,7,"Par prezidentālu republiku",1,Rīga,1524,89,69,1544,N/A
+7,28,Odisejs,Kostanda,Male,10,7,"Par prezidentālu republiku",1,Rīga,1524,110,93,1541,N/A
+8,7,Marģers,Briedis,Male,10,7,"Par prezidentālu republiku",1,Rīga,1524,78,65,1537,N/A
+9,17,Aigars,Bondars,Male,10,7,"Par prezidentālu republiku",1,Rīga,1524,67,54,1537,N/A
+10,12,Leons,Mežeckis,Male,10,7,"Par prezidentālu republiku",1,Rīga,1524,64,51,1537,N/A
+11,8,Evija,Papule,Female,10,7,"Par prezidentālu republiku",1,Rīga,1524,71,63,1532,N/A
+12,15,Sanita,Vīlistere,Female,10,7,"Par prezidentālu republiku",1,Rīga,1524,61,56,1529,N/A
+13,6,Miks,Pētersons,Male,10,7,"Par prezidentālu republiku",1,Rīga,1524,63,58,1529,N/A
+14,21,Margots,Rotbergs,Male,10,7,"Par prezidentālu republiku",1,Rīga,1524,58,57,1525,N/A
+15,27,Imants,Kārkliņš,Male,10,7,"Par prezidentālu republiku",1,Rīga,1524,48,48,1524,N/A
+16,20,Marika,Skulte,Female,10,7,"Par prezidentālu republiku",1,Rīga,1524,54,59,1519,N/A
+17,10,Andris,Priekulis,Male,10,7,"Par prezidentālu republiku",1,Rīga,1524,50,55,1519,N/A
+18,19,Anna,Rungule,Female,10,7,"Par prezidentālu republiku",1,Rīga,1524,52,58,1518,N/A
+19,11,Juris,Kiriks,Male,10,7,"Par prezidentālu republiku",1,Rīga,1524,50,61,1513,N/A
+20,23,Ronalds,Skarainis,Male,10,7,"Par prezidentālu republiku",1,Rīga,1524,45,57,1512,N/A
+21,22,Anda,Rautenšilde,Female,10,7,"Par prezidentālu republiku",1,Rīga,1524,41,56,1509,N/A
+22,14,Aivars,Ikaunieks,Male,10,7,"Par prezidentālu republiku",1,Rīga,1524,39,56,1507,N/A
+23,24,Ralfs,Stašāns,Male,10,7,"Par prezidentālu republiku",1,Rīga,1524,42,60,1506,N/A
+24,13,Jurijs,Ņefedovs,Male,10,7,"Par prezidentālu republiku",1,Rīga,1524,54,74,1504,N/A
+25,25,Jevgeņija,Martinsone,Female,10,7,"Par prezidentālu republiku",1,Rīga,1524,41,66,1499,N/A
+26,18,Staņislavs,Armands,Male,10,7,"Par prezidentālu republiku",1,Rīga,1524,34,59,1499,N/A
+27,26,Egons,Vanuška,Male,10,7,"Par prezidentālu republiku",1,Rīga,1524,36,64,1496,N/A
+28,16,Aleksandrs,Vološins,Male,10,7,"Par prezidentālu republiku",1,Rīga,1524,37,68,1493,N/A
+1,1,Aigars,Taukulis,Male,10,7,"Par prezidentālu republiku",2,Vidzeme,2171,296,115,2352,N/A
+2,3,Jānis,Nebars,Male,10,7,"Par prezidentālu republiku",2,Vidzeme,2171,165,94,2242,N/A
+3,2,Oskars,Grīgs,Male,10,7,"Par prezidentālu republiku",2,Vidzeme,2171,220,162,2229,N/A
+4,5,Agnese,Buša,Female,10,7,"Par prezidentālu republiku",2,Vidzeme,2171,147,102,2216,N/A
+5,12,Imants,Pulkstenis,Male,10,7,"Par prezidentālu republiku",2,Vidzeme,2171,132,90,2213,N/A
+6,6,Indulis,Krūmiņš,Male,10,7,"Par prezidentālu republiku",2,Vidzeme,2171,133,92,2212,N/A
+7,7,Aldis,Neimanis,Male,10,7,"Par prezidentālu republiku",2,Vidzeme,2171,118,90,2199,N/A
+8,4,Ulrika,Auniņa,Female,10,7,"Par prezidentālu republiku",2,Vidzeme,2171,124,100,2195,N/A
+9,21,Māra,Ose,Female,10,7,"Par prezidentālu republiku",2,Vidzeme,2171,107,90,2188,N/A
+10,11,Intars,Zommers,Male,10,7,"Par prezidentālu republiku",2,Vidzeme,2171,108,97,2182,N/A
+11,17,Rihards,Pušmucāns,Male,10,7,"Par prezidentālu republiku",2,Vidzeme,2171,98,93,2176,N/A
+12,8,Reinis,Pētersons,Male,10,7,"Par prezidentālu republiku",2,Vidzeme,2171,94,94,2171,N/A
+13,9,Andrejs,Kurss,Male,10,7,"Par prezidentālu republiku",2,Vidzeme,2171,96,99,2168,N/A
+14,15,Normunds,Kokins,Male,10,7,"Par prezidentālu republiku",2,Vidzeme,2171,90,103,2158,N/A
+15,13,Raitis,Veske,Male,10,7,"Par prezidentālu republiku",2,Vidzeme,2171,84,98,2157,N/A
+16,18,Marianna,Sproģe,Female,10,7,"Par prezidentālu republiku",2,Vidzeme,2171,82,98,2155,N/A
+17,19,Armands,Gržibovskis,Male,10,7,"Par prezidentālu republiku",2,Vidzeme,2171,80,97,2154,N/A
+18,22,Normunds,Rasļenoks,Male,10,7,"Par prezidentālu republiku",2,Vidzeme,2171,76,104,2143,N/A
+19,20,Aivars,Remesis,Male,10,7,"Par prezidentālu republiku",2,Vidzeme,2171,71,101,2141,N/A
+20,10,Zinta,Hāka,Female,10,7,"Par prezidentālu republiku",2,Vidzeme,2171,84,114,2141,N/A
+21,14,Roberts,Korņejevs,Male,10,7,"Par prezidentālu republiku",2,Vidzeme,2171,70,102,2139,N/A
+22,16,Marģers,Martinsons,Male,10,7,"Par prezidentālu republiku",2,Vidzeme,2171,80,150,2101,N/A
+1,1,Leons,Bojārs,Male,10,7,"Par prezidentālu republiku",3,Latgale,983,141,109,1015,N/A
+2,14,Juris,Ločmelis,Male,10,7,"Par prezidentālu republiku",3,Latgale,983,103,73,1013,N/A
+3,7,Kaspars,Pīzelis,Male,10,7,"Par prezidentālu republiku",3,Latgale,983,99,79,1003,N/A
+4,8,Marija,Zeltiņa,Female,10,7,"Par prezidentālu republiku",3,Latgale,983,100,80,1003,N/A
+5,5,Juris,Japiņš,Male,10,7,"Par prezidentālu republiku",3,Latgale,983,95,93,985,N/A
+6,6,Kaspars,Barons,Male,10,7,"Par prezidentālu republiku",3,Latgale,983,84,85,982,N/A
+7,4,Andris,Bērziņš,Male,10,7,"Par prezidentālu republiku",3,Latgale,983,85,90,978,N/A
+8,15,Otomārs,Vancāns,Male,10,7,"Par prezidentālu republiku",3,Latgale,983,71,90,964,N/A
+9,13,Konstantīns,Andžāns,Male,10,7,"Par prezidentālu republiku",3,Latgale,983,78,97,964,N/A
+10,11,Juris,Briedis,Male,10,7,"Par prezidentālu republiku",3,Latgale,983,66,89,960,N/A
+11,9,Jurijs,Smirnovs,Male,10,7,"Par prezidentālu republiku",3,Latgale,983,74,100,957,N/A
+12,2,Jānis,Muciņš,Male,10,7,"Par prezidentālu republiku",3,Latgale,983,68,95,956,N/A
+13,3,Andrejs,Čevers,Male,10,7,"Par prezidentālu republiku",3,Latgale,983,76,103,956,N/A
+14,10,Margarita,Visocka,Female,10,7,"Par prezidentālu republiku",3,Latgale,983,54,91,946,N/A
+15,16,Egīls,Beinarovičs,Male,10,7,"Par prezidentālu republiku",3,Latgale,983,51,94,940,N/A
+16,12,Aivars,Saliņš,Male,10,7,"Par prezidentālu republiku",3,Latgale,983,39,92,930,N/A
+1,1,Dainars,Dambergs,Male,10,7,"Par prezidentālu republiku",4,Kurzeme,1289,244,67,1466,N/A
+2,8,Āris,Žentiņš,Male,10,7,"Par prezidentālu republiku",4,Kurzeme,1289,120,59,1350,N/A
+3,4,Egīls,Purmalis,Male,10,7,"Par prezidentālu republiku",4,Kurzeme,1289,111,65,1335,N/A
+4,3,Arvis,Porgailis,Male,10,7,"Par prezidentālu republiku",4,Kurzeme,1289,109,66,1332,N/A
+5,9,Andris,Maisiņš,Male,10,7,"Par prezidentālu republiku",4,Kurzeme,1289,101,71,1319,N/A
+6,2,Augusts,Kūravs,Male,10,7,"Par prezidentālu republiku",4,Kurzeme,1289,85,56,1318,N/A
+7,5,Māris,Spriņģis,Male,10,7,"Par prezidentālu republiku",4,Kurzeme,1289,93,67,1315,N/A
+8,7,Guntis,Peterlevics,Male,10,7,"Par prezidentālu republiku",4,Kurzeme,1289,87,65,1311,N/A
+9,11,Baiba,Grosbarte,Female,10,7,"Par prezidentālu republiku",4,Kurzeme,1289,79,65,1303,N/A
+10,12,Jānis,Letinskis,Male,10,7,"Par prezidentālu republiku",4,Kurzeme,1289,81,69,1301,N/A
+11,10,Herberts,Laukšteins,Male,10,7,"Par prezidentālu republiku",4,Kurzeme,1289,83,73,1299,N/A
+12,13,Guntis,Kolerts,Male,10,7,"Par prezidentālu republiku",4,Kurzeme,1289,74,67,1296,N/A
+13,6,Sandra,Lukjaņenoka,Female,10,7,"Par prezidentālu republiku",4,Kurzeme,1289,88,83,1294,N/A
+1,1,Einars,Grigors,Male,10,7,"Par prezidentālu republiku",5,Zemgale,1135,188,51,1272,N/A
+2,2,Ints,Cālītis,Male,10,7,"Par prezidentālu republiku",5,Zemgale,1135,111,67,1179,N/A
+3,14,Ivars,Amoliņš,Male,10,7,"Par prezidentālu republiku",5,Zemgale,1135,96,64,1167,N/A
+4,11,Vaironis,Dreimanis,Male,10,7,"Par prezidentālu republiku",5,Zemgale,1135,94,64,1165,N/A
+5,3,Ingera,Baltiņa,Female,10,7,"Par prezidentālu republiku",5,Zemgale,1135,92,65,1162,N/A
+6,5,Uldis,Priede,Male,10,7,"Par prezidentālu republiku",5,Zemgale,1135,80,68,1147,N/A
+7,4,Varis,Bogdanovs,Male,10,7,"Par prezidentālu republiku",5,Zemgale,1135,64,61,1138,N/A
+8,7,Andris,Bents,Male,10,7,"Par prezidentālu republiku",5,Zemgale,1135,62,67,1130,N/A
+9,9,Aiva,Freimane,Female,10,7,"Par prezidentālu republiku",5,Zemgale,1135,73,79,1129,N/A
+10,8,Jānis,Augucēvičs,Male,10,7,"Par prezidentālu republiku",5,Zemgale,1135,62,72,1125,N/A
+11,13,Orests,Kubarko,Male,10,7,"Par prezidentālu republiku",5,Zemgale,1135,59,80,1114,N/A
+12,12,Liene,Bērtaite,Female,10,7,"Par prezidentālu republiku",5,Zemgale,1135,57,80,1112,N/A
+13,6,Tatjana,Druka,Female,10,7,"Par prezidentālu republiku",5,Zemgale,1135,64,94,1105,N/A
+14,10,Marika,Dehnika,Female,10,7,"Par prezidentālu republiku",5,Zemgale,1135,52,85,1102,N/A
+1,1,Ainārs,Šlesers,Male,10,8,"Par Labu Latviju",1,Rīga,23073,14532,1665,35940,ievēlēts
+2,32,Inese,Šlesere,Female,10,8,"Par Labu Latviju",1,Rīga,23073,3672,2315,24430,ievēlēts
+3,3,Māris,Riekstiņš,Male,10,8,"Par Labu Latviju",1,Rīga,23073,3444,2111,24406,""
+4,5,Andris,Bērziņš,Male,10,8,"Par Labu Latviju",1,Rīga,23073,2914,2556,23431,""
+5,29,Inta,Feldmane,Female,10,8,"Par Labu Latviju",1,Rīga,23073,1573,1962,22684,""
+6,30,Jānis,Šmits,Male,10,8,"Par Labu Latviju",1,Rīga,23073,1504,2203,22374,""
+7,9,Andris,Ārgalis,Male,10,8,"Par Labu Latviju",1,Rīga,23073,1977,3097,21953,""
+8,17,Valdis,Ģīlis,Male,10,8,"Par Labu Latviju",1,Rīga,23073,980,2206,21847,""
+9,28,Agris,Ameriks,Male,10,8,"Par Labu Latviju",1,Rīga,23073,1219,2459,21833,""
+10,24,Normunds,Teteris,Male,10,8,"Par Labu Latviju",1,Rīga,23073,841,2098,21816,""
+11,19,Rihards,Pīks,Male,10,8,"Par Labu Latviju",1,Rīga,23073,1315,2681,21707,""
+12,2,Aleksejs,Šeiņins,Male,10,8,"Par Labu Latviju",1,Rīga,23073,1586,2957,21702,""
+13,26,Igors,Puntuss,Male,10,8,"Par Labu Latviju",1,Rīga,23073,823,2196,21700,""
+14,7,Baiba,Rozentāle,Female,10,8,"Par Labu Latviju",1,Rīga,23073,1979,3424,21628,""
+15,6,Mihails,Gavrilovs,Male,10,8,"Par Labu Latviju",1,Rīga,23073,1285,2758,21600,""
+16,13,"Aivars Guntis",Kreituss,Male,10,8,"Par Labu Latviju",1,Rīga,23073,1317,2904,21486,""
+17,15,Egils,Valeinis,Male,10,8,"Par Labu Latviju",1,Rīga,23073,569,2200,21442,""
+18,12,Irina,Pētersone,Female,10,8,"Par Labu Latviju",1,Rīga,23073,765,2415,21423,""
+19,25,Žanete,Vasaraudze,Female,10,8,"Par Labu Latviju",1,Rīga,23073,540,2198,21415,""
+20,27,Salvis,Lapiņš,Male,10,8,"Par Labu Latviju",1,Rīga,23073,459,2158,21374,""
+21,4,Gaļina,Poliščuka,Female,10,8,"Par Labu Latviju",1,Rīga,23073,1434,3149,21358,""
+22,23,Anna,Cīrule,Female,10,8,"Par Labu Latviju",1,Rīga,23073,442,2235,21280,""
+23,11,Oskars,Kastēns,Male,10,8,"Par Labu Latviju",1,Rīga,23073,1251,3195,21129,""
+24,20,Andrejs,Kondratjuks,Male,10,8,"Par Labu Latviju",1,Rīga,23073,561,2568,21066,""
+25,18,Lidija,Kravčenko,Female,10,8,"Par Labu Latviju",1,Rīga,23073,507,2521,21059,""
+26,31,Imants,Kalniņš,Male,10,8,"Par Labu Latviju",1,Rīga,23073,913,2958,21028,""
+27,22,Arno,Ter-Saakovs,Male,10,8,"Par Labu Latviju",1,Rīga,23073,646,2692,21027,""
+28,16,Pāvels,Seļivanovs,Male,10,8,"Par Labu Latviju",1,Rīga,23073,684,2757,21000,""
+29,21,Gunārs,Binde,Male,10,8,"Par Labu Latviju",1,Rīga,23073,576,2657,20992,""
+30,8,Jevgēnijs,Saproņenko,Male,10,8,"Par Labu Latviju",1,Rīga,23073,833,2984,20922,""
+31,10,Ksenija,Zagorovska,Female,10,8,"Par Labu Latviju",1,Rīga,23073,627,2829,20871,""
+32,14,Aleksandrs,Ļebedevs,Male,10,8,"Par Labu Latviju",1,Rīga,23073,514,2888,20699,""
+1,1,Guntis,Ulmanis,Male,10,8,"Par Labu Latviju",2,Vidzeme,16696,4228,3089,17835,ievēlēts
+2,3,Māris,Kučinskis,Male,10,8,"Par Labu Latviju",2,Vidzeme,16696,2744,1780,17660,ievēlēts
+3,2,Karina,Pētersone,Female,10,8,"Par Labu Latviju",2,Vidzeme,16696,2302,1865,17133,""
+4,4,Oskars,Spurdziņš,Male,10,8,"Par Labu Latviju",2,Vidzeme,16696,2009,1602,17103,""
+5,8,Nikolajs,Stepanovs,Male,10,8,"Par Labu Latviju",2,Vidzeme,16696,1297,1637,16356,""
+6,29,"Vents Armands",Krauklis,Male,10,8,"Par Labu Latviju",2,Vidzeme,16696,2013,2360,16349,""
+7,6,Aivars,Ločmelis,Male,10,8,"Par Labu Latviju",2,Vidzeme,16696,949,1424,16221,""
+8,5,Kārlis,Leiškalns,Male,10,8,"Par Labu Latviju",2,Vidzeme,16696,2033,2535,16194,""
+9,10,Ivars,Kalvišķis,Male,10,8,"Par Labu Latviju",2,Vidzeme,16696,934,1534,16096,""
+10,7,Reinis,Bērziņš,Male,10,8,"Par Labu Latviju",2,Vidzeme,16696,854,1545,16005,""
+11,14,Vaira,Dundure,Female,10,8,"Par Labu Latviju",2,Vidzeme,16696,765,1600,15861,""
+12,13,Māris,Krastiņš,Male,10,8,"Par Labu Latviju",2,Vidzeme,16696,566,1486,15776,""
+13,16,Laimonis,Sīpols,Male,10,8,"Par Labu Latviju",2,Vidzeme,16696,551,1513,15734,""
+14,20,Andrejs,Ceplītis,Male,10,8,"Par Labu Latviju",2,Vidzeme,16696,575,1546,15725,""
+15,17,Aivars,Fomins,Male,10,8,"Par Labu Latviju",2,Vidzeme,16696,584,1586,15694,""
+16,26,Rolands,Bračs,Male,10,8,"Par Labu Latviju",2,Vidzeme,16696,525,1612,15609,""
+17,11,Jānis,Porietis,Male,10,8,"Par Labu Latviju",2,Vidzeme,16696,550,1652,15594,""
+18,9,Jānis,Latišs,Male,10,8,"Par Labu Latviju",2,Vidzeme,16696,543,1656,15583,""
+19,28,Zigeta,Vīķele,Female,10,8,"Par Labu Latviju",2,Vidzeme,16696,417,1583,15530,""
+20,18,Aigars,Kalniņš,Male,10,8,"Par Labu Latviju",2,Vidzeme,16696,363,1530,15529,""
+21,15,Toms,Norde,Male,10,8,"Par Labu Latviju",2,Vidzeme,16696,433,1603,15526,""
+22,24,Līga,Kadiģe,Female,10,8,"Par Labu Latviju",2,Vidzeme,16696,353,1525,15524,""
+23,21,Jānis,Vecvanags,Male,10,8,"Par Labu Latviju",2,Vidzeme,16696,328,1502,15522,""
+24,22,Jānis,Šolks,Male,10,8,"Par Labu Latviju",2,Vidzeme,16696,350,1526,15520,""
+25,23,Helma,Jirgena,Female,10,8,"Par Labu Latviju",2,Vidzeme,16696,378,1580,15494,""
+26,27,Malda,Caune,Female,10,8,"Par Labu Latviju",2,Vidzeme,16696,360,1578,15478,""
+27,12,"Guntars Agate",Paeglis,Male,10,8,"Par Labu Latviju",2,Vidzeme,16696,376,1636,15436,""
+28,25,Jāzeps,Janiševs,Male,10,8,"Par Labu Latviju",2,Vidzeme,16696,331,1608,15419,""
+29,19,Uldis,Ūsītis,Male,10,8,"Par Labu Latviju",2,Vidzeme,16696,298,1588,15406,""
+30,30,Dzintars,Jaundžeikars,Male,10,8,"Par Labu Latviju",2,Vidzeme,16696,1179,2879,14996,""
+1,1,Rita,Strode,Female,10,8,"Par Labu Latviju",3,Latgale,15387,4958,2168,18177,ievēlēts
+2,2,"Imants Jānis",Bekešs,Male,10,8,"Par Labu Latviju",3,Latgale,15387,2664,1784,16267,ievēlēts
+3,3,Vitālijs,Aizbalts,Male,10,8,"Par Labu Latviju",3,Latgale,15387,2857,1989,16255,""
+4,5,Anatolijs,Mackevičs,Male,10,8,"Par Labu Latviju",3,Latgale,15387,2130,2099,15418,""
+5,7,Jānis,Dukšinskis,Male,10,8,"Par Labu Latviju",3,Latgale,15387,1957,1981,15363,""
+6,12,Monvīds,Švarcs,Male,10,8,"Par Labu Latviju",3,Latgale,15387,1285,1762,14910,""
+7,10,Jānis,Eglītis,Male,10,8,"Par Labu Latviju",3,Latgale,15387,1149,1899,14637,""
+8,14,Aleksandrs,Vasiļjevs,Male,10,8,"Par Labu Latviju",3,Latgale,15387,1179,1981,14585,""
+9,4,Jurijs,Petkevičs,Male,10,8,"Par Labu Latviju",3,Latgale,15387,1049,2012,14424,""
+10,17,Igors,Lucijanovs,Male,10,8,"Par Labu Latviju",3,Latgale,15387,890,1893,14384,""
+11,8,Dmitrijs,Lukašenoks,Male,10,8,"Par Labu Latviju",3,Latgale,15387,1024,2070,14341,""
+12,18,Ināra,Ņikuļina,Female,10,8,"Par Labu Latviju",3,Latgale,15387,838,2012,14213,""
+13,11,Raisa,Meiere,Female,10,8,"Par Labu Latviju",3,Latgale,15387,834,2018,14203,""
+14,9,"Juris Guntis",Vjakse,Male,10,8,"Par Labu Latviju",3,Latgale,15387,914,2116,14185,""
+15,15,Andrejs,Naglis,Male,10,8,"Par Labu Latviju",3,Latgale,15387,692,1956,14123,""
+16,19,Gunārs,Dāboliņš,Male,10,8,"Par Labu Latviju",3,Latgale,15387,715,2011,14091,""
+17,13,Aleksejs,Zakrževskis,Male,10,8,"Par Labu Latviju",3,Latgale,15387,713,2014,14086,""
+18,6,Anta,Rugāte,Female,10,8,"Par Labu Latviju",3,Latgale,15387,1056,2412,14031,""
+19,16,Mečislavs,Vēveris,Male,10,8,"Par Labu Latviju",3,Latgale,15387,532,2117,13802,""
+1,2,Edgars,Zalāns,Male,10,8,"Par Labu Latviju",4,Kurzeme,9846,2861,1025,11682,ievēlēts
+2,1,Ainars,Baštiks,Male,10,8,"Par Labu Latviju",4,Kurzeme,9846,2880,1064,11662,""
+3,5,Ivars,Eglītis,Male,10,8,"Par Labu Latviju",4,Kurzeme,9846,1692,1003,10535,""
+4,3,Mareks,Segliņš,Male,10,8,"Par Labu Latviju",4,Kurzeme,9846,1967,1360,10453,""
+5,6,Aivars,Lācarus,Male,10,8,"Par Labu Latviju",4,Kurzeme,9846,1055,1085,9816,""
+6,9,Jānis,Neimanis,Male,10,8,"Par Labu Latviju",4,Kurzeme,9846,828,1058,9616,""
+7,11,Aivars,Šķuburs,Male,10,8,"Par Labu Latviju",4,Kurzeme,9846,825,1179,9492,""
+8,4,Valērijs,Terentjevs,Male,10,8,"Par Labu Latviju",4,Kurzeme,9846,920,1298,9468,""
+9,15,Māris,Ārbergs,Male,10,8,"Par Labu Latviju",4,Kurzeme,9846,671,1124,9393,""
+10,16,Sandis,Pūce,Male,10,8,"Par Labu Latviju",4,Kurzeme,9846,613,1165,9294,""
+11,14,Dzintra,Litavniece,Female,10,8,"Par Labu Latviju",4,Kurzeme,9846,591,1205,9232,""
+12,12,Jānis,Miņins,Male,10,8,"Par Labu Latviju",4,Kurzeme,9846,773,1438,9181,""
+13,8,Jēkabs,Ozoliņš,Male,10,8,"Par Labu Latviju",4,Kurzeme,9846,510,1232,9124,""
+14,10,Uldis,Briedis,Male,10,8,"Par Labu Latviju",4,Kurzeme,9846,476,1199,9123,""
+15,13,Ārijs,Sproģis,Male,10,8,"Par Labu Latviju",4,Kurzeme,9846,433,1160,9119,""
+16,7,Mārtiņš,Vilsons,Male,10,8,"Par Labu Latviju",4,Kurzeme,9846,669,1807,8708,""
+1,1,Andris,Šķēle,Male,10,8,"Par Labu Latviju",5,Zemgale,8879,4087,1323,11643,ievēlēts
+2,3,Juris,Dalbiņš,Male,10,8,"Par Labu Latviju",5,Zemgale,8879,1388,975,9292,""
+3,4,Dainis,Liepiņš,Male,10,8,"Par Labu Latviju",5,Zemgale,8879,1074,1027,8926,""
+4,5,Mārtiņš,Zemītis,Male,10,8,"Par Labu Latviju",5,Zemgale,8879,858,870,8867,""
+5,12,Irēna,Sproģe,Female,10,8,"Par Labu Latviju",5,Zemgale,8879,508,928,8459,""
+6,9,Rihards,Melgailis,Male,10,8,"Par Labu Latviju",5,Zemgale,8879,474,934,8419,""
+7,8,Andris,Kalnozols,Male,10,8,"Par Labu Latviju",5,Zemgale,8879,514,976,8417,""
+8,11,Andris,Elksnītis,Male,10,8,"Par Labu Latviju",5,Zemgale,8879,473,955,8397,""
+9,13,Vladimirs,Samohins,Male,10,8,"Par Labu Latviju",5,Zemgale,8879,547,1029,8397,""
+10,14,Mudīte,Priede,Female,10,8,"Par Labu Latviju",5,Zemgale,8879,349,928,8300,""
+11,10,Andris,Tomašūns,Male,10,8,"Par Labu Latviju",5,Zemgale,8879,476,1059,8296,""
+12,17,Imants,Valers,Male,10,8,"Par Labu Latviju",5,Zemgale,8879,324,940,8263,""
+13,18,Māris,Pūķis,Male,10,8,"Par Labu Latviju",5,Zemgale,8879,293,934,8238,""
+14,6,Artis,Podnieks,Male,10,8,"Par Labu Latviju",5,Zemgale,8879,292,957,8214,""
+15,16,Guntis,Gelpers,Male,10,8,"Par Labu Latviju",5,Zemgale,8879,240,959,8160,""
+16,7,Jevgenija,Stalidzāne,Female,10,8,"Par Labu Latviju",5,Zemgale,8879,444,1203,8120,""
+17,15,Ērika,Zommere,Female,10,8,"Par Labu Latviju",5,Zemgale,8879,318,1091,8106,""
+18,2,Helēna,Demakova,Female,10,8,"Par Labu Latviju",5,Zemgale,8879,974,2161,7692,""
+1,1,Valdis,Lauskis,Male,10,9,Atbildība,1,Rīga,1134,174,115,1193,N/A
+2,2,Andrejs,Vilks,Male,10,9,Atbildība,1,Rīga,1134,156,104,1186,N/A
+3,15,Raimonds,Dzintars,Male,10,9,Atbildība,1,Rīga,1134,85,97,1122,N/A
+4,7,Ivars,Brīvers,Male,10,9,Atbildība,1,Rīga,1134,89,103,1120,N/A
+5,22,Gunārs,Eniņš,Male,10,9,Atbildība,1,Rīga,1134,75,101,1108,N/A
+6,29,Velta,Cimdiņa,Female,10,9,Atbildība,1,Rīga,1134,69,104,1099,N/A
+7,9,Elmārs,Zelgalvis,Male,10,9,Atbildība,1,Rīga,1134,70,110,1094,N/A
+8,25,Dagnis,Reinsons,Male,10,9,Atbildība,1,Rīga,1134,55,96,1093,N/A
+9,5,Jānis,Ozers,Male,10,9,Atbildība,1,Rīga,1134,61,111,1084,N/A
+10,32,Egīls,Roze,Male,10,9,Atbildība,1,Rīga,1134,46,97,1083,N/A
+11,16,Indulis,Freimanis,Male,10,9,Atbildība,1,Rīga,1134,43,96,1081,N/A
+12,31,Vilors,Eihmanis,Male,10,9,Atbildība,1,Rīga,1134,41,97,1078,N/A
+13,23,Klementijs,Rancāns,Male,10,9,Atbildība,1,Rīga,1134,55,111,1078,N/A
+14,26,Rita,Krinberga,Female,10,9,Atbildība,1,Rīga,1134,43,99,1078,N/A
+15,13,Jānis,Vitkovskis,Male,10,9,Atbildība,1,Rīga,1134,46,103,1077,N/A
+16,28,Laila,Balga,Female,10,9,Atbildība,1,Rīga,1134,43,101,1076,N/A
+17,10,Ingrīda,Veikša,Female,10,9,Atbildība,1,Rīga,1134,40,101,1073,N/A
+18,8,Jānis,Karavaičiks,Male,10,9,Atbildība,1,Rīga,1134,48,109,1073,N/A
+19,6,Diāna,Jakubovska,Female,10,9,Atbildība,1,Rīga,1134,46,107,1073,N/A
+20,4,Silvija,Šimfa,Female,10,9,Atbildība,1,Rīga,1134,57,119,1072,N/A
+21,17,Guntis,Valneris,Male,10,9,Atbildība,1,Rīga,1134,39,104,1069,N/A
+22,27,Inta,Beikmane,Female,10,9,Atbildība,1,Rīga,1134,39,104,1069,N/A
+23,21,Simona,Kalniņa,Female,10,9,Atbildība,1,Rīga,1134,36,102,1068,N/A
+24,24,Sandis,Sproģis,Male,10,9,Atbildība,1,Rīga,1134,32,99,1067,N/A
+25,19,Vilnis,Vītums,Male,10,9,Atbildība,1,Rīga,1134,35,103,1066,N/A
+26,3,Aivars,Timofejevs,Male,10,9,Atbildība,1,Rīga,1134,60,130,1064,N/A
+27,12,Māra,Sadovska,Female,10,9,Atbildība,1,Rīga,1134,36,107,1063,N/A
+28,11,Andris,Burtnieks,Male,10,9,Atbildība,1,Rīga,1134,38,109,1063,N/A
+29,20,Vilnis,Bisenieks,Male,10,9,Atbildība,1,Rīga,1134,37,109,1062,N/A
+30,14,Margarita,Lastovska,Female,10,9,Atbildība,1,Rīga,1134,32,114,1052,N/A
+31,30,Anatolijs,Belozerovs,Male,10,9,Atbildība,1,Rīga,1134,30,119,1045,N/A
+32,18,Jekaterina,Jevdokimova,Female,10,9,Atbildība,1,Rīga,1134,27,123,1038,N/A
+1,2,Arvīds,Platpers,Male,10,9,Atbildība,2,Vidzeme,1742,259,134,1867,N/A
+2,1,Māris,Pļaviņš,Male,10,9,Atbildība,2,Vidzeme,1742,255,130,1867,N/A
+3,3,Jurģis,Īvāns,Male,10,9,Atbildība,2,Vidzeme,1742,142,150,1734,N/A
+4,7,Valentīns,Rakstiņš,Male,10,9,Atbildība,2,Vidzeme,1742,112,127,1727,N/A
+5,10,Ilga,Ozoliņa,Female,10,9,Atbildība,2,Vidzeme,1742,86,110,1718,N/A
+6,11,Dzintars,Kozulis,Male,10,9,Atbildība,2,Vidzeme,1742,87,115,1714,N/A
+7,8,Olga,Pāvulīte,Female,10,9,Atbildība,2,Vidzeme,1742,90,118,1714,N/A
+8,17,Aivars,Lapšāns,Male,10,9,Atbildība,2,Vidzeme,1742,80,128,1694,N/A
+9,18,Agita,Bērzupe,Female,10,9,Atbildība,2,Vidzeme,1742,73,123,1692,N/A
+10,28,Edīte,Zaube,Female,10,9,Atbildība,2,Vidzeme,1742,70,120,1692,N/A
+11,4,Ivars,Kokenbergs,Male,10,9,Atbildība,2,Vidzeme,1742,78,131,1689,N/A
+12,15,Viktors,Dancis,Male,10,9,Atbildība,2,Vidzeme,1742,62,115,1689,N/A
+13,23,Andris,Jaško,Male,10,9,Atbildība,2,Vidzeme,1742,51,105,1688,N/A
+14,14,Līga,Lapiņa,Female,10,9,Atbildība,2,Vidzeme,1742,52,117,1677,N/A
+15,16,Agrita,Vītola,Female,10,9,Atbildība,2,Vidzeme,1742,48,116,1674,N/A
+16,19,Arnolds,Cerbulis,Male,10,9,Atbildība,2,Vidzeme,1742,43,113,1672,N/A
+17,6,Linda,Ābele,Female,10,9,Atbildība,2,Vidzeme,1742,61,131,1672,N/A
+18,22,Skaidra,Kalniņa,Female,10,9,Atbildība,2,Vidzeme,1742,41,112,1671,N/A
+19,26,Anita,Stikute,Female,10,9,Atbildība,2,Vidzeme,1742,46,118,1670,N/A
+20,20,Ilze,Sniega-Sniedziņa,Female,10,9,Atbildība,2,Vidzeme,1742,43,115,1670,N/A
+21,9,Aigars,Orups,Male,10,9,Atbildība,2,Vidzeme,1742,53,125,1670,N/A
+22,13,Jānis,Precinieks,Male,10,9,Atbildība,2,Vidzeme,1742,52,125,1669,N/A
+23,25,Maira,Dāliņa,Female,10,9,Atbildība,2,Vidzeme,1742,37,111,1668,N/A
+24,30,Liene,Fimbauere,Female,10,9,Atbildība,2,Vidzeme,1742,57,132,1667,N/A
+25,12,Edgars,Mednis,Male,10,9,Atbildība,2,Vidzeme,1742,36,112,1666,N/A
+26,27,Artūrs,Kalniņš,Male,10,9,Atbildība,2,Vidzeme,1742,32,111,1663,N/A
+27,24,Jānis,Šmeiss,Male,10,9,Atbildība,2,Vidzeme,1742,47,128,1661,N/A
+28,21,Ivans,Pavlovskis,Male,10,9,Atbildība,2,Vidzeme,1742,44,125,1661,N/A
+29,29,Dainis,Melngailis,Male,10,9,Atbildība,2,Vidzeme,1742,29,118,1653,N/A
+30,5,Ilmārs,Ančāns,Male,10,9,Atbildība,2,Vidzeme,1742,105,222,1625,N/A
+1,2,Līvija,Jankovska,Female,10,9,Atbildība,3,Latgale,1259,479,101,1637,N/A
+2,1,Jānis,Dinevičs,Male,10,9,Atbildība,3,Latgale,1259,238,148,1349,N/A
+3,4,Andrejs,Zagorskis,Male,10,9,Atbildība,3,Latgale,1259,146,130,1275,N/A
+4,3,Ludmila,Smikova,Female,10,9,Atbildība,3,Latgale,1259,165,161,1263,N/A
+5,5,Mečislavs,Truskovskis,Male,10,9,Atbildība,3,Latgale,1259,134,153,1240,N/A
+6,19,Osvalds,Zvejsalnieks,Male,10,9,Atbildība,3,Latgale,1259,92,144,1207,N/A
+7,6,Imants,Melderis,Male,10,9,Atbildība,3,Latgale,1259,79,138,1200,N/A
+8,16,Jānis,Raubiško,Male,10,9,Atbildība,3,Latgale,1259,69,143,1185,N/A
+9,13,Daina,Pliča,Female,10,9,Atbildība,3,Latgale,1259,77,154,1182,N/A
+10,11,Andris,Pakers,Male,10,9,Atbildība,3,Latgale,1259,59,137,1181,N/A
+11,9,Aivars,Tārauds,Male,10,9,Atbildība,3,Latgale,1259,64,144,1179,N/A
+12,7,Malda,Kristovska,Female,10,9,Atbildība,3,Latgale,1259,67,151,1175,N/A
+13,8,Antons,Slišāns,Male,10,9,Atbildība,3,Latgale,1259,58,148,1169,N/A
+14,12,Henriks,Miglāns,Male,10,9,Atbildība,3,Latgale,1259,51,157,1153,N/A
+15,10,Andris,Misāns,Male,10,9,Atbildība,3,Latgale,1259,45,155,1149,N/A
+16,15,Jānis,Kalnačs,Male,10,9,Atbildība,3,Latgale,1259,40,150,1149,N/A
+17,18,Vitālijs,Aleksandrovičs,Male,10,9,Atbildība,3,Latgale,1259,34,154,1139,N/A
+18,17,Elma,Aperāne,Female,10,9,Atbildība,3,Latgale,1259,26,148,1137,N/A
+19,14,Jurijs,Kopasovs,Male,10,9,Atbildība,3,Latgale,1259,36,163,1132,N/A
+1,1,Gundars,Sisenis,Male,10,9,Atbildība,4,Kurzeme,1068,232,103,1197,N/A
+2,13,Aidis,Herings,Male,10,9,Atbildība,4,Kurzeme,1068,124,108,1084,N/A
+3,2,Ināra,Freidenfelde,Female,10,9,Atbildība,4,Kurzeme,1068,129,128,1069,N/A
+4,7,Jānis,Grava,Male,10,9,Atbildība,4,Kurzeme,1068,103,107,1064,N/A
+5,11,Normunds,Dzintars,Male,10,9,Atbildība,4,Kurzeme,1068,77,101,1044,N/A
+6,5,Valdis,Dīriņš,Male,10,9,Atbildība,4,Kurzeme,1068,103,131,1040,N/A
+7,8,Aleksandrs,Ceļapīters,Male,10,9,Atbildība,4,Kurzeme,1068,88,116,1040,N/A
+8,3,Meinards,Mētelis,Male,10,9,Atbildība,4,Kurzeme,1068,107,141,1034,N/A
+9,4,Valdis,Rande,Male,10,9,Atbildība,4,Kurzeme,1068,76,116,1028,N/A
+10,9,Jānis,Leja,Male,10,9,Atbildība,4,Kurzeme,1068,61,117,1012,N/A
+11,16,Ilga,Vitāle,Female,10,9,Atbildība,4,Kurzeme,1068,40,107,1001,N/A
+12,15,Valdis,Cimermanis,Male,10,9,Atbildība,4,Kurzeme,1068,39,116,991,N/A
+13,14,Arnis,Kadiķis,Male,10,9,Atbildība,4,Kurzeme,1068,37,115,990,N/A
+14,12,Gunārs,Gutlands,Male,10,9,Atbildība,4,Kurzeme,1068,36,117,987,N/A
+15,10,Jānis,Kleinbergs-Vītols,Male,10,9,Atbildība,4,Kurzeme,1068,38,120,986,N/A
+16,6,Edgars,Naudiņš,Male,10,9,Atbildība,4,Kurzeme,1068,31,125,974,N/A
+1,15,Guntis,Jankovskis,Male,10,9,Atbildība,5,Zemgale,936,85,66,955,N/A
+2,1,Margarita,Krauča,Female,10,9,Atbildība,5,Zemgale,936,106,96,946,N/A
+3,5,Jānis,Čevers,Male,10,9,Atbildība,5,Zemgale,936,87,97,926,N/A
+4,4,Astrīda,Mūrniece,Female,10,9,Atbildība,5,Zemgale,936,80,92,924,N/A
+5,18,Inga,Fišere,Female,10,9,Atbildība,5,Zemgale,936,59,84,911,N/A
+6,2,Māris,Grīnvalds,Male,10,9,Atbildība,5,Zemgale,936,70,97,909,N/A
+7,17,Anita,Kalēja,Female,10,9,Atbildība,5,Zemgale,936,55,82,909,N/A
+8,12,Rolands,Baranovskis,Male,10,9,Atbildība,5,Zemgale,936,63,92,907,N/A
+9,10,Valdis,Arcimovičs,Male,10,9,Atbildība,5,Zemgale,936,54,84,906,N/A
+10,13,Valērijs,Gabrāns,Male,10,9,Atbildība,5,Zemgale,936,56,88,904,N/A
+11,3,Rudīte,Jaunzeme,Female,10,9,Atbildība,5,Zemgale,936,61,93,904,N/A
+12,9,Zinta,Mielava,Female,10,9,Atbildība,5,Zemgale,936,53,88,901,N/A
+13,11,Jānis,Lācis,Male,10,9,Atbildība,5,Zemgale,936,57,94,899,N/A
+14,8,Dita,Vītola,Female,10,9,Atbildība,5,Zemgale,936,52,90,898,N/A
+15,7,Vairis,Ļaudams,Male,10,9,Atbildība,5,Zemgale,936,49,88,897,N/A
+16,16,Rudīte,Lauriņa,Female,10,9,Atbildība,5,Zemgale,936,44,88,892,N/A
+17,6,Anita,Bērziņa,Female,10,9,Atbildība,5,Zemgale,936,45,96,885,N/A
+18,14,Sarmīte,Zara,Female,10,9,Atbildība,5,Zemgale,936,39,94,881,N/A
+1,3,Mārtiņš,Draudiņš,Male,10,10,"Daugava – Latvijai",1,Rīga,434,68,37,465,N/A
+2,2,Jānis,Štamers,Male,10,10,"Daugava – Latvijai",1,Rīga,434,47,33,448,N/A
+3,9,Juris,Miķelis,Male,10,10,"Daugava – Latvijai",1,Rīga,434,40,37,437,N/A
+4,16,Uģis,Sladzs,Male,10,10,"Daugava – Latvijai",1,Rīga,434,28,29,433,N/A
+5,1,Bils,Strupulis,Male,10,10,"Daugava – Latvijai",1,Rīga,434,43,46,431,N/A
+6,4,Guntis,Garda,Male,10,10,"Daugava – Latvijai",1,Rīga,434,34,42,426,N/A
+7,5,Andrejs,Treikals,Male,10,10,"Daugava – Latvijai",1,Rīga,434,33,42,425,N/A
+8,6,Juris,Rēķis,Male,10,10,"Daugava – Latvijai",1,Rīga,434,26,35,425,N/A
+9,27,Rihards,Ozoliņš,Male,10,10,"Daugava – Latvijai",1,Rīga,434,23,36,421,N/A
+10,15,Viktorija,Zemīte,Female,10,10,"Daugava – Latvijai",1,Rīga,434,25,38,421,N/A
+11,10,Henrijs,Grūbe,Male,10,10,"Daugava – Latvijai",1,Rīga,434,25,39,420,N/A
+12,13,Pēteris,Abrickis,Male,10,10,"Daugava – Latvijai",1,Rīga,434,21,35,420,N/A
+13,12,Aivars,Āķis,Male,10,10,"Daugava – Latvijai",1,Rīga,434,24,39,419,N/A
+14,25,Gints,Garančs,Male,10,10,"Daugava – Latvijai",1,Rīga,434,20,35,419,N/A
+15,26,Santis,Smagars,Male,10,10,"Daugava – Latvijai",1,Rīga,434,21,37,418,N/A
+16,20,Sanita,Giriča,Female,10,10,"Daugava – Latvijai",1,Rīga,434,20,36,418,N/A
+17,28,Uldis,Lubāns,Male,10,10,"Daugava – Latvijai",1,Rīga,434,21,38,417,N/A
+18,24,Ingus,Rudzītis,Male,10,10,"Daugava – Latvijai",1,Rīga,434,20,37,417,N/A
+19,19,Rinalds,Auziņš,Male,10,10,"Daugava – Latvijai",1,Rīga,434,17,35,416,N/A
+20,21,Edgars,Klinsons,Male,10,10,"Daugava – Latvijai",1,Rīga,434,19,37,416,N/A
+21,14,Arnis,Zviedris,Male,10,10,"Daugava – Latvijai",1,Rīga,434,18,36,416,N/A
+22,11,Valentīna,Semjonova,Female,10,10,"Daugava – Latvijai",1,Rīga,434,27,45,416,N/A
+23,22,Raimonds,Kokins,Male,10,10,"Daugava – Latvijai",1,Rīga,434,17,37,414,N/A
+24,18,Jānis,Vīksnītis,Male,10,10,"Daugava – Latvijai",1,Rīga,434,15,36,413,N/A
+25,23,Andris,Petrovs,Male,10,10,"Daugava – Latvijai",1,Rīga,434,18,40,412,N/A
+26,17,Alvils,Students,Male,10,10,"Daugava – Latvijai",1,Rīga,434,16,38,412,N/A
+27,7,Vladislavs,Semeņuks,Male,10,10,"Daugava – Latvijai",1,Rīga,434,28,50,412,N/A
+28,8,Jurijs,Fjodorovs,Male,10,10,"Daugava – Latvijai",1,Rīga,434,26,49,411,N/A
+1,1,Imants,Burvis,Male,10,10,"Daugava – Latvijai",2,Vidzeme,443,75,35,483,N/A
+2,16,Indulis,Skudra,Male,10,10,"Daugava – Latvijai",2,Vidzeme,443,54,36,461,N/A
+3,3,Arnis,Olte,Male,10,10,"Daugava – Latvijai",2,Vidzeme,443,40,36,447,N/A
+4,5,Artūrs,Draudiņš,Male,10,10,"Daugava – Latvijai",2,Vidzeme,443,37,33,447,N/A
+5,22,Rolands,Zagorskis-Rolands,Male,10,10,"Daugava – Latvijai",2,Vidzeme,443,39,40,442,N/A
+6,7,Sanita,Usāne,Female,10,10,"Daugava – Latvijai",2,Vidzeme,443,29,37,435,N/A
+7,17,Edgars,Dorotkins,Male,10,10,"Daugava – Latvijai",2,Vidzeme,443,26,34,435,N/A
+8,12,Normunds,Ozoliņš,Male,10,10,"Daugava – Latvijai",2,Vidzeme,443,27,37,433,N/A
+9,2,Vilis,Āķis,Male,10,10,"Daugava – Latvijai",2,Vidzeme,443,25,37,431,N/A
+10,4,Gvido,Stolbovs,Male,10,10,"Daugava – Latvijai",2,Vidzeme,443,20,32,431,N/A
+11,9,Ilze,Ramba,Female,10,10,"Daugava – Latvijai",2,Vidzeme,443,24,37,430,N/A
+12,20,Ārijs,Dobums,Male,10,10,"Daugava – Latvijai",2,Vidzeme,443,19,33,429,N/A
+13,15,Valdis,Siliņš,Male,10,10,"Daugava – Latvijai",2,Vidzeme,443,18,33,428,N/A
+14,21,Imants,Birze,Male,10,10,"Daugava – Latvijai",2,Vidzeme,443,18,33,428,N/A
+15,11,Juris,Sveilis,Male,10,10,"Daugava – Latvijai",2,Vidzeme,443,19,35,427,N/A
+16,10,Valdis,Vaivods,Male,10,10,"Daugava – Latvijai",2,Vidzeme,443,24,41,426,N/A
+17,14,Viesturs,Briedis,Male,10,10,"Daugava – Latvijai",2,Vidzeme,443,19,36,426,N/A
+18,13,Vilnis,Kurpe,Male,10,10,"Daugava – Latvijai",2,Vidzeme,443,16,35,424,N/A
+19,18,Egīls,Stāmurs,Male,10,10,"Daugava – Latvijai",2,Vidzeme,443,15,34,424,N/A
+20,19,Gunārs,Vucins,Male,10,10,"Daugava – Latvijai",2,Vidzeme,443,16,35,424,N/A
+21,8,Aleksandrs,Šileiko,Male,10,10,"Daugava – Latvijai",2,Vidzeme,443,21,41,423,N/A
+22,6,Leonards,Smagars,Male,10,10,"Daugava – Latvijai",2,Vidzeme,443,17,37,423,N/A
+1,7,Igors,Dombrovskis,Male,10,10,"Daugava – Latvijai",3,Latgale,420,144,47,517,N/A
+2,5,Dmitrijs,Usins,Male,10,10,"Daugava – Latvijai",3,Latgale,420,79,50,449,N/A
+3,1,Igors,Boldāns,Male,10,10,"Daugava – Latvijai",3,Latgale,420,55,59,416,N/A
+4,6,Aelita,Semeņuka,Female,10,10,"Daugava – Latvijai",3,Latgale,420,32,66,386,N/A
+5,3,Jānis,Locis,Male,10,10,"Daugava – Latvijai",3,Latgale,420,28,70,378,N/A
+6,2,Tatjana,Rancāne,Female,10,10,"Daugava – Latvijai",3,Latgale,420,25,68,377,N/A
+7,4,Sanita,Putniņa,Female,10,10,"Daugava – Latvijai",3,Latgale,420,24,73,371,N/A
+8,9,Inese,Bordāne,Female,10,10,"Daugava – Latvijai",3,Latgale,420,21,72,369,N/A
+9,12,Gunārs,Kūkojs,Male,10,10,"Daugava – Latvijai",3,Latgale,420,17,73,364,N/A
+10,8,Valentīna,Narņicka,Female,10,10,"Daugava – Latvijai",3,Latgale,420,14,76,358,N/A
+11,10,Ramants,Jansons,Male,10,10,"Daugava – Latvijai",3,Latgale,420,12,74,358,N/A
+12,11,Alfrēds,Šaltis,Male,10,10,"Daugava – Latvijai",3,Latgale,420,12,77,355,N/A
+1,2,Normunds,Freimanis,Male,10,10,"Daugava – Latvijai",4,Kurzeme,141,28,9,160,N/A
+2,3,Dagnija,Kalviša,Female,10,10,"Daugava – Latvijai",4,Kurzeme,141,24,9,156,N/A
+3,1,Dagnis,Pakalnietis,Male,10,10,"Daugava – Latvijai",4,Kurzeme,141,23,9,155,N/A
+4,4,Anita,Mielava,Female,10,10,"Daugava – Latvijai",4,Kurzeme,141,19,12,148,N/A
+5,8,Zanda,Pāne-Sermule,Female,10,10,"Daugava – Latvijai",4,Kurzeme,141,18,11,148,N/A
+6,6,Ieva,Krūmiņa,Female,10,10,"Daugava – Latvijai",4,Kurzeme,141,17,10,148,N/A
+7,5,Tekla,Blūma,Female,10,10,"Daugava – Latvijai",4,Kurzeme,141,15,11,145,N/A
+8,7,Agita,Zavicka,Female,10,10,"Daugava – Latvijai",4,Kurzeme,141,13,13,141,N/A
+9,9,Valentīna,Blaževiča,Female,10,10,"Daugava – Latvijai",4,Kurzeme,141,11,13,139,N/A
+1,3,Māris,Mežapuķe,Male,10,10,"Daugava – Latvijai",5,Zemgale,223,30,18,235,N/A
+2,12,Jānis,Dzelzkalējs,Male,10,10,"Daugava – Latvijai",5,Zemgale,223,21,16,228,N/A
+3,7,Anita,Kalniņa,Female,10,10,"Daugava – Latvijai",5,Zemgale,223,18,17,224,N/A
+4,2,Sarmīte,Feierabenda,Female,10,10,"Daugava – Latvijai",5,Zemgale,223,19,20,222,N/A
+5,4,Māris,Usāns,Male,10,10,"Daugava – Latvijai",5,Zemgale,223,16,17,222,N/A
+6,1,Didzis,Ozols,Male,10,10,"Daugava – Latvijai",5,Zemgale,223,22,26,219,N/A
+7,5,Paulis,Siliņš,Male,10,10,"Daugava – Latvijai",5,Zemgale,223,12,17,218,N/A
+8,13,Aigars,Zariņš,Male,10,10,"Daugava – Latvijai",5,Zemgale,223,8,15,216,N/A
+9,11,Andis,Raudiņš,Male,10,10,"Daugava – Latvijai",5,Zemgale,223,10,17,216,N/A
+10,6,Raimonds,Teivāns,Male,10,10,"Daugava – Latvijai",5,Zemgale,223,12,20,215,N/A
+11,9,Edijs,Čistovs,Male,10,10,"Daugava – Latvijai",5,Zemgale,223,9,20,212,N/A
+12,8,Aldis,Ermansons,Male,10,10,"Daugava – Latvijai",5,Zemgale,223,8,19,212,N/A
+13,10,Sergejs,Popovs,Male,10,10,"Daugava – Latvijai",5,Zemgale,223,9,22,210,N/A
+1,1,Gints,Knoks,Male,10,11,"Pēdējā partija",1,Rīga,2734,572,82,3224,N/A
+2,2,Raimonds,Strazdiņš,Male,10,11,"Pēdējā partija",1,Rīga,2734,301,67,2968,N/A
+3,11,Uģis,Reķis,Male,10,11,"Pēdējā partija",1,Rīga,2734,312,80,2966,N/A
+4,3,Ausma,Ķibilde,Female,10,11,"Pēdējā partija",1,Rīga,2734,242,88,2888,N/A
+5,5,Maija,Pavlova,Female,10,11,"Pēdējā partija",1,Rīga,2734,239,86,2887,N/A
+6,9,Kaspars,Omuls,Male,10,11,"Pēdējā partija",1,Rīga,2734,206,84,2856,N/A
+7,8,Līga,Besere,Female,10,11,"Pēdējā partija",1,Rīga,2734,201,83,2852,N/A
+8,7,Signe,Birkova,Female,10,11,"Pēdējā partija",1,Rīga,2734,207,94,2847,N/A
+9,10,Karmena,Bankovska,Female,10,11,"Pēdējā partija",1,Rīga,2734,219,116,2837,N/A
+10,6,Egīls,Doroško,Male,10,11,"Pēdējā partija",1,Rīga,2734,183,93,2824,N/A
+11,4,Nataļja,Baškirova,Female,10,11,"Pēdējā partija",1,Rīga,2734,195,138,2791,N/A
+1,1,Jurģis,Stabingis,Male,10,11,"Pēdējā partija",2,Vidzeme,2603,411,117,2897,N/A
+2,7,Mārtiņš,Kokars,Male,10,11,"Pēdējā partija",2,Vidzeme,2603,277,122,2758,N/A
+3,2,Zanda,Slava,Female,10,11,"Pēdējā partija",2,Vidzeme,2603,268,117,2754,N/A
+4,3,Māris,Antons,Male,10,11,"Pēdējā partija",2,Vidzeme,2603,260,129,2734,N/A
+5,5,Raitis,Glāznieks,Male,10,11,"Pēdējā partija",2,Vidzeme,2603,246,127,2722,N/A
+6,4,Juris,Riekstiņš,Male,10,11,"Pēdējā partija",2,Vidzeme,2603,240,129,2714,N/A
+7,6,Raivis,Saldābols,Male,10,11,"Pēdējā partija",2,Vidzeme,2603,227,132,2698,N/A
+8,10,Kaspars,Siders,Male,10,11,"Pēdējā partija",2,Vidzeme,2603,200,123,2680,N/A
+9,8,Rets,Skrickis,Male,10,11,"Pēdējā partija",2,Vidzeme,2603,196,121,2678,N/A
+10,9,Gunārs,Rodins,Male,10,11,"Pēdējā partija",2,Vidzeme,2603,200,131,2672,N/A
+1,1,Roberts,Gobziņš,Male,10,11,"Pēdējā partija",3,Latgale,832,261,58,1035,N/A
+2,5,"Ansis Ataols",Bērziņš,Male,10,11,"Pēdējā partija",3,Latgale,832,204,49,987,N/A
+3,2,Antons,Kekļa,Male,10,11,"Pēdējā partija",3,Latgale,832,110,49,893,N/A
+4,4,Ainis,Lociks,Male,10,11,"Pēdējā partija",3,Latgale,832,110,53,889,N/A
+5,3,Pēteris,Grūbe,Male,10,11,"Pēdējā partija",3,Latgale,832,110,55,887,N/A
+1,1,Pēteris,Pūrītis,Male,10,11,"Pēdējā partija",4,Kurzeme,973,169,28,1114,N/A
+2,6,Kārlis,Lielais,Male,10,11,"Pēdējā partija",4,Kurzeme,973,155,25,1103,N/A
+3,3,Ieva,Rubeze,Female,10,11,"Pēdējā partija",4,Kurzeme,973,162,36,1099,N/A
+4,5,Uģis,Cepurītis,Male,10,11,"Pēdējā partija",4,Kurzeme,973,146,25,1094,N/A
+5,2,Valts,Ernštreits,Male,10,11,"Pēdējā partija",4,Kurzeme,973,148,32,1089,N/A
+6,4,Anita,Pastare,Female,10,11,"Pēdējā partija",4,Kurzeme,973,143,30,1086,N/A
+1,1,Aldis,Hofmanis,Male,10,11,"Pēdējā partija",5,Zemgale,1316,266,69,1513,N/A
+2,2,Kārlis,Kazāks,Male,10,11,"Pēdējā partija",5,Zemgale,1316,253,63,1506,N/A
+3,3,Signe,Grūbe,Female,10,11,"Pēdējā partija",5,Zemgale,1316,189,68,1437,N/A
+4,6,Baiba,Zvaigznīte,Female,10,11,"Pēdējā partija",5,Zemgale,1316,218,106,1428,N/A
+5,4,Dāvis,Kaņepe,Male,10,11,"Pēdējā partija",5,Zemgale,1316,176,76,1416,N/A
+6,5,Ivs,Zenne,Male,10,11,"Pēdējā partija",5,Zemgale,1316,147,70,1393,N/A
+1,1,Dzintars,Rasnačs,Male,10,12,NA,1,Rīga,21821,5167,2865,24123,ievēlēts
+2,2,Einārs,Cilinskis,Male,10,12,NA,1,Rīga,21821,3566,1713,23674,ievēlēts
+3,16,Hārdijs,Parādnieks,Male,10,12,NA,1,Rīga,21821,3099,1516,23404,""
+4,20,Lelde,Stumbre,Female,10,12,NA,1,Rīga,21821,2182,1313,22690,""
+5,4,Dmitrijs,Mironovs,Male,10,12,NA,1,Rīga,21821,2528,1956,22393,""
+6,6,Konstantīns,Pupurs,Male,10,12,NA,1,Rīga,21821,1602,1136,22287,""
+7,24,Ieva,Holma,Female,10,12,NA,1,Rīga,21821,1219,1084,21956,""
+8,12,Arnis,Puksts,Male,10,12,NA,1,Rīga,21821,1045,912,21954,""
+9,8,Aigars,Lūsis,Male,10,12,NA,1,Rīga,21821,1178,1057,21942,""
+10,29,Vilnis,Zariņš,Male,10,12,NA,1,Rīga,21821,1612,1572,21861,""
+11,15,Jānis,Priedkalns,Male,10,12,NA,1,Rīga,21821,1396,1391,21826,""
+12,19,Andris,Vilks,Male,10,12,NA,1,Rīga,21821,1414,1415,21820,""
+13,3,Laura,Bulmane,Female,10,12,NA,1,Rīga,21821,1710,1739,21792,""
+14,30,Dzintars,Saliņš,Male,10,12,NA,1,Rīga,21821,948,989,21780,""
+15,10,Guntis,Zālītis,Male,10,12,NA,1,Rīga,21821,992,1107,21706,""
+16,22,Romāns,Pussars,Male,10,12,NA,1,Rīga,21821,1478,1629,21670,""
+17,18,Einārs,Lesiņš,Male,10,12,NA,1,Rīga,21821,763,941,21643,""
+18,26,Elvijs,Vēbers,Male,10,12,NA,1,Rīga,21821,845,1034,21632,""
+19,14,Gunārs,Indārs,Male,10,12,NA,1,Rīga,21821,883,1124,21580,""
+20,28,Zane,Bendika,Female,10,12,NA,1,Rīga,21821,971,1260,21532,""
+21,7,Ģirts,Lapiņš,Male,10,12,NA,1,Rīga,21821,1067,1479,21409,""
+22,31,Jānis,Saldnieks,Male,10,12,NA,1,Rīga,21821,663,1098,21386,""
+23,11,Aija,Fleija,Female,10,12,NA,1,Rīga,21821,1140,1591,21370,""
+24,23,Ģirts,Auškāps,Male,10,12,NA,1,Rīga,21821,829,1488,21162,""
+25,9,Dainis,Locis,Male,10,12,NA,1,Rīga,21821,845,1667,20999,""
+26,17,Edgars,Āboliņš,Male,10,12,NA,1,Rīga,21821,584,1418,20987,""
+27,25,Artūrs,Bergholcs,Male,10,12,NA,1,Rīga,21821,511,1521,20811,""
+28,21,Imārs,Kiršbaums,Male,10,12,NA,1,Rīga,21821,591,1608,20804,""
+29,27,Marta,Kive,Female,10,12,NA,1,Rīga,21821,588,1605,20804,""
+30,32,Aivars,Aksenoks,Male,10,12,NA,1,Rīga,21821,2110,3494,20437,""
+31,5,Māris,Grīnblats,Male,10,12,NA,1,Rīga,21821,3093,4543,20371,""
+32,13,Imants,Rākins,Male,10,12,NA,1,Rīga,21821,950,2987,19784,""
+1,1,Raivis,Dzintars,Male,10,12,NA,2,Vidzeme,26349,15852,548,41653,ievēlēts
+2,3,Visvaldis,Lācis,Male,10,12,NA,2,Vidzeme,26349,7699,3616,30432,ievēlēts
+3,5,Jānis,Dombrava,Male,10,12,NA,2,Vidzeme,26349,2151,1427,27073,ievēlēts
+4,11,Gints,Rožkalns,Male,10,12,NA,2,Vidzeme,26349,1478,1477,26350,""
+5,15,Dzintars,Medenis,Male,10,12,NA,2,Vidzeme,26349,1373,1389,26333,""
+6,4,Romāns,Naudiņš,Male,10,12,NA,2,Vidzeme,26349,2062,2180,26231,""
+7,9,Mārtiņš,Krusts,Male,10,12,NA,2,Vidzeme,26349,1391,1548,26192,""
+8,17,Linards,Ligeris,Male,10,12,NA,2,Vidzeme,26349,1177,1388,26138,""
+9,7,Aldis,Grunde,Male,10,12,NA,2,Vidzeme,26349,1203,1548,26004,""
+10,21,Baiba,Siktāre,Female,10,12,NA,2,Vidzeme,26349,1109,1553,25905,""
+11,19,Gusts,Dzenis,Male,10,12,NA,2,Vidzeme,26349,947,1396,25900,""
+12,23,Arnis,Neretnieks,Male,10,12,NA,2,Vidzeme,26349,981,1449,25881,""
+13,8,Normunds,Bomis,Male,10,12,NA,2,Vidzeme,26349,1661,2244,25766,""
+14,25,Ivo,Ozols,Male,10,12,NA,2,Vidzeme,26349,932,1528,25753,""
+15,6,Aigars,Eniņš,Male,10,12,NA,2,Vidzeme,26349,1385,2003,25731,""
+16,13,Jānis,Višņevskis,Male,10,12,NA,2,Vidzeme,26349,1011,1632,25728,""
+17,27,Jānis,Eglīts,Male,10,12,NA,2,Vidzeme,26349,911,1567,25693,""
+18,26,Uldis,Jansons,Male,10,12,NA,2,Vidzeme,26349,983,1778,25554,""
+19,12,Normunds,Broks,Male,10,12,NA,2,Vidzeme,26349,1126,2011,25464,""
+20,29,Irīna,Tumaša,Female,10,12,NA,2,Vidzeme,26349,876,1778,25447,""
+21,30,Uldis,Ciekurs,Male,10,12,NA,2,Vidzeme,26349,982,1970,25361,""
+22,18,Edgars,Jansons,Male,10,12,NA,2,Vidzeme,26349,773,1781,25341,""
+23,24,Jānis,Ķirsis,Male,10,12,NA,2,Vidzeme,26349,825,1833,25341,""
+24,20,Daiga,Kalnbērziņa,Female,10,12,NA,2,Vidzeme,26349,835,1985,25199,""
+25,22,Guntis,Grosbergs,Male,10,12,NA,2,Vidzeme,26349,661,1897,25113,""
+26,16,Gints,Vilks,Male,10,12,NA,2,Vidzeme,26349,754,2038,25065,""
+27,28,Jānis,Zvirbulis,Male,10,12,NA,2,Vidzeme,26349,730,2029,25050,""
+28,10,Ainars,Melders,Male,10,12,NA,2,Vidzeme,26349,732,2424,24657,""
+29,14,Zoja,Rimša,Female,10,12,NA,2,Vidzeme,26349,682,2452,24579,""
+30,2,Emīls,Jakrins,Male,10,12,NA,2,Vidzeme,26349,1506,4650,23205,""
+1,4,Inese,Laizāne,Female,10,12,NA,3,Latgale,3958,651,426,4183,ievēlēts
+2,19,Jānis,Trupovnieks,Male,10,12,NA,3,Latgale,3958,679,520,4117,""
+3,3,Pēteris,Kalniņš,Male,10,12,NA,3,Latgale,3958,525,507,3976,""
+4,2,Mareks,Gabrišs,Male,10,12,NA,3,Latgale,3958,468,486,3940,""
+5,9,Rudīte,Laizāne,Female,10,12,NA,3,Latgale,3958,361,478,3841,""
+6,6,Andris,Slišāns,Male,10,12,NA,3,Latgale,3958,334,453,3839,""
+7,17,Janīna,Vanaga,Female,10,12,NA,3,Latgale,3958,287,466,3779,""
+8,7,Sandis,Puks,Male,10,12,NA,3,Latgale,3958,332,524,3766,""
+9,18,Agita,Ozola,Female,10,12,NA,3,Latgale,3958,256,468,3746,""
+10,5,Ērika,Teirumnieka,Female,10,12,NA,3,Latgale,3958,302,538,3722,""
+11,13,Raimonds,Bombāns,Male,10,12,NA,3,Latgale,3958,268,516,3710,""
+12,10,Juris,Kivriņš,Male,10,12,NA,3,Latgale,3958,202,467,3693,""
+13,15,Jānis,Mūrnieks,Male,10,12,NA,3,Latgale,3958,262,531,3689,""
+14,11,Ērika,Šaršune,Female,10,12,NA,3,Latgale,3958,223,511,3670,""
+15,14,Marika,Zeimule,Female,10,12,NA,3,Latgale,3958,191,484,3665,""
+16,8,Vents,Ikaunieks,Male,10,12,NA,3,Latgale,3958,196,491,3663,""
+17,12,Jānis,Ratkevičs,Male,10,12,NA,3,Latgale,3958,168,473,3653,""
+18,16,Arvīds,Ratnieks,Male,10,12,NA,3,Latgale,3958,187,493,3652,""
+19,1,Pēteris,Tabūns,Male,10,12,NA,3,Latgale,3958,866,1219,3605,""
+1,1,Gaidis,Bērziņš,Male,10,12,NA,4,Kurzeme,9446,2197,913,10730,ievēlēts
+2,2,Jānis,Iesalnieks,Male,10,12,NA,4,Kurzeme,9446,1668,509,10605,""
+3,4,Raivis,Blumfelds,Male,10,12,NA,4,Kurzeme,9446,1174,441,10179,""
+4,3,Inguna,Raituma,Female,10,12,NA,4,Kurzeme,9446,1295,807,9934,""
+5,6,Guntra,Riņķe,Female,10,12,NA,4,Kurzeme,9446,679,519,9606,""
+6,10,Pēteris,Bahurs,Male,10,12,NA,4,Kurzeme,9446,669,528,9587,""
+7,8,Raivo,Repšs,Male,10,12,NA,4,Kurzeme,9446,743,612,9577,""
+8,5,Gunārs,Silakaktiņš,Male,10,12,NA,4,Kurzeme,9446,1086,958,9574,""
+9,16,Andris,Holms,Male,10,12,NA,4,Kurzeme,9446,629,563,9512,""
+10,12,Bruno,Jurševics,Male,10,12,NA,4,Kurzeme,9446,592,567,9471,""
+11,15,Uģis,Feldmanis,Male,10,12,NA,4,Kurzeme,9446,723,698,9471,""
+12,14,Krista,Veita,Female,10,12,NA,4,Kurzeme,9446,624,624,9446,""
+13,13,Ilze,Liepiņa,Female,10,12,NA,4,Kurzeme,9446,575,720,9301,""
+14,11,Agrita,Driviņa,Female,10,12,NA,4,Kurzeme,9446,555,757,9244,""
+15,7,Modris,Ekšteins,Male,10,12,NA,4,Kurzeme,9446,746,1066,9126,""
+16,9,Juris,Griķis,Male,10,12,NA,4,Kurzeme,9446,473,818,9101,""
+1,1,Imants,Parādnieks,Male,10,12,NA,5,Zemgale,12455,4155,1069,15541,ievēlēts
+2,3,Jānis,Sils,Male,10,12,NA,5,Zemgale,12455,3218,554,15119,""
+3,7,Jānis,Zalaks,Male,10,12,NA,5,Zemgale,12455,981,728,12708,""
+4,17,Dace,Kalniņa,Female,10,12,NA,5,Zemgale,12455,1001,764,12692,""
+5,5,Jenss,Zvirgzdgrauds,Male,10,12,NA,5,Zemgale,12455,996,872,12579,""
+6,11,Mārtiņš,Eglītis,Male,10,12,NA,5,Zemgale,12455,742,710,12487,""
+7,13,Gints,Audzītis,Male,10,12,NA,5,Zemgale,12455,742,737,12460,""
+8,15,Modris,Vanags,Male,10,12,NA,5,Zemgale,12455,710,749,12416,""
+9,9,Māris,Kaminskis,Male,10,12,NA,5,Zemgale,12455,719,762,12412,""
+10,6,Raitis,Ābelnieks,Male,10,12,NA,5,Zemgale,12455,832,1006,12281,""
+11,12,Agra,Zaķe,Female,10,12,NA,5,Zemgale,12455,820,1071,12204,""
+12,10,Jānis,Tomels,Male,10,12,NA,5,Zemgale,12455,617,938,12134,""
+13,2,Kaspars,Gerhards,Male,10,12,NA,5,Zemgale,12455,1943,2399,11999,""
+14,14,Ralfs,Birķis,Male,10,12,NA,5,Zemgale,12455,417,991,11881,""
+15,16,Juris,Krievs,Male,10,12,NA,5,Zemgale,12455,525,1127,11853,""
+16,18,Juris,Bogdanovičs,Male,10,12,NA,5,Zemgale,12455,552,1172,11835,""
+17,8,Jurijs,Strods,Male,10,12,NA,5,Zemgale,12455,713,1403,11765,""
+18,4,Juris,Dobelis,Male,10,12,NA,5,Zemgale,12455,1828,3811,10472,""
