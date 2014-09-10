@@ -46,7 +46,12 @@ case class SaeimaAggregateReader(saeima: Int) {
    */
   def projectionsForParty(party: Int, urlPrefix: String): List[(String, Map[String, String])] = {
     val csvReader = SaeimaAggregateReader(saeima)
-    val districtSuffixes = List(1, 2, 3, 4, 5)
+    // 13. Partija "Brīvība. Brīvs no bailēm, naida un dusmām" nebalotējās visur
+    val districtSuffixes = if (saeima == 11 && party == 13) {
+      List(1, 4, 5)
+    } else {
+      List(1, 2, 3, 4, 5)
+    }
     val allUrls = if (saeima == 7) {
       districtSuffixes map (urlPrefix +
         customUrlSuffixForSaeima07.get(party.toString).get + _.toString)
@@ -69,6 +74,12 @@ case class SaeimaAggregateReader(saeima: Int) {
     goodRecords map (_.get("Nr").toInt)
   }
 
+  def findAllParties(): List[Int] = {
+    val aggregate = SaeimaAggregateReader(saeima)
+    val records = aggregate.getCsvRecords.slice(0, aggregate.getCsvRecords.size - 2)
+    records map (_.get("Nr").toInt)
+  }
+
   def projectionsForLargeParties(urlPrefix: String): List[(String, Map[String, String])] = {
     val largeParties = findLargeParties()
     val pp = for (i <- largeParties) yield {
@@ -78,10 +89,15 @@ case class SaeimaAggregateReader(saeima: Int) {
   }
 
   def projectionsForAllParties(urlPrefix: String): List[(String, Map[String, String])] = {
-    val pp = for (i <- 1 to getCsvRecords.size - 3) yield {
+    //    val pp = for (i <- 1 to getCsvRecords.size - 3) yield {
+    //      projectionsForParty(i, urlPrefix)
+    //    }
+    //    pp.toList.flatten
+    val allParties = findAllParties()
+    val pp = for (i <- allParties) yield {
       projectionsForParty(i, urlPrefix)
     }
-    pp.toList.flatten
+    pp.flatten
   }
 
 }

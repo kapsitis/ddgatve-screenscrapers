@@ -490,7 +490,7 @@ PostNum,PreNum,CandidateName,CandidateSurname,Sex,Saeima,PartyNum,PartyAbbr,Dist
 25,13,Armands,Strazds,Male,11,6,SC,1,Rīga,118079,8244,1584,124739,""
 26,8,Guntars,Jirgensons,Male,11,6,SC,1,Rīga,118079,8105,1532,124652,""
 27,9,Ingars,Burlaks,Male,11,6,SC,1,Rīga,118079,7902,1630,124351,""
-28,31,Valentina,Volodjko,Other,11,6,SC,1,Rīga,118079,7847,1639,124287,""
+28,31,Valentina,Volodjko,Female,11,6,SC,1,Rīga,118079,7847,1639,124287,""
 29,20,Jeļena,Bačinska,Female,11,6,SC,1,Rīga,118079,7804,1693,124190,""
 30,32,Aleksandrs,Apalenis,Male,11,6,SC,1,Rīga,118079,7631,1587,124123,""
 31,21,Aleksandrs,Kogucs,Male,11,6,SC,1,Rīga,118079,7418,1545,123952,""
@@ -1064,3 +1064,30 @@ PostNum,PreNum,CandidateName,CandidateSurname,Sex,Saeima,PartyNum,PartyAbbr,Dist
 14,11,Edgars,Lipskijs,Male,11,12,"Tautas kontrole",5,Zemgale,406,23,25,404,N/A
 15,9,Irina,Burnaševa,Female,11,12,"Tautas kontrole",5,Zemgale,406,20,23,403,N/A
 16,8,Sergejs,Frolovs,Male,11,12,"Tautas kontrole",5,Zemgale,406,20,25,401,N/A
+1,1,Anrijs,Aumalis,Male,11,13,"Partija Brīvība",1,Rīga,774,136,23,887,N/A
+2,2,Kaspars,Lazdāns,Male,11,13,"Partija Brīvība",1,Rīga,774,108,29,853,N/A
+3,3,Dace,Blumberga,Female,11,13,"Partija Brīvība",1,Rīga,774,91,27,838,N/A
+4,10,Inese,Siliņa,Female,11,13,"Partija Brīvība",1,Rīga,774,84,21,837,N/A
+5,6,Sandra,Maizīte,Female,11,13,"Partija Brīvība",1,Rīga,774,83,26,831,N/A
+6,5,Ilze,Fišere,Female,11,13,"Partija Brīvība",1,Rīga,774,78,24,828,N/A
+7,9,Oskars,Lūsis,Male,11,13,"Partija Brīvība",1,Rīga,774,80,26,828,N/A
+8,4,Kristīne,Klāvsone,Female,11,13,"Partija Brīvība",1,Rīga,774,75,24,825,N/A
+9,7,Zemguss,Gruntiņš,Male,11,13,"Partija Brīvība",1,Rīga,774,74,24,824,N/A
+10,8,Jānis,Mantajs,Male,11,13,"Partija Brīvība",1,Rīga,774,68,22,820,N/A
+11,11,Vilnis,Šlars,Male,11,13,"Partija Brīvība",1,Rīga,774,63,26,811,N/A
+1,1,Ieva,Kantmane,Female,11,13,"Partija Brīvība",4,Kurzeme,732,169,16,885,N/A
+2,7,Sandra,Akmeņlauka,Female,11,13,"Partija Brīvība",4,Kurzeme,732,132,14,850,N/A
+3,6,Kārlis,Jozeps,Male,11,13,"Partija Brīvība",4,Kurzeme,732,103,16,819,N/A
+4,3,Zanda,Šnepste,Female,11,13,"Partija Brīvība",4,Kurzeme,732,97,19,810,N/A
+5,11,Inta,Freiverte,Female,11,13,"Partija Brīvība",4,Kurzeme,732,89,13,808,N/A
+6,2,Vēsma,Švinberga,Female,11,13,"Partija Brīvība",4,Kurzeme,732,94,21,805,N/A
+7,8,Ilze,Zandberga,Female,11,13,"Partija Brīvība",4,Kurzeme,732,87,15,804,N/A
+8,9,Benita,Vāvera,Female,11,13,"Partija Brīvība",4,Kurzeme,732,85,19,798,N/A
+9,5,Vineta,Jušķevica,Female,11,13,"Partija Brīvība",4,Kurzeme,732,82,20,794,N/A
+10,4,Vizma,Petrēvica,Female,11,13,"Partija Brīvība",4,Kurzeme,732,78,21,789,N/A
+11,10,Antra,Treide,Female,11,13,"Partija Brīvība",4,Kurzeme,732,74,18,788,N/A
+1,1,Dace,Brimerberga,Female,11,13,"Partija Brīvība",5,Zemgale,505,116,17,604,N/A
+2,4,Vivita,Freimane,Female,11,13,"Partija Brīvība",5,Zemgale,505,88,21,572,N/A
+3,5,Marita,Koha,Female,11,13,"Partija Brīvība",5,Zemgale,505,76,21,560,N/A
+4,2,Vika,Koha,Female,11,13,"Partija Brīvība",5,Zemgale,505,76,22,559,N/A
+5,3,Taiga,Lasmane,Female,11,13,"Partija Brīvība",5,Zemgale,505,75,23,557,N/A

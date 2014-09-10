@@ -114,4 +114,46 @@ class SaeimaAggregateReaderSpec extends Specification {
     }
   }
 
+  "SaeimaAggregateReader.getCsvRecords" should {
+    "find 20 parties in Saeima8" in {
+      val aggregate = SaeimaAggregateReader(8)
+      aggregate.getCsvRecords.size mustEqual 22
+    }
+  }
+
+  "SaeimaAggregateReader.projectionsForAllParties" should {
+    "find 19 parties in Saeima6" in {
+      val aggregate = SaeimaAggregateReader(6)
+      val result = aggregate.projectionsForAllParties(urlPrefix)
+      result.size mustEqual 5 * 19
+    }
+    "find 21 parties in Saeima7" in {
+      val aggregate = SaeimaAggregateReader(7)
+      val result = aggregate.projectionsForAllParties(urlPrefix)
+      result.size mustEqual 5 * 21
+    }
+
+    "find 20 parties in Saeima8" in {
+      val aggregate = SaeimaAggregateReader(8)
+      val result = aggregate.projectionsForAllParties(urlPrefix)
+      result.size mustEqual 5 * 20
+    }
+    "find 19 parties in Saeima9" in {
+      val aggregate = SaeimaAggregateReader(9)
+      val result = aggregate.projectionsForAllParties(urlPrefix)
+      result.size mustEqual 5 * 19
+    }
+    "find 13 parties in Saeima10" in {
+      val aggregate = SaeimaAggregateReader(10)
+      val result = aggregate.projectionsForAllParties(urlPrefix)
+      result.size mustEqual 5 * 13
+    }
+    "find 13 parties in Saeima11" in {
+      val aggregate = SaeimaAggregateReader(11)
+      val result = aggregate.projectionsForAllParties(urlPrefix)
+      result.size mustEqual 5 * 13
+    }
+
+  }
+
 }

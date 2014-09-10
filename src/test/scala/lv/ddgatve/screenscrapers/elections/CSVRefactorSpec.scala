@@ -35,27 +35,34 @@ class CSVRefactorSpec extends Specification {
     "output saeima07" in {
       val r = new CSVRefactor(7)
       val result = r.refactorCandidateCvs
-      result mustEqual 1858
+      result mustEqual 1958
     }
     "output saeima08" in {
       val r = new CSVRefactor(8)
       val result = r.refactorCandidateCvs
-      result mustEqual 1797
+      result mustEqual 1897
     }
     "output saeima09" in {
       val r = new CSVRefactor(9)
       val result = r.refactorCandidateCvs
-      result mustEqual 1839
+      result mustEqual 1954
     }
     "output saeima10" in {
       val r = new CSVRefactor(10)
       val result = r.refactorCandidateCvs
-      result mustEqual 1152
+      result mustEqual 1235
     }
     "output saeima11" in {
       val r = new CSVRefactor(11)
       val result = r.refactorCandidateCvs
-      result mustEqual 1065
+      result mustEqual 1092
+    }
+  }
+
+  "CSVRefactor object" should {
+    "createCandidatesAll" in {
+      val result = CSVRefactor.createCandidatesAll
+      result mustEqual 9901
     }
   }
 }

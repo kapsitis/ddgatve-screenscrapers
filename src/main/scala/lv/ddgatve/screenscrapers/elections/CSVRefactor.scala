@@ -4,6 +4,30 @@ import lv.ddgatve.screenscrapers.csv.CSVReader
 import org.apache.commons.csv.CSVRecord
 import lv.ddgatve.screenscrapers.csv.CSVWriter
 
+object CSVRefactor {
+  val outFields = List("PostNum", "PreNum", "CandidateName", "CandidateSurname",
+    "Sex", "Saeima", "PartyNum", "PartyAbbr", "DistrNum", "DistrName",
+    "BallotsForParty", "Pluses", "Minuses", "Points", "Result")
+  def createCandidatesAll(): Int = {
+
+    val outFile = f"src/main/resources/data-candidates/candidates-all.csv"
+
+    val inFiles = ((6 to 11) map (x =>
+      f"src/main/resources/data-candidates/candidates$x%02d.csv")).toList
+
+    val lineSets = for (inFile <- inFiles) yield {
+      CSVReader.readRecords(inFile)
+    }
+    val result = lineSets.flatten map (x => {
+      outFields map (f => {
+        x.get(f)
+      })
+    })
+    CSVWriter.write(outFile, outFields, result)
+    result.size
+  }
+}
+
 class CSVRefactor(saeima: Int) {
 
   val inFields = if (saeima == 6) {
@@ -54,7 +78,7 @@ class CSVRefactor(saeima: Int) {
       "Artis", "Arturs", "Artūrs", "Arvīds", "Arvo", "Atis",
       "Bruno",
       "Dāgs", "Dāvis", "Deniss", "Druvis", "Dzintars",
-      "Edgars", "Edmunds", "Edvīns", "Egīls", "Egons", "Einars", "Eižens", "Ēriks", "Ernesto", "Ervīns",
+      "Edgars", "Edmunds", "Edvīns", "Egīls", "Egons", "Einars", "Eižens", "Elmārs", "Ēriks", "Ernesto", "Ervīns",
       "Fricis",
       "Gatis", "Georgijs", "Gints", "Grigorijs", "Gunārs", "Gundars", "Guntars", "Guntars Agate", "Guntis", "Gvido",
       "Ģedimins", "Ģirts",
@@ -79,7 +103,7 @@ class CSVRefactor(saeima: Int) {
       "Vjačeslavs", "Vladimirs", "Vladislavs",
       "Ziedonis", "Zigmārs", "Zigurds")
     val femaleNames = List("Andra", "Anita", "Anna", "Antoņina", "Anžela", "Astrīda", "Ausma",
-      "Dace", "Daina", "Dite", "Dzintra",
+      "Dace", "Daiga", "Daina", "Dite", "Dzintra",
       "Elīna", "Evisa",
       "Ilze", "Ināra", "Inese", "Inga", "Inta", "Irēna", "Irina",
       "Leonarda", "Lidija", "Lilita", "Līvija",
@@ -90,7 +114,7 @@ class CSVRefactor(saeima: Int) {
       "Ruta",
       "Svetlana",
       "Tatjana",
-      "Valda", "Valentīna", "Vija", "Viola", "Violetta")
+      "Valda", "Valentina", "Valentīna", "Vija", "Viola", "Violetta")
     if ((name.endsWith("s") || name.endsWith("š")) &&
       (surname.endsWith("s") || surname.endsWith("š"))) {
       "Male"
@@ -114,9 +138,20 @@ class CSVRefactor(saeima: Int) {
     abbr
   }
 
+  def fixName(arg: String): String = {
+    arg match {
+      case "Mārtiņš Gunārs Bauze - Krastiņš" => "Mārtiņš Gunārs Bauze-Krastiņš"
+      case "Mārtiņš Gunārs Bauze-Krasti" => "Mārtiņš Gunārs Bauze-Krastiņš"
+      case "Sanita Pavļuta - Deslande" => "Sanita Pavļuta-Deslande"
+      case "Jānis Kleinbergs - Vītols" => "Jānis Kleinbergs-Vītols"
+      case "Andra Austere - Maspāne" => "Andra Austere-Maspāne"
+      case _ => arg
+    }
+  }
+
   def recordToMap(arg: CSVRecord): Map[String, String] = {
-    val candidate = if (saeima == 6) arg.get("Kandidats").trim()
-    else arg.get("Candidate").trim()
+    val candidate = fixName(if (saeima == 6) arg.get("Kandidats").trim()
+    else arg.get("Candidate").trim())
     val candidateName = getCandidateName(candidate)
     val candidateSurname = getCandidateSurname(candidate)
     val candidateSex = getCandidateSex(candidate)
@@ -176,7 +211,7 @@ class CSVRefactor(saeima: Int) {
       ((1 to 19) map (x =>
         f"src/main/resources/data-saeima06/saeima06.$x%d.csv")).toList
     } else {
-      List(f"src/main/resources/data-all/candidates$saeima%02d.csv")
+      List(f"src/main/resources/data/candidates$saeima%02d.csv")
     }
 
     val lineSets = for (inFile <- inFiles) yield {
