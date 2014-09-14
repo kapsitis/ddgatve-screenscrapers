@@ -1,5 +1,5 @@
-#setwd("/home/st/ddgatve-screenscrapers/src/main/r")
-setwd("/home/kalvis/workspace/ddgatve-screenscrapers/src/main/r")
+setwd("/home/st/ddgatve-screenscrapers/src/main/r")
+#setwd("/home/kalvis/workspace/ddgatve-screenscrapers/src/main/r")
 
 if (!"plyr" %in% installed.packages()) install.packages("plyr")
 library(plyr)
@@ -13,8 +13,7 @@ leftMargin <- 11
 if (saeima == 6) {
   partyNameShift <- -40
   legendLeft <- 75
-}
-else {
+} else {
   partyNameShift <- -30
   legendLeft <- 65
 }
@@ -35,7 +34,7 @@ for (num in bigPartyNumbers) {
   maleCount[num] <- nrow(myNames[myNames$Sex == "Male",])
   femaleCount[num] <- nrow(myNames[myNames$Sex == "Female",])
   sexRatio[num] <- femaleCount[num]/maleCount[num]
-  sexualCount[num] = maleCount+femaleCount
+#  sexualCount[num] = maleCount+femaleCount
   print(paste0("Saeima ", saeima, ", Liste ", num, ": ", mySaraksts[1,"PartyAbbr"]))
   print(paste0("  Males are ",maleCount[num],", females are ",femaleCount[num]))
 }
@@ -68,7 +67,7 @@ legend(legendLeft,5,c("Sievietes", "Vīrieši"), fill=c("pink", "lightblue"))
 text(partyNameShift+10,1.2*length(pNames)+1.5,
      sprintf("Sieviešu kandidātu: %1.1f%%",relativeWeight), pos=4)
 text(partyNameShift+50, 1.2*length(pNames)+1.5,font=2,
-     sprintf("(starp Saeimā pārstāvētām partijām: %1.1f%%)",largePartyRelativeWeight), pos=4, col="#009900")
+     sprintf("(Saeimā pārstāvētām partijām: %1.1f%%)",largePartyRelativeWeight), pos=4, col="#009900")
 for (i in 1:length(pNames)) {
   if (pPercentage[i]>=5.0) {
     text(partyNameShift,1.2*i - 0.5,pNames[i], cex=0.9,pos=4,col="#009900", font=2)

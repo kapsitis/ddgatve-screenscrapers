@@ -10,8 +10,8 @@ df <- read.csv(paste0("../resources/data-candidates/",
 
 library(plyr)
 
-mySaeima <- "6"
-myNumber <- "9"
+mySaeima <- "11"
+myNumber <- "3"
 
 mySaraksts = subset(df, Saeima == mySaeima & PartyNum == myNumber)
 
