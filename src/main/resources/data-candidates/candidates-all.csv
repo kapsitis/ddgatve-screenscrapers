@@ -1161,7 +1161,7 @@ PostNum,PreNum,CandidateName,CandidateSurname,Sex,Saeima,PartyNum,PartyAbbr,Dist
 8,9,Guntis,Eniņš,Male,6,13,"Zīgerista partija",5,Zemgale,33497,2930,484,35943,ievēlēts
 9,14,Māris,Rudzītis,Male,6,13,"Zīgerista partija",5,Zemgale,33497,2658,446,35709,"ievēlēts Rīgas apgabalā"
 10,7,Edmunds,Grīnbergs,Male,6,13,"Zīgerista partija",5,Zemgale,33497,2624,503,35618,"ievēlēts Kurzemes apgabalā"
-11,5,Imants,Liepa,Male,6,13,"Zīgerista partija",5,Zemgale,33497,2462,467,35492,ievēlēts(30.11.95)
+11,5,Imants,Liepa,Male,6,13,"Zīgerista partija",5,Zemgale,33497,2462,467,35492,ievēlēts
 12,10,Aldis,Hartmanis,Male,6,13,"Zīgerista partija",5,Zemgale,33497,2332,517,35312, 
 13,6,Egils,Ziediņš,Male,6,13,"Zīgerista partija",5,Zemgale,33497,2218,489,35226, 
 14,8,Vilis,Dābols,Male,6,13,"Zīgerista partija",5,Zemgale,33497,2397,874,35020, 
@@ -1170,7 +1170,7 @@ PostNum,PreNum,CandidateName,CandidateSurname,Sex,Saeima,PartyNum,PartyAbbr,Dist
 2,22,Leopolds,Ozoliņš,Male,6,14,TB,1,Rīga,43607,9419,1068,51958,ievēlēts
 3,4,Juris,Sinka,Male,6,14,TB,1,Rīga,43607,5759,1563,47803,ievēlēts
 4,19,Aleksandrs,Pētersons,Male,6,14,TB,1,Rīga,43607,4111,1075,46643,ievēlēts
-5,2,Normunds,Pēterkops ,Male,6,14,TB,1,Rīga,43607,4139,1541,46205,"                ievēlēts"
+5,2,Normunds,Pēterkops,Male,6,14,TB,1,Rīga,43607,4139,1541,46205,"ievēlēts"
 6,3,Roberts,Zīle,Male,6,14,TB,1,Rīga,43607,3286,733,46160,"ievēlēts Kurzemes apgabalā"
 7,21,Jānis,Priedkalns,Male,6,14,TB,1,Rīga,43607,2462,724,45345,""
 8,7,Jānis,Straume,Male,6,14,TB,1,Rīga,43607,2773,1221,45159,"ievēlēts Vidzemes apgabalā"
