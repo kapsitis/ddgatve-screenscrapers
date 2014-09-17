@@ -26,7 +26,7 @@ for (saeima in c(11)) {
       abc <- fivenum(myDF$Points)
       minElected <- myDF$Points[myDF$Result == "ievēlēts" | myDF$Result == "ievēlēta"]
       iqr[(myNumber -1)*5 + distrNum] <- abc[4]-abc[2]
-      iks[(myNumber -1)*5 + distrNum] <- minElected - abc[3]
+      iks[(myNumber -1)*5 + distrNum] <- min(minElected) - abc[3]
       print(sprintf("Saeima %i, saraksts %i.%s, apg. %i BIJA %i",
                     saeima, myNumber,LParties$Saisinajums[myNumber],distrNum,
                     length(minElected)))
