@@ -1,5 +1,5 @@
-#setwd("/home/st/ddgatve-screenscrapers/src/main/r")
-setwd("/home/kalvis/workspace/ddgatve-screenscrapers/src/main/r")
+setwd("/home/st/ddgatve-screenscrapers/src/main/r")
+#setwd("/home/kalvis/workspace/ddgatve-screenscrapers/src/main/r")
 
 if (!"plyr" %in% installed.packages()) install.packages("plyr")
 if (!"plotrix" %in% installed.packages()) install.packages("plotrix")
@@ -12,11 +12,11 @@ library(plotrix)
 
 
 saeima <- 11
-distrNum <- 1
-myNumber <- 1
+distrNum <- 3
+myNumber <- 3
 
 # Generage two pictures: (1) with points and candidates; with IQR explained
-for (run in 1:2) {
+for (run in 2) {
   png(width = 960, height = 480, pointsize = 16, 
       filename=paste0("single-boxplot-", run, ".png"))
   
