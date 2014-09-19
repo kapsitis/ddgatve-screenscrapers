@@ -1,5 +1,5 @@
-setwd("/home/st/ddgatve-screenscrapers/src/main/r")
-#setwd("/home/kalvis/workspace/ddgatve-screenscrapers/src/main/r")
+#setwd("/home/st/ddgatve-screenscrapers/src/main/r")
+setwd("/home/kalvis/workspace/ddgatve-screenscrapers/src/main/r")
 
 if (!"plyr" %in% installed.packages()) install.packages("plyr")
 if (!"plotrix" %in% installed.packages()) install.packages("plotrix")
@@ -24,12 +24,20 @@ for (saeima in c(11)) {
                        PartyNum == LParties$Nr[myNumber] & 
                        DistrNum == distrNum)
       abc <- fivenum(myDF$Points)
-      minElected <- myDF$Points[myDF$Result == "ievēlēts" | myDF$Result == "ievēlēta"]
+      elected <- myDF$Points[myDF$Result == "ievēlēts" | myDF$Result == "ievēlēta"]
+      nonElected <- myDF$Points[myDF$Result != "ievēlēts" & myDF$Result != "ievēlēta"]
+      
       iqr[(myNumber -1)*5 + distrNum] <- abc[4]-abc[2]
-      iks[(myNumber -1)*5 + distrNum] <- min(minElected) - abc[3]
+      
+      def <- fivenum(nonElected)
+      iks[(myNumber -1)*5 + distrNum] <- min(elected) - def[3]
+#      iks[(myNumber -1)*5 + distrNum] <- min(elected) - abc[3]
+      
       print(sprintf("Saeima %i, saraksts %i.%s, apg. %i BIJA %i",
-                    saeima, myNumber,LParties$Saisinajums[myNumber],distrNum,
-                    length(minElected)))
+                    saeima, myNumber,
+                    as.character(LParties[myNumber,"Saīsinājums"]),
+                    distrNum,
+                    length(elected)))
       
     }
   }
