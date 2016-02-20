@@ -1,15 +1,18 @@
-#setwd("/home/st/ddgatve-screenscrapers/src/main/r")
-setwd("/home/kalvis/workspace/ddgatve-screenscrapers/src/main/r")
+setwd("/home/st/ddgatve-screenscrapers/src/main/r")
+#setwd("/home/kalvis/workspace/ddgatve-screenscrapers/src/main/r")
 
+if (!"Cairo" %in% installed.packages()) install.packages("Cairo")
 if (!"ggplot2" %in% installed.packages()) install.packages("ggplot2")
 if (!"grid" %in% installed.packages()) install.packages("grid")
 if (!"plotrix" %in% installed.packages()) install.packages("plotrix")
 if (!"plyr" %in% installed.packages()) install.packages("plyr")
 
+library(Cairo)
 library(ggplot2)
 library(grid)
 library(plotrix)
 library(plyr)
+
 
 
 
@@ -57,18 +60,18 @@ parties <- read.csv("../resources/data-parties/parties.csv",
 #distrs <- rep(c("R","V","L","K","Z"), times=5)
 
 
-getMiddleSection <- function(rows,mode) {
+getMiddleSection <- function(rows,myMode) {
   # 2 Middle quartiles
-  if (mode == "middle") {
+  if (myMode == "middle") {
     idxRange <- fivenum(1:nrow(myDF))
     return(middleSection <- ceiling(idxRange[2]):floor(idxRange[4]))
   }
   # Everybody
-  else if (mode == "all") {
+  else if (myMode == "all") {
     return(1:rows)      
   }
   # All except first 3
-  else if (mode == "skip3") {
+  else if (myMode == "skip3") {
     middleSection <- 4:rows
     
   }
@@ -105,7 +108,7 @@ for (saeima in c(11)) {
   commonCount <- rep(0,5)
   theR <- rep(0,5)
   
-  for (mode in c("all","skip3")) {
+  for (myMode in c("all","skip3")) {
     
     #  for (idx in 1)
     for (idx in 1:length(theNumbers)) {
@@ -136,7 +139,7 @@ for (saeima in c(11)) {
         myDF$RelX <- (myDF$Points - myDF$BallotsForParty)
         myDF <- myDF[order(myDF$RelX, decreasing=TRUE),]   
         
-        middleSection <- getMiddleSection(nrow(myDF),mode)
+        middleSection <- getMiddleSection(nrow(myDF),myMode)
         
         middleDF <- myDF[middleSection,]       
         newDF <- rbind(newDF,middleDF)
@@ -154,8 +157,19 @@ for (saeima in c(11)) {
       
       theR[idx] <- as.numeric(cor.test(newDF$RelX,newDF$IsMale)[["estimate"]])
     }
-    png(width = 960, height = 480, pointsize = 16, 
-        filename=paste0("/home/kalvis/workspace/ddgatve-screenscrapers/src/main/r/men-women-points-",saeima,"-",mode,".png"))
+#     CairoPNG(family="Times",width = 960, height = 480, pointsize = 16, 
+#         filename=paste0(getwd(),"/men-women-points-",saeima,"-",myMode,".png"))
+   
+# CairoFonts(
+#   regular="FreeSans:style=Medium",
+#   bold="FreeSans:style=Bold",
+#   italic="FreeSans:style=Oblique",
+#   bolditalic="FreeSans:style=BoldOblique"
+# )
+par(family="Times")
+png(width = 960, height = 480, pointsize = 16, 
+            type = "cairo-png",
+            filename=paste0(getwd(),"/men-women-points-",saeima,"-",myMode,".png"))
     
     
     partyNames <- c("Vienotība","Reformu\nPartija","Saskaņas\nCentrs",
@@ -172,9 +186,9 @@ for (saeima in c(11)) {
     
     
     p1 <- ggplot() + geom_bar(stat="identity", data=datC, 
-                        aes(x=PartyAbbr, y=Means, fill=Sex),
-                        position=position_dodge()) + 
-      geom_bar(stat="identity", position=position_dodge()) +
+                              aes(x=PartyAbbr, y=Means, fill=Sex),
+                              position=position_dodge()) + 
+      #      geom_bar(stat="identity", position=position_dodge()) +
       scale_fill_manual("Dzimums",values=rev(c("#999999", "pink","lightblue"))) + 
       theme(text = element_text(size=20)) +
       theme(panel.grid.minor.y=element_blank(), panel.grid.major.y=element_blank())+
@@ -189,7 +203,7 @@ for (saeima in c(11)) {
     
     p2 <- ggplot() + geom_bar(stat="identity", data=datD, 
                               aes(x=PartyAbbr, y=Delta, fill=PartyAbbr)) + 
-      geom_bar(stat="identity", position=position_dodge()) +
+      #      geom_bar(stat="identity", position=position_dodge()) +
       scale_fill_manual(values=rev(colorList)) + 
       theme(text = element_text(size=20)) +
       theme(panel.grid.minor.y=element_blank(), panel.grid.major.y=element_blank())+
@@ -197,7 +211,6 @@ for (saeima in c(11)) {
       theme(legend.position = "none") +
       scale_x_discrete(name="") +
       scale_y_continuous(name="Vīriešu punktu pārsvars")+
-     # geom_bar(colour="#ffffcc")+
       coord_flip()
     multiplot(p1, p2, cols=2)
     
@@ -205,3 +218,10 @@ for (saeima in c(11)) {
   }
   
 }
+
+
+
+
+png(file="AIDS.png", width=5, height=5, units="in", type="cairo", res=800)
+xyplot(1 ~ 1,  type="b", ylab=expression(sqrt(CD4/µ*l)))
+dev.off()

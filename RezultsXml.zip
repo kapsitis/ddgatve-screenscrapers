@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Access to this site is blocked</title>
+<link rel="stylesheet" href="http://www.mailcontrol.com/css/hybrid_block.css" type="text/css">
+</head>
+<body style="margin-left: 0px">
+    <div style="border: 1px solid #285EA6;width: 95%; max-width: 700px; overflow: hidden; margin-left: 1px; background-color: #EEF2F7;">
+    <div style="cursor: pointer"
+        onclick="window.open('http://sv2014.cvk.lv/RezultsXml.zip', 'Websense', 'toolbar=no,width=700,height=500');"
+    title="Content blocked by your organization. Click for details.">
+    <div  style="float: left; margin: 0">
+    <img src="http://www.mailcontrol.com/images/block.png">
+    </div>
+    <h1  id="blockMessage">Content blocked by your organization</h1>
+    <div style="float: none; clear: both"></div>
+    </div>
+    <!-- This displays the reason the site was blocked -->
+    <p class="label"> Reason:</p>
+    <p class="first-option" id="reason-text">This Websense Category is filtered: Uncategorized. Access to this file is restricted. File type: Compressed Files</p>
+
+    <p class="label">URL:</p>
+    <p id="url-text">http://sv2014.cvk.lv/RezultsXml.zip</p>
+    <div id="options">
+    <p class="label">Message:</p>
+    <p>Please refer to your organization's policy on Internet access.</p>
+
+
+
+    <form class="option" name="BackForm" action="">
+    <p>Click <b>Go Back</b> or use the browser's Back button
+    to return to the previous page.
+    <input type="button" value="       Go Back       " onClick="parent.history.back()" name="ws-back"></p>
+    </form>
+    <div style="clear: both; overflow: hidden; height: 1px;"></div>
+    </div>
+    <div><img title="Websense" src="http://www.mailcontrol.com/images/wslogo_block_page.png" alt="Websense Logo" style="float: right;clear: both;margin: 0px 10px 6px 0px; padding: 2px 0px;">
+    <div style="clear: both; overflow: hidden; height:1px;"></div>
+    </div>
+    <div><!--
+Role: Super Administrator
+Category: Uncategorized
+Policy: Default
+Domain: 
+OPGroup: 
+FileType: Compressed Files
+Network: 
+Protocol: http
+Category Reason String: Master database
+Exception reason: 
+ClientIP: 87.110.161.203
+User: LDAP:// OU=Users,OU=Dublin,DC=websense,DC=com/Apsitis\, Kalvis
+HostedGroup: LDAP:// OU=Groups,DC=websense,DC=com/Remote_Sales,LDAP:// OU=Groups,DC=websense,DC=com/All - EMEA Employees,LDAP:// OU=Groups,DC=websense,DC=com/All - EMEA Field Employees,LDAP:// OU=Groups,DC=websense,DC=com/All Hands Call EMEA,LDAP:// OU=Groups,DC=websense,DC=com/MS Gold Partner Demo,LDAP:// OU=Groups,DC=websense,DC=com/All - International Employees,LDAP:// OU=HighSecurity,DC=websense,DC=com/All - Employees,LDAP:// OU=Groups,DC=websense,DC=com/All - Systems Notification,LDAP:// OU=Groups,DC=websense,DC=com/VMware Lab Manager - SE Trainers,LDAP:// OU=Groups,DC=websense,DC=com/Training Team,LDAP:// OU=Groups,DC=websense,DC=com/Remote_Access_Global,LDAP:// OU=Groups,DC=websense,DC=com/WBSN DU Proxy,LDAP:// OU=Groups,DC=websense,DC=com/Global Access,LDAP:// OU=Groups,DC=websense,DC=com/jira-users,LDAP:// OU=Groups,DC=websense,DC=com/Remote Access,LDAP:// OU=Groups,DC=websense,DC=com/confluence-users,LDAP:// OU=Groups,DC=websense,DC=com/All - Overseas contractors,LDAP:// OU=Groups,DC=websense,DC=com/Atlassian-Users,LDAP:// OU=Groups,DC=websense,DC=com/VMware View TOI,LDAP:// OU=Groups,DC=websense,DC=com/Exchange 2010 Archive Users,LDAP:// OU=Groups,DC=websense,DC=com/Exchange 2007 Archive Group
+--></div>
+</body>
+</html>
